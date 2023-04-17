@@ -32,7 +32,7 @@ def parse_args():
     '''PARAMETERS'''
     parser = argparse.ArgumentParser('Model')
     parser.add_argument('--batch_size', type=int, default=32, help='batch size in testing [default: 32]')
-    parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
+    #parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
     parser.add_argument('--num_point', type=int, default=4096, help='point number [default: 4096]')
     parser.add_argument('--log_dir', type=str, required=True, help='experiment root')
     parser.add_argument('--visual', action='store_true', default=False, help='visualize result [default: False]')
@@ -57,7 +57,7 @@ def main(args):
         print(str)
 
     '''HYPER PARAMETER'''
-    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
     experiment_dir = 'log/sem_seg/' + args.log_dir
     visual_dir = experiment_dir + '/visual/'
     visual_dir = Path(visual_dir)

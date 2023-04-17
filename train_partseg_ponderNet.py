@@ -111,13 +111,14 @@ def main(args):
 
     num_classes = 16
     num_part = 50
-
+    input_size = num_part
+    num_itr = 5
     '''MODEL LOADING'''
     MODEL = importlib.import_module(args.model)
     shutil.copy('models/%s.py' % args.model, str(exp_dir))
     shutil.copy('models/pointnet2_utils.py', str(exp_dir))
 
-    classifier = MODEL.get_model(num_part, normal_channel=args.normal).cuda()
+    classifier = MODEL.get_model(num_part, input_size,  normal_channel=args.normal).cuda()
     criterion = MODEL.get_loss().cuda()
     classifier.apply(inplace_relu)
 
@@ -191,17 +192,21 @@ def main(args):
             points = torch.Tensor(points)
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
-            print('points:', points.shape)
-
-            seg_pred, trans_feat = classifier(points, to_categorical(label, num_classes))
+            prev_output = torch.zeros((points.shape[0], num_part, points.shape[2]), device='cuda')
+            for j in range(num_itr):
+                _points = torch.cat((points, prev_output), 1)
+                #print('points:', _points.shape)
+                seg_pred, trans_feat = classifier(_points, to_categorical(label, num_classes))
+                prev_output = seg_pred.transpose(2, 1)
            
             seg_pred = seg_pred.contiguous().view(-1, num_part)
-            print('seg_pred:', seg_pred.shape)
+           # print('seg_pred:', seg_pred.shape)
             target = target.view(-1, 1)[:, 0]
             pred_choice = seg_pred.data.max(1)[1]
 
             correct = pred_choice.eq(target.data).cpu().sum()
             mean_correct.append(correct.item() / (args.batch_size * args.npoint))
+            #print('seg_pred:', seg_pred.shape, 'target:', target.shape, target.min(), target.max())
             loss = criterion(seg_pred, target, trans_feat)
             loss.backward()
             optimizer.step()
@@ -228,7 +233,12 @@ def main(args):
                 cur_batch_size, NUM_POINT, _ = points.size()
                 points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
                 points = points.transpose(2, 1)
-                seg_pred, _ = classifier(points, to_categorical(label, num_classes))
+                prev_output = torch.zeros((points.shape[0], num_part, points.shape[2]), device='cuda')
+                for j in range(num_itr):
+                    _points = torch.cat((points, prev_output), 1)
+                    #print('points:', _points.shape)
+                    seg_pred, _ = classifier(_points, to_categorical(label, num_classes))
+                    prev_output= seg_pred.transpose(2, 1)
                 cur_pred_val = seg_pred.cpu().data.numpy()
                 cur_pred_val_logits = cur_pred_val
                 cur_pred_val = np.zeros((cur_batch_size, NUM_POINT)).astype(np.int32)

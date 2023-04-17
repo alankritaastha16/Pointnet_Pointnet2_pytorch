@@ -21,7 +21,7 @@ def parse_args():
     '''PARAMETERS'''
     parser = argparse.ArgumentParser('Testing')
     parser.add_argument('--use_cpu', action='store_true', default=False, help='use cpu mode')
-    parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
+    #parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
     parser.add_argument('--batch_size', type=int, default=24, help='batch size in training')
     parser.add_argument('--num_category', default=40, type=int, choices=[10, 40],  help='training on ModelNet10/40')
     parser.add_argument('--num_point', type=int, default=1024, help='Point Number')
@@ -69,7 +69,7 @@ def main(args):
         print(str)
 
     '''HYPER PARAMETER'''
-    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 
     '''CREATE DIR'''
     experiment_dir = 'log/classification/' + args.log_dir

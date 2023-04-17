@@ -39,11 +39,11 @@ def parse_args():
     '''PARAMETERS'''
     parser = argparse.ArgumentParser('PointNet')
     parser.add_argument('--batch_size', type=int, default=24, help='batch size in testing')
-    parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
+    #parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
     parser.add_argument('--num_point', type=int, default=2048, help='point Number')
     parser.add_argument('--log_dir', type=str, required=True, help='experiment root')
     parser.add_argument('--normal', action='store_true', default=False, help='use normals')
-    parser.add_argument('--num_votes', type=int, default=3, help='aggregate segmentation scores with voting')
+    #parser.add_argument('--num_votes', type=int, default=3, help='aggregate segmentation scores with voting')
     return parser.parse_args()
 
 
@@ -53,7 +53,7 @@ def main(args):
         print(str)
 
     '''HYPER PARAMETER'''
-    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
     experiment_dir = 'log/part_seg/' + args.log_dir
 
     '''LOG'''
@@ -99,17 +99,20 @@ def main(args):
         classifier = classifier.eval()
         for batch_id, (points, label, target) in tqdm(enumerate(testDataLoader), total=len(testDataLoader),
                                                       smoothing=0.9):
-            batchsize, num_point, _ = points.size()
+            #batchsize, num_point, _ = points.size()
             cur_batch_size, NUM_POINT, _ = points.size()
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
-            vote_pool = torch.zeros(target.size()[0], target.size()[1], num_part).cuda()
 
-            for _ in range(args.num_votes):
-                seg_pred, _ = classifier(points, to_categorical(label, num_classes))
-                vote_pool += seg_pred
+            # the authors of this repository run the model more than once and do the final output is the average of the outputs
+            # we disabled this.
+            seg_pred, _ = classifier(points, to_categorical(label, num_classes))
+            #vote_pool = torch.zeros(target.size()[0], target.size()[1], num_part).cuda()
+            #for _ in range(args.num_votes):
+            #    seg_pred, _ = classifier(points, to_categorical(label, num_classes))
+            #    vote_pool += seg_pred
+            #seg_pred = vote_pool / args.num_votes
 
-            seg_pred = vote_pool / args.num_votes
             cur_pred_val = seg_pred.cpu().data.numpy()
             cur_pred_val_logits = cur_pred_val
             cur_pred_val = np.zeros((cur_batch_size, NUM_POINT)).astype(np.int32)

@@ -93,15 +93,17 @@ def main(args):
     NUM_CLASSES = 13
     NUM_POINT = args.npoint
     BATCH_SIZE = args.batch_size
-
+    input_size=NUM_CLASSES
     print("start loading training data ...")
     TRAIN_DATASET = S3DISDataset(split='train', data_root=root, num_point=NUM_POINT, test_area=args.test_area, block_size=1.0, sample_rate=1.0, transform=None)
     print("start loading test data ...")
     TEST_DATASET = S3DISDataset(split='test', data_root=root, num_point=NUM_POINT, test_area=args.test_area, block_size=1.0, sample_rate=1.0, transform=None)
-     # sub-sample dataset
+
+    # sub-sample dataset
     print('before sub-sample:', len(TRAIN_DATASET))
     TRAIN_DATASET = torch.utils.data.Subset(TRAIN_DATASET, range(0, args.subset))
     print('after sub-sample:', len(TRAIN_DATASET))
+
     trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=BATCH_SIZE, shuffle=True, num_workers=10,
                                                   pin_memory=True, drop_last=True,
                                                   worker_init_fn=lambda x: np.random.seed(x + int(time.time())))
@@ -117,7 +119,7 @@ def main(args):
     shutil.copy('models/%s.py' % args.model, str(experiment_dir))
     shutil.copy('models/pointnet2_utils.py', str(experiment_dir))
 
-    classifier = MODEL.get_model(NUM_CLASSES).cuda()
+    classifier = MODEL.get_model(NUM_CLASSES,input_size).cuda()
     criterion = MODEL.get_loss().cuda()
     classifier.apply(inplace_relu)
 
@@ -195,26 +197,48 @@ def main(args):
         total_seen = 0
         loss_sum = 0
         classifier = classifier.train()
+        Num_itr = 5
 
         for i, (points, target) in tqdm(enumerate(trainDataLoader), total=len(trainDataLoader), smoothing=0.9):
-            #for ...
-            optimizer.zero_grad()
+            # the current code:
+            # for each iteration,
+            #     you are predicting segmentation = model(points, previous segmentation)
+            #     update weights for each one of these segmentations
+
+            # in the paper: (?)
+            # for each iteration,
+            #     you are predicting segmentation = model(points, previous segmentation)
+            # update weights based on the final segmentation
+
+            # stopping criteria:
+            # - during training, they used fixed iterations  <--- keep unchanged
+            # - during evaluation, they predict whether they should stop  <--- we could change this
+            # (not entirely sure - section 2.3 pondernet)
 
             points = points.data.numpy()
             points[:, :, :3] = provider.rotate_point_cloud_z(points[:, :, :3])
             points = torch.Tensor(points)
             points, target = points.float().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
-
-            seg_pred, trans_feat = classifier(points)
+            #print('points:', points.shape)
+            prev_output = torch.zeros((points.shape[0], NUM_CLASSES, points.shape[2]), device='cuda')
+            optimizer.zero_grad()
+            # Num_itr = 1, then its the normal behavior
+            # Num_itr = 20, pondernet
+            for j in range(Num_itr):
+                _points = torch.cat((points, prev_output), 1)
+                #print('points:', _points.shape)
+                seg_pred, trans_feat = classifier(_points)
+                prev_output = seg_pred.transpose(2, 1)
+                
+            # after Numitr, seg_pred is the final segmentation
             seg_pred = seg_pred.contiguous().view(-1, NUM_CLASSES)
-
-            batch_label = target.view(-1, 1)[:, 0].cpu().data.numpy()
             target = target.view(-1, 1)[:, 0]
             loss = criterion(seg_pred, target, trans_feat, weights)
             loss.backward()
             optimizer.step()
 
+            batch_label = target.view(-1, 1)[:, 0].cpu().data.numpy()
             pred_choice = seg_pred.cpu().data.max(1)[1].numpy()
             correct = np.sum(pred_choice == batch_label)
             total_correct += correct
@@ -253,8 +277,11 @@ def main(args):
                 points = torch.Tensor(points)
                 points, target = points.float().cuda(), target.long().cuda()
                 points = points.transpose(2, 1)
-
-                seg_pred, trans_feat = classifier(points)
+                prev_output = torch.zeros((points.shape[0], NUM_CLASSES, points.shape[2]), device='cuda')
+                for j in range(Num_itr):
+                    _points = torch.cat((points, prev_output), 1)
+                    seg_pred, trans_feat = classifier(_points)
+                    prev_output = seg_pred.transpose(2, 1)
                 pred_val = seg_pred.contiguous().cpu().data.numpy()
                 seg_pred = seg_pred.contiguous().view(-1, NUM_CLASSES)
 

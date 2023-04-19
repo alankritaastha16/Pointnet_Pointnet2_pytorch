@@ -43,6 +43,7 @@ def parse_args():
     parser.add_argument('--num_point', type=int, default=2048, help='point Number')
     parser.add_argument('--log_dir', type=str, required=True, help='experiment root')
     parser.add_argument('--normal', action='store_true', default=False, help='use normals')
+    parser.add_argument('--num_itr', type=int, default=5, help='number of iterations for iterative inference')
     #parser.add_argument('--num_votes', type=int, default=3, help='aggregate segmentation scores with voting')
     return parser.parse_args()
 
@@ -73,15 +74,17 @@ def main(args):
     TEST_DATASET = PartNormalDataset(root=root, npoints=args.num_point, split='test', normal_channel=args.normal)
     testDataLoader = torch.utils.data.DataLoader(TEST_DATASET, batch_size=args.batch_size, shuffle=False, num_workers=4)
     log_string("The number of test data is: %d" % len(TEST_DATASET))
+    num_itr = args.num_itr
     num_classes = 16
     num_part = 50
+    input_size = num_part
 
     '''MODEL LOADING'''
     model_name = os.listdir(experiment_dir + '/logs')[0].split('.')[0]
     MODEL = importlib.import_module(model_name)
-    classifier = MODEL.get_model(num_part, normal_channel=args.normal).cuda()
+    classifier = MODEL.get_model(num_part, input_size, normal_channel=args.normal).cuda()
     #classifier = MODEL.get_model(num_part, input_size,  normal_channel=args.normal).cuda()
-    checkpoint = torch.load(str(experiment_dir) + '/checkpoints/best_model.pth')
+    checkpoint = torch.load(str(experiment_dir) + '/checkpoints/model.pth')
     classifier.load_state_dict(checkpoint['model_state_dict'])
 
     with torch.no_grad():
@@ -104,10 +107,15 @@ def main(args):
             cur_batch_size, NUM_POINT, _ = points.size()
             points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
-
+            prev_output = torch.zeros((points.shape[0], num_part, points.shape[2]), device='cuda')
+            for j in range(num_itr):
+                _points = torch.cat((points, prev_output), 1)
+                #print('points:', _points.shape)
+                seg_pred, _ = classifier(_points, to_categorical(label, num_classes))
+                prev_output= seg_pred.transpose(2, 1)
             # the authors of this repository run the model more than once and do the final output is the average of the outputs
             # we disabled this.
-            seg_pred, _ = classifier(points, to_categorical(label, num_classes))
+            #seg_pred, _ = classifier(points, to_categorical(label, num_classes))
             #vote_pool = torch.zeros(target.size()[0], target.size()[1], num_part).cuda()
             #for _ in range(args.num_votes):
             #    seg_pred, _ = classifier(points, to_categorical(label, num_classes))

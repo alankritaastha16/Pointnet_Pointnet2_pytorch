@@ -39,7 +39,7 @@ def parse_args():
     parser.add_argument('--model', type=str, default='pointnet_sem_seg', help='model name [default: pointnet_sem_seg]')
     parser.add_argument('--batch_size', type=int, default=16, help='Batch Size during training [default: 16]')
     parser.add_argument('--epoch', default=32, type=int, help='Epoch to run [default: 32]')
-    parser.add_argument('--subset', default=10000, type=int, help='no of samples in dataset [default: 10000]')
+    parser.add_argument('--subset', default=47623, type=int, help='no of samples in dataset [default: 10000]')
     parser.add_argument('--learning_rate', default=0.001, type=float, help='Initial learning rate [default: 0.001]')
     #parser.add_argument('--gpu', type=str, default='0', help='GPU to use [default: GPU 0]')
     parser.add_argument('--optimizer', type=str, default='Adam', help='Adam or SGD [default: Adam]')
@@ -100,6 +100,7 @@ def main(args):
     TEST_DATASET = S3DISDataset(split='test', data_root=root, num_point=NUM_POINT, test_area=args.test_area, block_size=1.0, sample_rate=1.0, transform=None)
      # sub-sample dataset
     print('before sub-sample:', len(TRAIN_DATASET))
+    weights = torch.Tensor(TRAIN_DATASET.labelweights).cuda()
     TRAIN_DATASET = torch.utils.data.Subset(TRAIN_DATASET, range(0, args.subset))
     print('after sub-sample:', len(TRAIN_DATASET))
     trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=BATCH_SIZE, shuffle=True, num_workers=10,
@@ -107,7 +108,7 @@ def main(args):
                                                   worker_init_fn=lambda x: np.random.seed(x + int(time.time())))
     testDataLoader = torch.utils.data.DataLoader(TEST_DATASET, batch_size=BATCH_SIZE, shuffle=False, num_workers=10,
                                                  pin_memory=True, drop_last=True)
-    weights = torch.Tensor(TRAIN_DATASET.labelweights).cuda()
+   
 
     log_string("The number of training data is: %d" % len(TRAIN_DATASET))
     log_string("The number of test data is: %d" % len(TEST_DATASET))

@@ -1829,3 +1829,27 @@
 2023-04-17 12:49:57,497 - Model - INFO - Best inctance avg mIOU is: 0.60526
 2023-04-17 12:49:57,497 - Model - INFO - Epoch 79 (79/251):
 2023-04-17 12:49:57,497 - Model - INFO - Learning rate:0.000125
+2023-04-17 14:07:25,570 - Model - INFO - Train accuracy is: 0.94315
+2023-04-17 14:21:02,140 - Model - INFO - eval mIoU of Airplane       0.240788
+2023-04-17 14:21:02,141 - Model - INFO - eval mIoU of Bag            0.563172
+2023-04-17 14:21:02,141 - Model - INFO - eval mIoU of Cap            0.367396
+2023-04-17 14:21:02,141 - Model - INFO - eval mIoU of Car            0.234137
+2023-04-17 14:21:02,142 - Model - INFO - eval mIoU of Chair          0.307349
+2023-04-17 14:21:02,142 - Model - INFO - eval mIoU of Earphone       0.562680
+2023-04-17 14:21:02,142 - Model - INFO - eval mIoU of Guitar         0.575392
+2023-04-17 14:21:02,142 - Model - INFO - eval mIoU of Knife          0.700145
+2023-04-17 14:21:02,142 - Model - INFO - eval mIoU of Lamp           0.618608
+2023-04-17 14:21:02,142 - Model - INFO - eval mIoU of Laptop         0.580587
+2023-04-17 14:21:02,143 - Model - INFO - eval mIoU of Motorbike      0.168621
+2023-04-17 14:21:02,143 - Model - INFO - eval mIoU of Mug            0.610418
+2023-04-17 14:21:02,143 - Model - INFO - eval mIoU of Pistol         0.530759
+2023-04-17 14:21:02,143 - Model - INFO - eval mIoU of Rocket         0.226678
+2023-04-17 14:21:02,143 - Model - INFO - eval mIoU of Skateboard     0.437789
+2023-04-17 14:21:02,143 - Model - INFO - eval mIoU of Table          0.603539
+2023-04-17 14:21:02,145 - Model - INFO - Epoch 79 test Accuracy: 0.681913  Class avg mIOU: 0.458004   Inctance avg mIOU: 0.456204
+2023-04-17 14:21:02,145 - Model - INFO - Best accuracy is: 0.76476
+2023-04-17 14:21:02,145 - Model - INFO - Best class avg mIOU is: 0.53250
+2023-04-17 14:21:02,145 - Model - INFO - Best inctance avg mIOU is: 0.60526
+2023-04-17 14:21:02,146 - Model - INFO - Epoch 80 (80/251):
+2023-04-17 14:21:02,146 - Model - INFO - Learning rate:0.000125
+2023-04-17 15:37:08,286 - Model - INFO - Train accuracy is: 0.94270

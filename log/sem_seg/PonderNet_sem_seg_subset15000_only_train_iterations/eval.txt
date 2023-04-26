@@ -1,0 +1,28 @@
+2023-04-19 20:04:54,936 - Model - INFO - PARAMETER ...
+2023-04-19 20:04:54,937 - Model - INFO - Namespace(batch_size=32, num_point=4096, log_dir='PonderNet_sem_seg_subset15000_only_train_iterations', visual=False, test_area=5, num_votes=3)
+2023-04-19 20:05:07,416 - Model - INFO - PARAMETER ...
+2023-04-19 20:05:07,416 - Model - INFO - Namespace(batch_size=32, num_point=4096, log_dir='PonderNet_sem_seg_subset15000_only_train_iterations', visual=False, test_area=5, num_votes=3)
+2023-04-19 20:06:13,188 - Model - INFO - PARAMETER ...
+2023-04-19 20:06:13,189 - Model - INFO - Namespace(batch_size=32, num_point=4096, log_dir='PonderNet_sem_seg_subset15000_only_train_iterations', visual=False, test_area=5, num_votes=3)
+2023-04-19 20:06:20,089 - Model - INFO - The number of test data is: 19191
+2023-04-19 20:12:43,931 - Model - INFO - PARAMETER ...
+2023-04-19 20:12:43,931 - Model - INFO - Namespace(batch_size=32, num_point=4096, num_itr=5, log_dir='PonderNet_sem_seg_subset15000_only_train_iterations', test_area=5)
+2023-04-19 20:12:50,823 - Model - INFO - The number of test data is: 19191
+2023-04-19 20:29:07,976 - Model - INFO - eval point avg class IoU: 0.379623
+2023-04-19 20:29:07,976 - Model - INFO - eval point accuracy: 0.722319
+2023-04-19 20:29:07,976 - Model - INFO - eval point avg class acc: 0.460068
+2023-04-19 20:29:07,977 - Model - INFO - ------- IoU --------
+class ceiling        weight: 0.092, IoU: 0.857 
+class floor          weight: 0.201, IoU: 0.944 
+class wall           weight: 0.169, IoU: 0.592 
+class beam           weight: 0.277, IoU: 0.000 
+class column         weight: 0.000, IoU: 0.022 
+class window         weight: 0.018, IoU: 0.381 
+class door           weight: 0.033, IoU: 0.195 
+class table          weight: 0.030, IoU: 0.522 
+class chair          weight: 0.038, IoU: 0.436 
+class sofa           weight: 0.019, IoU: 0.177 
+class bookcase       weight: 0.003, IoU: 0.354 
+class board          weight: 0.109, IoU: 0.205 
+class clutter        weight: 0.011, IoU: 0.250 
+

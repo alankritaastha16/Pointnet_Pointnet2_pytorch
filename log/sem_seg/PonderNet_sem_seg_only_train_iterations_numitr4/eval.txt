@@ -1,0 +1,21 @@
+2023-04-23 23:34:09,863 - Model - INFO - PARAMETER ...
+2023-04-23 23:34:09,863 - Model - INFO - Namespace(batch_size=32, num_point=4096, num_itr=4, log_dir='PonderNet_sem_seg_only_train_iterarions_numitr4', test_area=5)
+2023-04-23 23:34:16,653 - Model - INFO - The number of test data is: 19191
+2023-04-23 23:52:11,526 - Model - INFO - eval point avg class IoU: 0.554509
+2023-04-23 23:52:11,527 - Model - INFO - eval point accuracy: 0.841304
+2023-04-23 23:52:11,527 - Model - INFO - eval point avg class acc: 0.645429
+2023-04-23 23:52:11,527 - Model - INFO - ------- IoU --------
+class ceiling        weight: 0.091, IoU: 0.912 
+class floor          weight: 0.201, IoU: 0.951 
+class wall           weight: 0.168, IoU: 0.759 
+class beam           weight: 0.278, IoU: 0.000 
+class column         weight: 0.000, IoU: 0.108 
+class window         weight: 0.019, IoU: 0.616 
+class door           weight: 0.033, IoU: 0.272 
+class table          weight: 0.031, IoU: 0.712 
+class chair          weight: 0.039, IoU: 0.758 
+class sofa           weight: 0.019, IoU: 0.363 
+class bookcase       weight: 0.003, IoU: 0.653 
+class board          weight: 0.108, IoU: 0.639 
+class clutter        weight: 0.012, IoU: 0.465 
+

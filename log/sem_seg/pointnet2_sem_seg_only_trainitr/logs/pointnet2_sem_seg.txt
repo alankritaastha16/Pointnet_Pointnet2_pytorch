@@ -1,0 +1,229 @@
+2023-04-24 11:56:30,372 - Model - INFO - PARAMETER ...
+2023-04-24 11:56:30,372 - Model - INFO - Namespace(model='pointnet2_sem_seg', batch_size=16, epoch=32, subset=47623, learning_rate=0.001, optimizer='Adam', log_dir='pointnet2_sem_seg_only_trainitr', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5)
+2023-04-24 11:59:58,503 - Model - INFO - The number of training data is: 47623
+2023-04-24 11:59:58,504 - Model - INFO - The number of test data is: 19191
+2023-04-24 11:59:58,642 - Model - INFO - No existing model, starting training from scratch...
+2023-04-24 11:59:58,648 - Model - INFO - **** Epoch 1 (1/32) ****
+2023-04-24 11:59:58,648 - Model - INFO - Learning rate:0.001000
+2023-04-24 12:19:34,404 - Model - INFO - Training mean loss: 0.794434
+2023-04-24 12:19:34,405 - Model - INFO - Training accuracy: 0.772464
+2023-04-24 12:19:34,405 - Model - INFO - Save model...
+2023-04-24 12:19:34,405 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 12:19:34,448 - Model - INFO - Saving model....
+2023-04-24 12:19:34,448 - Model - INFO - **** Epoch 2 (2/32) ****
+2023-04-24 12:19:34,448 - Model - INFO - Learning rate:0.001000
+2023-04-24 12:36:57,749 - Model - INFO - Training mean loss: 0.522217
+2023-04-24 12:36:57,750 - Model - INFO - Training accuracy: 0.840585
+2023-04-24 12:36:57,750 - Model - INFO - Save model...
+2023-04-24 12:36:57,750 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 12:36:57,803 - Model - INFO - Saving model....
+2023-04-24 12:36:57,803 - Model - INFO - **** Epoch 3 (3/32) ****
+2023-04-24 12:36:57,803 - Model - INFO - Learning rate:0.001000
+2023-04-24 12:54:35,224 - Model - INFO - Training mean loss: 0.445934
+2023-04-24 12:54:35,224 - Model - INFO - Training accuracy: 0.861551
+2023-04-24 12:54:35,224 - Model - INFO - Save model...
+2023-04-24 12:54:35,224 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 12:54:35,276 - Model - INFO - Saving model....
+2023-04-24 12:54:35,277 - Model - INFO - **** Epoch 4 (4/32) ****
+2023-04-24 12:54:35,277 - Model - INFO - Learning rate:0.001000
+2023-04-24 13:11:51,317 - Model - INFO - Training mean loss: 0.395507
+2023-04-24 13:11:51,317 - Model - INFO - Training accuracy: 0.876297
+2023-04-24 13:11:51,317 - Model - INFO - Save model...
+2023-04-24 13:11:51,317 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 13:11:51,367 - Model - INFO - Saving model....
+2023-04-24 13:11:51,367 - Model - INFO - **** Epoch 5 (5/32) ****
+2023-04-24 13:11:51,367 - Model - INFO - Learning rate:0.001000
+2023-04-24 13:29:26,285 - Model - INFO - Training mean loss: 0.365269
+2023-04-24 13:29:26,285 - Model - INFO - Training accuracy: 0.884277
+2023-04-24 13:29:26,285 - Model - INFO - Save model...
+2023-04-24 13:29:26,285 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 13:29:26,344 - Model - INFO - Saving model....
+2023-04-24 13:29:26,344 - Model - INFO - **** Epoch 6 (6/32) ****
+2023-04-24 13:29:26,344 - Model - INFO - Learning rate:0.001000
+2023-04-24 13:46:53,335 - Model - INFO - Training mean loss: 0.345436
+2023-04-24 13:46:53,336 - Model - INFO - Training accuracy: 0.890260
+2023-04-24 13:46:53,336 - Model - INFO - Save model...
+2023-04-24 13:46:53,336 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 13:46:53,374 - Model - INFO - Saving model....
+2023-04-24 13:46:53,374 - Model - INFO - **** Epoch 7 (7/32) ****
+2023-04-24 13:46:53,374 - Model - INFO - Learning rate:0.001000
+2023-04-24 14:05:13,744 - Model - INFO - Training mean loss: 0.325938
+2023-04-24 14:05:13,744 - Model - INFO - Training accuracy: 0.895541
+2023-04-24 14:05:13,744 - Model - INFO - Save model...
+2023-04-24 14:05:13,744 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 14:05:13,783 - Model - INFO - Saving model....
+2023-04-24 14:05:13,783 - Model - INFO - **** Epoch 8 (8/32) ****
+2023-04-24 14:05:13,783 - Model - INFO - Learning rate:0.001000
+2023-04-24 14:23:01,585 - Model - INFO - Training mean loss: 0.312627
+2023-04-24 14:23:01,586 - Model - INFO - Training accuracy: 0.899407
+2023-04-24 14:23:01,586 - Model - INFO - Save model...
+2023-04-24 14:23:01,586 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 14:23:01,638 - Model - INFO - Saving model....
+2023-04-24 14:23:01,638 - Model - INFO - **** Epoch 9 (9/32) ****
+2023-04-24 14:23:01,638 - Model - INFO - Learning rate:0.001000
+2023-04-24 14:41:14,071 - Model - INFO - Training mean loss: 0.300982
+2023-04-24 14:41:14,071 - Model - INFO - Training accuracy: 0.903011
+2023-04-24 14:41:14,071 - Model - INFO - Save model...
+2023-04-24 14:41:14,072 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 14:41:14,132 - Model - INFO - Saving model....
+2023-04-24 14:41:14,132 - Model - INFO - **** Epoch 10 (10/32) ****
+2023-04-24 14:41:14,132 - Model - INFO - Learning rate:0.001000
+2023-04-24 14:58:18,552 - Model - INFO - Training mean loss: 0.295588
+2023-04-24 14:58:18,552 - Model - INFO - Training accuracy: 0.904228
+2023-04-24 14:58:18,552 - Model - INFO - Save model...
+2023-04-24 14:58:18,552 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 14:58:18,592 - Model - INFO - Saving model....
+2023-04-24 14:58:18,592 - Model - INFO - **** Epoch 11 (11/32) ****
+2023-04-24 14:58:18,592 - Model - INFO - Learning rate:0.000700
+2023-04-24 15:16:29,492 - Model - INFO - Training mean loss: 0.252164
+2023-04-24 15:16:29,492 - Model - INFO - Training accuracy: 0.916060
+2023-04-24 15:16:29,492 - Model - INFO - Save model...
+2023-04-24 15:16:29,492 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 15:16:29,543 - Model - INFO - Saving model....
+2023-04-24 15:16:29,544 - Model - INFO - **** Epoch 12 (12/32) ****
+2023-04-24 15:16:29,544 - Model - INFO - Learning rate:0.000700
+2023-04-24 15:33:55,637 - Model - INFO - Training mean loss: 0.247519
+2023-04-24 15:33:55,637 - Model - INFO - Training accuracy: 0.917692
+2023-04-24 15:33:55,637 - Model - INFO - Save model...
+2023-04-24 15:33:55,637 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 15:33:55,689 - Model - INFO - Saving model....
+2023-04-24 15:33:55,689 - Model - INFO - **** Epoch 13 (13/32) ****
+2023-04-24 15:33:55,689 - Model - INFO - Learning rate:0.000700
+2023-04-24 15:50:57,701 - Model - INFO - Training mean loss: 0.244355
+2023-04-24 15:50:57,701 - Model - INFO - Training accuracy: 0.918639
+2023-04-24 15:50:57,701 - Model - INFO - Save model...
+2023-04-24 15:50:57,701 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 15:50:57,749 - Model - INFO - Saving model....
+2023-04-24 15:50:57,749 - Model - INFO - **** Epoch 14 (14/32) ****
+2023-04-24 15:50:57,749 - Model - INFO - Learning rate:0.000700
+2023-04-24 16:08:21,785 - Model - INFO - Training mean loss: 0.237921
+2023-04-24 16:08:21,785 - Model - INFO - Training accuracy: 0.920724
+2023-04-24 16:08:21,785 - Model - INFO - Save model...
+2023-04-24 16:08:21,785 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 16:08:21,839 - Model - INFO - Saving model....
+2023-04-24 16:08:21,840 - Model - INFO - **** Epoch 15 (15/32) ****
+2023-04-24 16:08:21,840 - Model - INFO - Learning rate:0.000700
+2023-04-24 16:25:41,035 - Model - INFO - Training mean loss: 0.233045
+2023-04-24 16:25:41,035 - Model - INFO - Training accuracy: 0.922083
+2023-04-24 16:25:41,035 - Model - INFO - Save model...
+2023-04-24 16:25:41,035 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 16:25:41,097 - Model - INFO - Saving model....
+2023-04-24 16:25:41,097 - Model - INFO - **** Epoch 16 (16/32) ****
+2023-04-24 16:25:41,097 - Model - INFO - Learning rate:0.000700
+2023-04-24 16:43:13,813 - Model - INFO - Training mean loss: 0.230394
+2023-04-24 16:43:13,813 - Model - INFO - Training accuracy: 0.922979
+2023-04-24 16:43:13,813 - Model - INFO - Save model...
+2023-04-24 16:43:13,813 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 16:43:13,854 - Model - INFO - Saving model....
+2023-04-24 16:43:13,854 - Model - INFO - **** Epoch 17 (17/32) ****
+2023-04-24 16:43:13,854 - Model - INFO - Learning rate:0.000700
+2023-04-24 17:00:36,204 - Model - INFO - Training mean loss: 0.228070
+2023-04-24 17:00:36,205 - Model - INFO - Training accuracy: 0.923684
+2023-04-24 17:00:36,205 - Model - INFO - Save model...
+2023-04-24 17:00:36,205 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 17:00:36,262 - Model - INFO - Saving model....
+2023-04-24 17:00:36,263 - Model - INFO - **** Epoch 18 (18/32) ****
+2023-04-24 17:00:36,263 - Model - INFO - Learning rate:0.000700
+2023-04-24 17:17:51,326 - Model - INFO - Training mean loss: 0.227037
+2023-04-24 17:17:51,326 - Model - INFO - Training accuracy: 0.923822
+2023-04-24 17:17:51,326 - Model - INFO - Save model...
+2023-04-24 17:17:51,326 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 17:17:51,365 - Model - INFO - Saving model....
+2023-04-24 17:17:51,365 - Model - INFO - **** Epoch 19 (19/32) ****
+2023-04-24 17:17:51,366 - Model - INFO - Learning rate:0.000700
+2023-04-24 17:35:03,025 - Model - INFO - Training mean loss: 0.223320
+2023-04-24 17:35:03,025 - Model - INFO - Training accuracy: 0.925362
+2023-04-24 17:35:03,025 - Model - INFO - Save model...
+2023-04-24 17:35:03,025 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 17:35:03,073 - Model - INFO - Saving model....
+2023-04-24 17:35:03,073 - Model - INFO - **** Epoch 20 (20/32) ****
+2023-04-24 17:35:03,073 - Model - INFO - Learning rate:0.000700
+2023-04-24 17:52:26,647 - Model - INFO - Training mean loss: 0.220499
+2023-04-24 17:52:26,647 - Model - INFO - Training accuracy: 0.926140
+2023-04-24 17:52:26,647 - Model - INFO - Save model...
+2023-04-24 17:52:26,647 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 17:52:26,681 - Model - INFO - Saving model....
+2023-04-24 17:52:26,681 - Model - INFO - **** Epoch 21 (21/32) ****
+2023-04-24 17:52:26,681 - Model - INFO - Learning rate:0.000490
+2023-04-24 18:09:52,980 - Model - INFO - Training mean loss: 0.194154
+2023-04-24 18:09:52,981 - Model - INFO - Training accuracy: 0.933789
+2023-04-24 18:09:52,981 - Model - INFO - Save model...
+2023-04-24 18:09:52,981 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 18:09:53,041 - Model - INFO - Saving model....
+2023-04-24 18:09:53,041 - Model - INFO - **** Epoch 22 (22/32) ****
+2023-04-24 18:09:53,041 - Model - INFO - Learning rate:0.000490
+2023-04-24 18:27:30,173 - Model - INFO - Training mean loss: 0.192102
+2023-04-24 18:27:30,173 - Model - INFO - Training accuracy: 0.934400
+2023-04-24 18:27:30,173 - Model - INFO - Save model...
+2023-04-24 18:27:30,173 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 18:27:30,208 - Model - INFO - Saving model....
+2023-04-24 18:27:30,208 - Model - INFO - **** Epoch 23 (23/32) ****
+2023-04-24 18:27:30,208 - Model - INFO - Learning rate:0.000490
+2023-04-24 18:45:05,072 - Model - INFO - Training mean loss: 0.188568
+2023-04-24 18:45:05,072 - Model - INFO - Training accuracy: 0.935101
+2023-04-24 18:45:05,072 - Model - INFO - Save model...
+2023-04-24 18:45:05,072 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 18:45:05,110 - Model - INFO - Saving model....
+2023-04-24 18:45:05,110 - Model - INFO - **** Epoch 24 (24/32) ****
+2023-04-24 18:45:05,110 - Model - INFO - Learning rate:0.000490
+2023-04-24 19:02:54,697 - Model - INFO - Training mean loss: 0.188598
+2023-04-24 19:02:54,697 - Model - INFO - Training accuracy: 0.935230
+2023-04-24 19:02:54,697 - Model - INFO - Save model...
+2023-04-24 19:02:54,697 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 19:02:54,730 - Model - INFO - Saving model....
+2023-04-24 19:02:54,730 - Model - INFO - **** Epoch 25 (25/32) ****
+2023-04-24 19:02:54,730 - Model - INFO - Learning rate:0.000490
+2023-04-24 19:20:25,335 - Model - INFO - Training mean loss: 0.185242
+2023-04-24 19:20:25,335 - Model - INFO - Training accuracy: 0.936275
+2023-04-24 19:20:25,335 - Model - INFO - Save model...
+2023-04-24 19:20:25,335 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 19:20:25,385 - Model - INFO - Saving model....
+2023-04-24 19:20:25,385 - Model - INFO - **** Epoch 26 (26/32) ****
+2023-04-24 19:20:25,385 - Model - INFO - Learning rate:0.000490
+2023-04-24 19:38:09,224 - Model - INFO - Training mean loss: 0.185393
+2023-04-24 19:38:09,224 - Model - INFO - Training accuracy: 0.936069
+2023-04-24 19:38:09,224 - Model - INFO - Save model...
+2023-04-24 19:38:09,224 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 19:38:09,287 - Model - INFO - Saving model....
+2023-04-24 19:38:09,287 - Model - INFO - **** Epoch 27 (27/32) ****
+2023-04-24 19:38:09,287 - Model - INFO - Learning rate:0.000490
+2023-04-24 19:55:56,571 - Model - INFO - Training mean loss: 0.185725
+2023-04-24 19:55:56,571 - Model - INFO - Training accuracy: 0.936460
+2023-04-24 19:55:56,571 - Model - INFO - Save model...
+2023-04-24 19:55:56,571 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 19:55:56,634 - Model - INFO - Saving model....
+2023-04-24 19:55:56,634 - Model - INFO - **** Epoch 28 (28/32) ****
+2023-04-24 19:55:56,634 - Model - INFO - Learning rate:0.000490
+2023-04-24 20:13:17,160 - Model - INFO - Training mean loss: 0.181496
+2023-04-24 20:13:17,160 - Model - INFO - Training accuracy: 0.937593
+2023-04-24 20:13:17,160 - Model - INFO - Save model...
+2023-04-24 20:13:17,160 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 20:13:17,207 - Model - INFO - Saving model....
+2023-04-24 20:13:17,207 - Model - INFO - **** Epoch 29 (29/32) ****
+2023-04-24 20:13:17,207 - Model - INFO - Learning rate:0.000490
+2023-04-24 20:30:43,744 - Model - INFO - Training mean loss: 0.183370
+2023-04-24 20:30:43,744 - Model - INFO - Training accuracy: 0.937342
+2023-04-24 20:30:43,744 - Model - INFO - Save model...
+2023-04-24 20:30:43,744 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 20:30:43,795 - Model - INFO - Saving model....
+2023-04-24 20:30:43,795 - Model - INFO - **** Epoch 30 (30/32) ****
+2023-04-24 20:30:43,795 - Model - INFO - Learning rate:0.000490
+2023-04-24 20:47:53,891 - Model - INFO - Training mean loss: 0.179723
+2023-04-24 20:47:53,891 - Model - INFO - Training accuracy: 0.938188
+2023-04-24 20:47:53,891 - Model - INFO - Save model...
+2023-04-24 20:47:53,891 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 20:47:53,927 - Model - INFO - Saving model....
+2023-04-24 20:47:53,927 - Model - INFO - **** Epoch 31 (31/32) ****
+2023-04-24 20:47:53,927 - Model - INFO - Learning rate:0.000343
+2023-04-24 21:05:16,496 - Model - INFO - Training mean loss: 0.162285
+2023-04-24 21:05:16,496 - Model - INFO - Training accuracy: 0.943422
+2023-04-24 21:05:16,496 - Model - INFO - Save model...
+2023-04-24 21:05:16,496 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 21:05:16,535 - Model - INFO - Saving model....
+2023-04-24 21:05:16,535 - Model - INFO - **** Epoch 32 (32/32) ****
+2023-04-24 21:05:16,535 - Model - INFO - Learning rate:0.000343
+2023-04-24 21:22:43,778 - Model - INFO - Training mean loss: 0.160613
+2023-04-24 21:22:43,778 - Model - INFO - Training accuracy: 0.943969
+2023-04-24 21:22:43,778 - Model - INFO - Save model...
+2023-04-24 21:22:43,778 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg_only_trainitr/checkpoints/model.pth
+2023-04-24 21:22:43,837 - Model - INFO - Saving model....

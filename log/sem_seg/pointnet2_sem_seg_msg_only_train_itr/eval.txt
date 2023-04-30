@@ -1,0 +1,21 @@
+2023-04-28 10:04:49,439 - Model - INFO - PARAMETER ...
+2023-04-28 10:04:49,439 - Model - INFO - Namespace(batch_size=32, num_point=4096, log_dir='pointnet2_sem_seg_msg_only_train_itr', visual=False, test_area=5, num_votes=3)
+2023-04-28 10:04:56,313 - Model - INFO - The number of test data is: 19191
+2023-04-28 10:09:27,438 - Model - INFO - eval point avg class IoU: 0.527813
+2023-04-28 10:09:27,438 - Model - INFO - eval point accuracy: 0.816608
+2023-04-28 10:09:27,438 - Model - INFO - eval point avg class acc: 0.623781
+2023-04-28 10:09:27,438 - Model - INFO - ------- IoU --------
+class ceiling        weight: 0.092, IoU: 0.904 
+class floor          weight: 0.200, IoU: 0.973 
+class wall           weight: 0.166, IoU: 0.733 
+class beam           weight: 0.280, IoU: 0.000 
+class column         weight: 0.000, IoU: 0.114 
+class window         weight: 0.018, IoU: 0.462 
+class door           weight: 0.032, IoU: 0.238 
+class table          weight: 0.030, IoU: 0.658 
+class chair          weight: 0.039, IoU: 0.768 
+class sofa           weight: 0.019, IoU: 0.497 
+class bookcase       weight: 0.003, IoU: 0.602 
+class board          weight: 0.108, IoU: 0.494 
+class clutter        weight: 0.011, IoU: 0.419 
+

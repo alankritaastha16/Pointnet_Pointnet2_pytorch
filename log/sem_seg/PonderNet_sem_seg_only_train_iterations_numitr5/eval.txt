@@ -122,8 +122,3 @@ class sofa           weight: 0.019, IoU: 0.037
 class bookcase       weight: 0.003, IoU: 0.139 
 class board          weight: 0.108, IoU: 0.000 
 class clutter        weight: 0.011, IoU: 0.240 
-
-
-2023-04-30 22:18:45,331 - Model - INFO - PARAMETER ...
-2023-04-30 22:18:45,331 - Model - INFO - Namespace(batch_size=32, num_point=4096, num_itr=10, log_dir='PonderNet_sem_seg_only_train_iterations_numitr5', test_area=5)
-2023-04-30 22:18:52,390 - Model - INFO - The number of test data is: 19191

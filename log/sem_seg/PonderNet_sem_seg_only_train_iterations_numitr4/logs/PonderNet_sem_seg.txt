@@ -159,3 +159,10 @@
 2023-04-23 16:20:58,838 - Model - INFO - Learning rate:0.000343
 2023-04-23 23:25:56,733 - Model - INFO - Training mean loss: 0.180940
 2023-04-23 23:25:56,734 - Model - INFO - Training accuracy: 0.940806
+2023-04-30 19:49:32,604 - Model - INFO - PARAMETER ...
+2023-04-30 19:49:32,605 - Model - INFO - Namespace(model='PonderNet_sem_seg', batch_size=16, epoch=52, subset=47623, learning_rate=0.001, optimizer='Adam', log_dir='PonderNet_sem_seg_only_train_iterations_numitr4', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5, cache=False, num_itr=4)
+2023-04-30 19:52:59,620 - Model - INFO - The number of training data is: 47623
+2023-04-30 19:52:59,621 - Model - INFO - The number of test data is: 19191
+2023-04-30 19:53:00,041 - Model - INFO - Use pretrain model
+2023-04-30 19:53:00,043 - Model - INFO - **** Epoch 1 (31/52) ****
+2023-04-30 19:53:00,044 - Model - INFO - Learning rate:0.000343

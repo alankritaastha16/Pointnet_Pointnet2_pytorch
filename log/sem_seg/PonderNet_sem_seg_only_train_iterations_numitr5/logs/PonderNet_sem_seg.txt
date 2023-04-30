@@ -152,3 +152,4 @@
 2023-04-21 11:36:17,737 - Model - INFO - Learning rate:0.000343
 2023-04-21 13:02:16,918 - Model - INFO - Training mean loss: 0.240230
 2023-04-21 13:02:16,918 - Model - INFO - Training accuracy: 0.922036
+

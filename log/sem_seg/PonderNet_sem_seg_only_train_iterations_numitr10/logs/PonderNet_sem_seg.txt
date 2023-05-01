@@ -1,0 +1,7 @@
+2023-05-01 14:04:28,872 - Model - INFO - PARAMETER ...
+2023-05-01 14:04:28,872 - Model - INFO - Namespace(model='PonderNet_sem_seg', batch_size=16, epoch=52, subset=47623, learning_rate=0.001, optimizer='Adam', log_dir='PonderNet_sem_seg_only_train_iterations_numitr10', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5, cache=False, num_itr=10)
+2023-05-01 14:04:53,393 - Model - INFO - The number of training data is: 47623
+2023-05-01 14:04:53,393 - Model - INFO - The number of test data is: 19191
+2023-05-01 14:04:53,432 - Model - INFO - No existing model, starting training from scratch...
+2023-05-01 14:04:53,432 - Model - INFO - **** Epoch 1 (1/52) ****
+2023-05-01 14:04:53,432 - Model - INFO - Learning rate:0.001000

@@ -251,3 +251,12 @@
 2023-05-01 13:21:30,495 - Model - INFO - Training accuracy: 0.949996
 2023-05-01 13:21:30,495 - Model - INFO - **** Epoch 21 (51/52) ****
 2023-05-01 13:21:30,495 - Model - INFO - Learning rate:0.000168
+2023-05-01 14:08:31,726 - Model - INFO - Training mean loss: 0.132061
+2023-05-01 14:08:31,726 - Model - INFO - Training accuracy: 0.953686
+2023-05-01 14:08:31,726 - Model - INFO - Save model...
+2023-05-01 14:08:31,726 - Model - INFO - Saving at log/sem_seg/PonderNet_sem_seg_only_train_iterations_numitr3/checkpoints/model.pth
+2023-05-01 14:08:31,776 - Model - INFO - Saving model....
+2023-05-01 14:08:31,776 - Model - INFO - **** Epoch 22 (52/52) ****
+2023-05-01 14:08:31,777 - Model - INFO - Learning rate:0.000168
+2023-05-01 14:55:43,009 - Model - INFO - Training mean loss: 0.129968
+2023-05-01 14:55:43,009 - Model - INFO - Training accuracy: 0.954207

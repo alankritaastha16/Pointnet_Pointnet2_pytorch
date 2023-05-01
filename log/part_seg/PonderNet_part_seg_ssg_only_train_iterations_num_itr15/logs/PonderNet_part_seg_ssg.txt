@@ -101,3 +101,12 @@
 2023-05-01 15:59:21,764 - Model - INFO - Saving model....
 2023-05-01 15:59:21,764 - Model - INFO - Epoch 27 (27/100):
 2023-05-01 15:59:21,764 - Model - INFO - Learning rate:0.000500
+2023-05-01 16:34:20,540 - Model - INFO - Train accuracy is: 0.01854
+2023-05-01 16:34:20,540 - Model - INFO - Epoch 28 (28/100):
+2023-05-01 16:34:20,540 - Model - INFO - Learning rate:0.000500
+2023-05-01 17:09:01,513 - Model - INFO - Train accuracy is: 0.01755
+2023-05-01 17:09:01,513 - Model - INFO - Epoch 29 (29/100):
+2023-05-01 17:09:01,514 - Model - INFO - Learning rate:0.000500
+2023-05-01 17:44:35,525 - Model - INFO - Train accuracy is: 0.01802
+2023-05-01 17:44:35,525 - Model - INFO - Epoch 30 (30/100):
+2023-05-01 17:44:35,525 - Model - INFO - Learning rate:0.000500

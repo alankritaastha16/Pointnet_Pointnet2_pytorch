@@ -213,3 +213,7 @@
 2023-05-01 14:26:19,777 - Model - INFO - Saving model....
 2023-05-01 14:26:19,778 - Model - INFO - **** Epoch 12 (42/52) ****
 2023-05-01 14:26:19,778 - Model - INFO - Learning rate:0.000240
+2023-05-01 17:59:08,378 - Model - INFO - Training mean loss: 0.147241
+2023-05-01 17:59:08,379 - Model - INFO - Training accuracy: 0.948455
+2023-05-01 17:59:08,379 - Model - INFO - **** Epoch 13 (43/52) ****
+2023-05-01 17:59:08,380 - Model - INFO - Learning rate:0.000240

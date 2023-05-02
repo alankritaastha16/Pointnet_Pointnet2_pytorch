@@ -1,0 +1,336 @@
+2023-05-02 00:57:53,204 - Model - INFO - PARAMETER ...
+2023-05-02 00:57:53,204 - Model - INFO - Namespace(model='PonderNethidden_part_seg_ssg', batch_size=16, epoch=100, num_itr=5, learning_rate=0.001, optimizer='Adam', log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5', decay_rate=0.0001, npoint=2500, normal=False, step_size=20, lr_decay=0.5, datadir='/data')
+2023-05-02 00:57:53,257 - Model - INFO - The number of training data is: 13998
+2023-05-02 00:57:54,633 - Model - INFO - No existing model, starting training from scratch...
+2023-05-02 00:57:54,634 - Model - INFO - Epoch 1 (1/100):
+2023-05-02 00:57:54,634 - Model - INFO - Learning rate:0.001000
+2023-05-02 01:09:38,385 - Model - INFO - Train accuracy is: 0.31552
+2023-05-02 01:09:38,385 - Model - INFO - Save model...
+2023-05-02 01:09:38,385 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 01:09:38,439 - Model - INFO - Saving model....
+2023-05-02 01:09:38,439 - Model - INFO - Epoch 2 (2/100):
+2023-05-02 01:09:38,439 - Model - INFO - Learning rate:0.001000
+2023-05-02 01:21:21,387 - Model - INFO - Train accuracy is: 0.57401
+2023-05-02 01:21:21,387 - Model - INFO - Epoch 3 (3/100):
+2023-05-02 01:21:21,387 - Model - INFO - Learning rate:0.001000
+2023-05-02 01:33:11,677 - Model - INFO - Train accuracy is: 0.71252
+2023-05-02 01:33:11,678 - Model - INFO - Epoch 4 (4/100):
+2023-05-02 01:33:11,678 - Model - INFO - Learning rate:0.001000
+2023-05-02 01:44:55,087 - Model - INFO - Train accuracy is: 0.78383
+2023-05-02 01:44:55,087 - Model - INFO - Epoch 5 (5/100):
+2023-05-02 01:44:55,087 - Model - INFO - Learning rate:0.001000
+2023-05-02 01:56:39,870 - Model - INFO - Train accuracy is: 0.82254
+2023-05-02 01:56:39,870 - Model - INFO - Epoch 6 (6/100):
+2023-05-02 01:56:39,870 - Model - INFO - Learning rate:0.001000
+2023-05-02 02:08:25,516 - Model - INFO - Train accuracy is: 0.84819
+2023-05-02 02:08:25,517 - Model - INFO - Save model...
+2023-05-02 02:08:25,517 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 02:08:25,576 - Model - INFO - Saving model....
+2023-05-02 02:08:25,576 - Model - INFO - Epoch 7 (7/100):
+2023-05-02 02:08:25,576 - Model - INFO - Learning rate:0.001000
+2023-05-02 02:20:12,376 - Model - INFO - Train accuracy is: 0.86388
+2023-05-02 02:20:12,376 - Model - INFO - Epoch 8 (8/100):
+2023-05-02 02:20:12,376 - Model - INFO - Learning rate:0.001000
+2023-05-02 02:31:55,086 - Model - INFO - Train accuracy is: 0.87272
+2023-05-02 02:31:55,086 - Model - INFO - Epoch 9 (9/100):
+2023-05-02 02:31:55,086 - Model - INFO - Learning rate:0.001000
+2023-05-02 02:43:43,745 - Model - INFO - Train accuracy is: 0.87453
+2023-05-02 02:43:43,746 - Model - INFO - Epoch 10 (10/100):
+2023-05-02 02:43:43,746 - Model - INFO - Learning rate:0.001000
+2023-05-02 02:55:29,020 - Model - INFO - Train accuracy is: 0.88532
+2023-05-02 02:55:29,020 - Model - INFO - Epoch 11 (11/100):
+2023-05-02 02:55:29,020 - Model - INFO - Learning rate:0.001000
+2023-05-02 03:07:15,876 - Model - INFO - Train accuracy is: 0.89037
+2023-05-02 03:07:15,876 - Model - INFO - Save model...
+2023-05-02 03:07:15,876 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 03:07:15,922 - Model - INFO - Saving model....
+2023-05-02 03:07:15,922 - Model - INFO - Epoch 12 (12/100):
+2023-05-02 03:07:15,922 - Model - INFO - Learning rate:0.001000
+2023-05-02 03:19:01,002 - Model - INFO - Train accuracy is: 0.89925
+2023-05-02 03:19:01,003 - Model - INFO - Epoch 13 (13/100):
+2023-05-02 03:19:01,003 - Model - INFO - Learning rate:0.001000
+2023-05-02 03:30:56,198 - Model - INFO - Train accuracy is: 0.89971
+2023-05-02 03:30:56,198 - Model - INFO - Epoch 14 (14/100):
+2023-05-02 03:30:56,198 - Model - INFO - Learning rate:0.001000
+2023-05-02 03:42:39,438 - Model - INFO - Train accuracy is: 0.89938
+2023-05-02 03:42:39,438 - Model - INFO - Epoch 15 (15/100):
+2023-05-02 03:42:39,438 - Model - INFO - Learning rate:0.001000
+2023-05-02 03:54:22,279 - Model - INFO - Train accuracy is: 0.90468
+2023-05-02 03:54:22,279 - Model - INFO - Epoch 16 (16/100):
+2023-05-02 03:54:22,279 - Model - INFO - Learning rate:0.001000
+2023-05-02 04:06:07,024 - Model - INFO - Train accuracy is: 0.90804
+2023-05-02 04:06:07,024 - Model - INFO - Save model...
+2023-05-02 04:06:07,024 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 04:06:07,091 - Model - INFO - Saving model....
+2023-05-02 04:06:07,092 - Model - INFO - Epoch 17 (17/100):
+2023-05-02 04:06:07,092 - Model - INFO - Learning rate:0.001000
+2023-05-02 04:17:51,723 - Model - INFO - Train accuracy is: 0.90856
+2023-05-02 04:17:51,723 - Model - INFO - Epoch 18 (18/100):
+2023-05-02 04:17:51,723 - Model - INFO - Learning rate:0.001000
+2023-05-02 04:29:41,374 - Model - INFO - Train accuracy is: 0.90781
+2023-05-02 04:29:41,374 - Model - INFO - Epoch 19 (19/100):
+2023-05-02 04:29:41,374 - Model - INFO - Learning rate:0.001000
+2023-05-02 04:41:26,273 - Model - INFO - Train accuracy is: 0.90926
+2023-05-02 04:41:26,273 - Model - INFO - Epoch 20 (20/100):
+2023-05-02 04:41:26,273 - Model - INFO - Learning rate:0.001000
+2023-05-02 04:53:13,239 - Model - INFO - Train accuracy is: 0.91044
+2023-05-02 04:53:13,239 - Model - INFO - Epoch 21 (21/100):
+2023-05-02 04:53:13,239 - Model - INFO - Learning rate:0.000500
+2023-05-02 05:05:00,284 - Model - INFO - Train accuracy is: 0.92037
+2023-05-02 05:05:00,284 - Model - INFO - Save model...
+2023-05-02 05:05:00,284 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 05:05:00,349 - Model - INFO - Saving model....
+2023-05-02 05:05:00,349 - Model - INFO - Epoch 22 (22/100):
+2023-05-02 05:05:00,349 - Model - INFO - Learning rate:0.000500
+2023-05-02 05:16:44,382 - Model - INFO - Train accuracy is: 0.92092
+2023-05-02 05:16:44,382 - Model - INFO - Epoch 23 (23/100):
+2023-05-02 05:16:44,382 - Model - INFO - Learning rate:0.000500
+2023-05-02 05:28:31,122 - Model - INFO - Train accuracy is: 0.92251
+2023-05-02 05:28:31,122 - Model - INFO - Epoch 24 (24/100):
+2023-05-02 05:28:31,122 - Model - INFO - Learning rate:0.000500
+2023-05-02 05:40:20,316 - Model - INFO - Train accuracy is: 0.92362
+2023-05-02 05:40:20,317 - Model - INFO - Epoch 25 (25/100):
+2023-05-02 05:40:20,317 - Model - INFO - Learning rate:0.000500
+2023-05-02 05:52:12,421 - Model - INFO - Train accuracy is: 0.92180
+2023-05-02 05:52:12,422 - Model - INFO - Epoch 26 (26/100):
+2023-05-02 05:52:12,422 - Model - INFO - Learning rate:0.000500
+2023-05-02 06:03:59,194 - Model - INFO - Train accuracy is: 0.92567
+2023-05-02 06:03:59,195 - Model - INFO - Save model...
+2023-05-02 06:03:59,195 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 06:03:59,239 - Model - INFO - Saving model....
+2023-05-02 06:03:59,239 - Model - INFO - Epoch 27 (27/100):
+2023-05-02 06:03:59,239 - Model - INFO - Learning rate:0.000500
+2023-05-02 06:15:43,132 - Model - INFO - Train accuracy is: 0.92408
+2023-05-02 06:15:43,132 - Model - INFO - Epoch 28 (28/100):
+2023-05-02 06:15:43,132 - Model - INFO - Learning rate:0.000500
+2023-05-02 06:27:28,754 - Model - INFO - Train accuracy is: 0.92540
+2023-05-02 06:27:28,754 - Model - INFO - Epoch 29 (29/100):
+2023-05-02 06:27:28,754 - Model - INFO - Learning rate:0.000500
+2023-05-02 06:39:13,214 - Model - INFO - Train accuracy is: 0.92679
+2023-05-02 06:39:13,214 - Model - INFO - Epoch 30 (30/100):
+2023-05-02 06:39:13,214 - Model - INFO - Learning rate:0.000500
+2023-05-02 06:50:57,061 - Model - INFO - Train accuracy is: 0.92643
+2023-05-02 06:50:57,061 - Model - INFO - Epoch 31 (31/100):
+2023-05-02 06:50:57,061 - Model - INFO - Learning rate:0.000500
+2023-05-02 07:02:44,936 - Model - INFO - Train accuracy is: 0.92800
+2023-05-02 07:02:44,937 - Model - INFO - Save model...
+2023-05-02 07:02:44,937 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 07:02:44,996 - Model - INFO - Saving model....
+2023-05-02 07:02:44,996 - Model - INFO - Epoch 32 (32/100):
+2023-05-02 07:02:44,996 - Model - INFO - Learning rate:0.000500
+2023-05-02 07:14:31,797 - Model - INFO - Train accuracy is: 0.92779
+2023-05-02 07:14:31,797 - Model - INFO - Epoch 33 (33/100):
+2023-05-02 07:14:31,797 - Model - INFO - Learning rate:0.000500
+2023-05-02 07:26:23,492 - Model - INFO - Train accuracy is: 0.92884
+2023-05-02 07:26:23,492 - Model - INFO - Epoch 34 (34/100):
+2023-05-02 07:26:23,492 - Model - INFO - Learning rate:0.000500
+2023-05-02 07:38:09,070 - Model - INFO - Train accuracy is: 0.92856
+2023-05-02 07:38:09,070 - Model - INFO - Epoch 35 (35/100):
+2023-05-02 07:38:09,070 - Model - INFO - Learning rate:0.000500
+2023-05-02 07:49:48,959 - Model - INFO - Train accuracy is: 0.92975
+2023-05-02 07:49:48,959 - Model - INFO - Epoch 36 (36/100):
+2023-05-02 07:49:48,959 - Model - INFO - Learning rate:0.000500
+2023-05-02 08:01:38,701 - Model - INFO - Train accuracy is: 0.93088
+2023-05-02 08:01:38,701 - Model - INFO - Save model...
+2023-05-02 08:01:38,701 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 08:01:38,757 - Model - INFO - Saving model....
+2023-05-02 08:01:38,757 - Model - INFO - Epoch 37 (37/100):
+2023-05-02 08:01:38,757 - Model - INFO - Learning rate:0.000500
+2023-05-02 08:13:28,272 - Model - INFO - Train accuracy is: 0.93119
+2023-05-02 08:13:28,273 - Model - INFO - Epoch 38 (38/100):
+2023-05-02 08:13:28,273 - Model - INFO - Learning rate:0.000500
+2023-05-02 08:25:12,831 - Model - INFO - Train accuracy is: 0.92997
+2023-05-02 08:25:12,831 - Model - INFO - Epoch 39 (39/100):
+2023-05-02 08:25:12,831 - Model - INFO - Learning rate:0.000500
+2023-05-02 08:36:58,999 - Model - INFO - Train accuracy is: 0.93066
+2023-05-02 08:36:58,999 - Model - INFO - Epoch 40 (40/100):
+2023-05-02 08:36:58,999 - Model - INFO - Learning rate:0.000500
+2023-05-02 08:48:45,984 - Model - INFO - Train accuracy is: 0.93183
+2023-05-02 08:48:45,984 - Model - INFO - Epoch 41 (41/100):
+2023-05-02 08:48:45,984 - Model - INFO - Learning rate:0.000250
+2023-05-02 09:00:30,145 - Model - INFO - Train accuracy is: 0.93504
+2023-05-02 09:00:30,145 - Model - INFO - Save model...
+2023-05-02 09:00:30,145 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 09:00:30,189 - Model - INFO - Saving model....
+2023-05-02 09:00:30,189 - Model - INFO - Epoch 42 (42/100):
+2023-05-02 09:00:30,189 - Model - INFO - Learning rate:0.000250
+2023-05-02 09:12:17,399 - Model - INFO - Train accuracy is: 0.93702
+2023-05-02 09:12:17,399 - Model - INFO - Epoch 43 (43/100):
+2023-05-02 09:12:17,399 - Model - INFO - Learning rate:0.000250
+2023-05-02 09:24:08,246 - Model - INFO - Train accuracy is: 0.93711
+2023-05-02 09:24:08,247 - Model - INFO - Epoch 44 (44/100):
+2023-05-02 09:24:08,247 - Model - INFO - Learning rate:0.000250
+2023-05-02 09:35:56,729 - Model - INFO - Train accuracy is: 0.93779
+2023-05-02 09:35:56,729 - Model - INFO - Epoch 45 (45/100):
+2023-05-02 09:35:56,729 - Model - INFO - Learning rate:0.000250
+2023-05-02 09:47:43,439 - Model - INFO - Train accuracy is: 0.93788
+2023-05-02 09:47:43,439 - Model - INFO - Epoch 46 (46/100):
+2023-05-02 09:47:43,439 - Model - INFO - Learning rate:0.000250
+2023-05-02 09:59:32,688 - Model - INFO - Train accuracy is: 0.93752
+2023-05-02 09:59:32,688 - Model - INFO - Save model...
+2023-05-02 09:59:32,688 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 09:59:32,743 - Model - INFO - Saving model....
+2023-05-02 09:59:32,743 - Model - INFO - Epoch 47 (47/100):
+2023-05-02 09:59:32,743 - Model - INFO - Learning rate:0.000250
+2023-05-02 10:11:18,253 - Model - INFO - Train accuracy is: 0.93819
+2023-05-02 10:11:18,253 - Model - INFO - Epoch 48 (48/100):
+2023-05-02 10:11:18,253 - Model - INFO - Learning rate:0.000250
+2023-05-02 10:23:10,971 - Model - INFO - Train accuracy is: 0.93843
+2023-05-02 10:23:10,971 - Model - INFO - Epoch 49 (49/100):
+2023-05-02 10:23:10,971 - Model - INFO - Learning rate:0.000250
+2023-05-02 10:34:58,375 - Model - INFO - Train accuracy is: 0.93896
+2023-05-02 10:34:58,375 - Model - INFO - Epoch 50 (50/100):
+2023-05-02 10:34:58,375 - Model - INFO - Learning rate:0.000250
+2023-05-02 10:46:45,673 - Model - INFO - Train accuracy is: 0.93774
+2023-05-02 10:46:45,673 - Model - INFO - Epoch 51 (51/100):
+2023-05-02 10:46:45,673 - Model - INFO - Learning rate:0.000250
+2023-05-02 10:58:31,432 - Model - INFO - Train accuracy is: 0.93898
+2023-05-02 10:58:31,432 - Model - INFO - Save model...
+2023-05-02 10:58:31,432 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 10:58:31,478 - Model - INFO - Saving model....
+2023-05-02 10:58:31,478 - Model - INFO - Epoch 52 (52/100):
+2023-05-02 10:58:31,478 - Model - INFO - Learning rate:0.000250
+2023-05-02 11:10:19,554 - Model - INFO - Train accuracy is: 0.93918
+2023-05-02 11:10:19,554 - Model - INFO - Epoch 53 (53/100):
+2023-05-02 11:10:19,554 - Model - INFO - Learning rate:0.000250
+2023-05-02 11:22:05,875 - Model - INFO - Train accuracy is: 0.93902
+2023-05-02 11:22:05,876 - Model - INFO - Epoch 54 (54/100):
+2023-05-02 11:22:05,876 - Model - INFO - Learning rate:0.000250
+2023-05-02 11:33:57,887 - Model - INFO - Train accuracy is: 0.93834
+2023-05-02 11:33:57,887 - Model - INFO - Epoch 55 (55/100):
+2023-05-02 11:33:57,887 - Model - INFO - Learning rate:0.000250
+2023-05-02 11:45:44,383 - Model - INFO - Train accuracy is: 0.93912
+2023-05-02 11:45:44,383 - Model - INFO - Epoch 56 (56/100):
+2023-05-02 11:45:44,383 - Model - INFO - Learning rate:0.000250
+2023-05-02 11:57:33,255 - Model - INFO - Train accuracy is: 0.93971
+2023-05-02 11:57:33,255 - Model - INFO - Save model...
+2023-05-02 11:57:33,255 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 11:57:33,309 - Model - INFO - Saving model....
+2023-05-02 11:57:33,310 - Model - INFO - Epoch 57 (57/100):
+2023-05-02 11:57:33,310 - Model - INFO - Learning rate:0.000250
+2023-05-02 12:18:41,145 - Model - INFO - Train accuracy is: 0.94014
+2023-05-02 12:18:41,145 - Model - INFO - Epoch 58 (58/100):
+2023-05-02 12:18:41,145 - Model - INFO - Learning rate:0.000250
+2023-05-02 12:30:28,782 - Model - INFO - Train accuracy is: 0.93983
+2023-05-02 12:30:28,783 - Model - INFO - Epoch 59 (59/100):
+2023-05-02 12:30:28,783 - Model - INFO - Learning rate:0.000250
+2023-05-02 12:42:18,560 - Model - INFO - Train accuracy is: 0.93968
+2023-05-02 12:42:18,561 - Model - INFO - Epoch 60 (60/100):
+2023-05-02 12:42:18,561 - Model - INFO - Learning rate:0.000250
+2023-05-02 12:54:04,094 - Model - INFO - Train accuracy is: 0.93924
+2023-05-02 12:54:04,094 - Model - INFO - Epoch 61 (61/100):
+2023-05-02 12:54:04,094 - Model - INFO - Learning rate:0.000125
+2023-05-02 13:05:46,676 - Model - INFO - Train accuracy is: 0.94196
+2023-05-02 13:05:46,676 - Model - INFO - Save model...
+2023-05-02 13:05:46,676 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 13:05:46,720 - Model - INFO - Saving model....
+2023-05-02 13:05:46,720 - Model - INFO - Epoch 62 (62/100):
+2023-05-02 13:05:46,720 - Model - INFO - Learning rate:0.000125
+2023-05-02 13:17:31,530 - Model - INFO - Train accuracy is: 0.94278
+2023-05-02 13:17:31,530 - Model - INFO - Epoch 63 (63/100):
+2023-05-02 13:17:31,531 - Model - INFO - Learning rate:0.000125
+2023-05-02 13:29:18,101 - Model - INFO - Train accuracy is: 0.94309
+2023-05-02 13:29:18,101 - Model - INFO - Epoch 64 (64/100):
+2023-05-02 13:29:18,101 - Model - INFO - Learning rate:0.000125
+2023-05-02 13:41:05,941 - Model - INFO - Train accuracy is: 0.94329
+2023-05-02 13:41:05,941 - Model - INFO - Epoch 65 (65/100):
+2023-05-02 13:41:05,941 - Model - INFO - Learning rate:0.000125
+2023-05-02 13:52:58,062 - Model - INFO - Train accuracy is: 0.94371
+2023-05-02 13:52:58,062 - Model - INFO - Epoch 66 (66/100):
+2023-05-02 13:52:58,062 - Model - INFO - Learning rate:0.000125
+2023-05-02 14:04:43,916 - Model - INFO - Train accuracy is: 0.94384
+2023-05-02 14:04:43,916 - Model - INFO - Save model...
+2023-05-02 14:04:43,916 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 14:04:43,971 - Model - INFO - Saving model....
+2023-05-02 14:04:43,971 - Model - INFO - Epoch 67 (67/100):
+2023-05-02 14:04:43,971 - Model - INFO - Learning rate:0.000125
+2023-05-02 14:16:32,173 - Model - INFO - Train accuracy is: 0.94393
+2023-05-02 14:16:32,174 - Model - INFO - Epoch 68 (68/100):
+2023-05-02 14:16:32,174 - Model - INFO - Learning rate:0.000125
+2023-05-02 14:28:23,354 - Model - INFO - Train accuracy is: 0.94329
+2023-05-02 14:28:23,355 - Model - INFO - Epoch 69 (69/100):
+2023-05-02 14:28:23,355 - Model - INFO - Learning rate:0.000125
+2023-05-02 14:40:17,502 - Model - INFO - Train accuracy is: 0.94415
+2023-05-02 14:40:17,502 - Model - INFO - Epoch 70 (70/100):
+2023-05-02 14:40:17,502 - Model - INFO - Learning rate:0.000125
+2023-05-02 14:52:03,416 - Model - INFO - Train accuracy is: 0.94425
+2023-05-02 14:52:03,416 - Model - INFO - Epoch 71 (71/100):
+2023-05-02 14:52:03,417 - Model - INFO - Learning rate:0.000125
+2023-05-02 15:03:56,351 - Model - INFO - Train accuracy is: 0.94406
+2023-05-02 15:03:56,351 - Model - INFO - Save model...
+2023-05-02 15:03:56,351 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 15:03:56,397 - Model - INFO - Saving model....
+2023-05-02 15:03:56,397 - Model - INFO - Epoch 72 (72/100):
+2023-05-02 15:03:56,397 - Model - INFO - Learning rate:0.000125
+2023-05-02 15:15:40,528 - Model - INFO - Train accuracy is: 0.94440
+2023-05-02 15:15:40,528 - Model - INFO - Epoch 73 (73/100):
+2023-05-02 15:15:40,528 - Model - INFO - Learning rate:0.000125
+2023-05-02 15:27:42,357 - Model - INFO - Train accuracy is: 0.94470
+2023-05-02 15:27:42,357 - Model - INFO - Epoch 74 (74/100):
+2023-05-02 15:27:42,357 - Model - INFO - Learning rate:0.000125
+2023-05-02 15:39:47,969 - Model - INFO - Train accuracy is: 0.94426
+2023-05-02 15:39:47,969 - Model - INFO - Epoch 75 (75/100):
+2023-05-02 15:39:47,969 - Model - INFO - Learning rate:0.000125
+2023-05-02 15:51:48,642 - Model - INFO - Train accuracy is: 0.94463
+2023-05-02 15:51:48,642 - Model - INFO - Epoch 76 (76/100):
+2023-05-02 15:51:48,643 - Model - INFO - Learning rate:0.000125
+2023-05-02 16:04:03,672 - Model - INFO - Train accuracy is: 0.94467
+2023-05-02 16:04:03,672 - Model - INFO - Save model...
+2023-05-02 16:04:03,672 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 16:04:03,715 - Model - INFO - Saving model....
+2023-05-02 16:04:03,715 - Model - INFO - Epoch 77 (77/100):
+2023-05-02 16:04:03,715 - Model - INFO - Learning rate:0.000125
+2023-05-02 16:16:07,396 - Model - INFO - Train accuracy is: 0.94417
+2023-05-02 16:16:07,396 - Model - INFO - Epoch 78 (78/100):
+2023-05-02 16:16:07,396 - Model - INFO - Learning rate:0.000125
+2023-05-02 16:28:13,311 - Model - INFO - Train accuracy is: 0.94463
+2023-05-02 16:28:13,311 - Model - INFO - Epoch 79 (79/100):
+2023-05-02 16:28:13,311 - Model - INFO - Learning rate:0.000125
+2023-05-02 16:40:28,284 - Model - INFO - Train accuracy is: 0.94517
+2023-05-02 16:40:28,285 - Model - INFO - Epoch 80 (80/100):
+2023-05-02 16:40:28,285 - Model - INFO - Learning rate:0.000125
+2023-05-02 16:52:50,601 - Model - INFO - Train accuracy is: 0.94486
+2023-05-02 16:52:50,601 - Model - INFO - Epoch 81 (81/100):
+2023-05-02 16:52:50,601 - Model - INFO - Learning rate:0.000063
+2023-05-02 17:05:07,662 - Model - INFO - Train accuracy is: 0.94649
+2023-05-02 17:05:07,662 - Model - INFO - Save model...
+2023-05-02 17:05:07,662 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 17:05:07,719 - Model - INFO - Saving model....
+2023-05-02 17:05:07,720 - Model - INFO - Epoch 82 (82/100):
+2023-05-02 17:05:07,720 - Model - INFO - Learning rate:0.000063
+2023-05-02 17:17:19,747 - Model - INFO - Train accuracy is: 0.94691
+2023-05-02 17:17:19,747 - Model - INFO - Epoch 83 (83/100):
+2023-05-02 17:17:19,747 - Model - INFO - Learning rate:0.000063
+2023-05-02 17:39:34,959 - Model - INFO - Train accuracy is: 0.94683
+2023-05-02 17:39:34,960 - Model - INFO - Epoch 84 (84/100):
+2023-05-02 17:39:34,960 - Model - INFO - Learning rate:0.000063
+2023-05-02 17:51:45,704 - Model - INFO - Train accuracy is: 0.94727
+2023-05-02 17:51:45,704 - Model - INFO - Epoch 85 (85/100):
+2023-05-02 17:51:45,704 - Model - INFO - Learning rate:0.000063
+2023-05-02 18:03:53,049 - Model - INFO - Train accuracy is: 0.94761
+2023-05-02 18:03:53,050 - Model - INFO - Epoch 86 (86/100):
+2023-05-02 18:03:53,050 - Model - INFO - Learning rate:0.000063
+2023-05-02 18:15:51,725 - Model - INFO - Train accuracy is: 0.94704
+2023-05-02 18:15:51,725 - Model - INFO - Save model...
+2023-05-02 18:15:51,725 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 18:15:51,781 - Model - INFO - Saving model....
+2023-05-02 18:15:51,781 - Model - INFO - Epoch 87 (87/100):
+2023-05-02 18:15:51,781 - Model - INFO - Learning rate:0.000063
+2023-05-02 18:27:47,451 - Model - INFO - Train accuracy is: 0.94711
+2023-05-02 18:27:47,451 - Model - INFO - Epoch 88 (88/100):
+2023-05-02 18:27:47,451 - Model - INFO - Learning rate:0.000063
+2023-05-02 18:39:50,654 - Model - INFO - Train accuracy is: 0.94758
+2023-05-02 18:39:50,654 - Model - INFO - Epoch 89 (89/100):
+2023-05-02 18:39:50,654 - Model - INFO - Learning rate:0.000063
+2023-05-02 18:51:48,896 - Model - INFO - Train accuracy is: 0.94784
+2023-05-02 18:51:48,896 - Model - INFO - Epoch 90 (90/100):
+2023-05-02 18:51:48,896 - Model - INFO - Learning rate:0.000063
+2023-05-02 19:03:42,737 - Model - INFO - Train accuracy is: 0.94812
+2023-05-02 19:03:42,737 - Model - INFO - Epoch 91 (91/100):
+2023-05-02 19:03:42,737 - Model - INFO - Learning rate:0.000063
+2023-05-02 19:15:42,031 - Model - INFO - Train accuracy is: 0.94797
+2023-05-02 19:15:42,031 - Model - INFO - Save model...
+2023-05-02 19:15:42,031 - Model - INFO - Saving at log/part_seg/PonderNethidden_part_seg_ssg_only_train_iterations_num_itr5/checkpoints/model.pth
+2023-05-02 19:15:42,101 - Model - INFO - Saving model....
+2023-05-02 19:15:42,101 - Model - INFO - Epoch 92 (92/100):
+2023-05-02 19:15:42,101 - Model - INFO - Learning rate:0.000063

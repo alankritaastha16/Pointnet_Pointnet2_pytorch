@@ -19,3 +19,24 @@ class bookcase       weight: 0.003, IoU: 0.409
 class board          weight: 0.108, IoU: 0.407 
 class clutter        weight: 0.011, IoU: 0.330 
 
+2023-05-02 17:29:42,351 - Model - INFO - PARAMETER ...
+2023-05-02 17:29:42,351 - Model - INFO - Namespace(batch_size=32, num_point=4096, num_itr=3, log_dir='PonderNet_sem_seg_only_train_iterations_numitr3', test_area=5)
+2023-05-02 17:29:49,214 - Model - INFO - The number of test data is: 19191
+2023-05-02 17:39:45,809 - Model - INFO - eval point avg class IoU: 0.332298
+2023-05-02 17:39:45,809 - Model - INFO - eval point accuracy: 0.742373
+2023-05-02 17:39:45,809 - Model - INFO - eval point avg class acc: 0.393757
+2023-05-02 17:39:45,809 - Model - INFO - ------- IoU --------
+class ceiling        weight: 0.092, IoU: 0.903 
+class floor          weight: 0.201, IoU: 0.934 
+class wall           weight: 0.167, IoU: 0.604 
+class beam           weight: 0.281, IoU: 0.000 
+class column         weight: 0.000, IoU: 0.038 
+class window         weight: 0.017, IoU: 0.049 
+class door           weight: 0.033, IoU: 0.003 
+class table          weight: 0.030, IoU: 0.175 
+class chair          weight: 0.039, IoU: 0.370 
+class sofa           weight: 0.019, IoU: 0.000 
+class bookcase       weight: 0.003, IoU: 0.403 
+class board          weight: 0.108, IoU: 0.497 
+class clutter        weight: 0.011, IoU: 0.344 
+

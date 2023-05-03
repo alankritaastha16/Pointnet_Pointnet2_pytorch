@@ -196,3 +196,19 @@
 2023-05-02 15:19:15,463 - Model - INFO - Saving model....
 2023-05-02 15:19:15,463 - Model - INFO - **** Epoch 7 (37/52) ****
 2023-05-02 15:19:15,464 - Model - INFO - Learning rate:0.000343
+2023-05-02 22:36:07,899 - Model - INFO - Training mean loss: 0.171065
+2023-05-02 22:36:07,900 - Model - INFO - Training accuracy: 0.943976
+2023-05-02 22:36:07,901 - Model - INFO - **** Epoch 8 (38/52) ****
+2023-05-02 22:36:07,901 - Model - INFO - Learning rate:0.000343
+2023-05-03 04:31:54,129 - Model - INFO - Training mean loss: 0.173042
+2023-05-03 04:31:54,130 - Model - INFO - Training accuracy: 0.943777
+2023-05-03 04:31:54,131 - Model - INFO - **** Epoch 9 (39/52) ****
+2023-05-03 04:31:54,131 - Model - INFO - Learning rate:0.000343
+2023-05-03 11:40:59,820 - Model - INFO - Training mean loss: 0.167713
+2023-05-03 11:40:59,821 - Model - INFO - Training accuracy: 0.945450
+2023-05-03 11:40:59,822 - Model - INFO - **** Epoch 10 (40/52) ****
+2023-05-03 11:40:59,822 - Model - INFO - Learning rate:0.000343
+2023-05-03 18:56:54,607 - Model - INFO - Training mean loss: 0.170440
+2023-05-03 18:56:54,608 - Model - INFO - Training accuracy: 0.944489
+2023-05-03 18:56:54,608 - Model - INFO - **** Epoch 11 (41/52) ****
+2023-05-03 18:56:54,608 - Model - INFO - Learning rate:0.000240

@@ -1,0 +1,187 @@
+2023-05-03 16:22:21,036 - Model - INFO - PARAMETER ...
+2023-05-03 16:22:21,036 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=10)
+2023-05-03 16:22:21,066 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Airplane       0.620066
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Bag            0.584207
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Cap            0.726954
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Car            0.434048
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Chair          0.718749
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Earphone       0.623476
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Guitar         0.679486
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Knife          0.767638
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Lamp           0.544952
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Laptop         0.897166
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Motorbike      0.208595
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Mug            0.868761
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Pistol         0.593000
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Rocket         0.410612
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Skateboard     0.602745
+2023-05-03 16:25:08,369 - Model - INFO - eval mIoU of Table          0.751552
+2023-05-03 16:25:08,369 - Model - INFO - Accuracy is: 0.82673
+2023-05-03 16:25:08,369 - Model - INFO - Class avg accuracy is: 0.65696
+2023-05-03 16:25:08,369 - Model - INFO - Class avg mIOU is: 0.62700
+2023-05-03 16:25:08,369 - Model - INFO - Inctance avg mIOU is: 0.67549
+2023-05-03 16:26:21,773 - Model - INFO - PARAMETER ...
+2023-05-03 16:26:21,773 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=15)
+2023-05-03 16:26:21,806 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Airplane       0.555748
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Bag            0.566538
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Cap            0.735083
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Car            0.414176
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Chair          0.712362
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Earphone       0.623239
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Guitar         0.685771
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Knife          0.767467
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Lamp           0.551885
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Laptop         0.906608
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Motorbike      0.209532
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Mug            0.869270
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Pistol         0.589857
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Rocket         0.406433
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Skateboard     0.610045
+2023-05-03 16:30:33,175 - Model - INFO - eval mIoU of Table          0.755359
+2023-05-03 16:30:33,175 - Model - INFO - Accuracy is: 0.81587
+2023-05-03 16:30:33,175 - Model - INFO - Class avg accuracy is: 0.65489
+2023-05-03 16:30:33,175 - Model - INFO - Class avg mIOU is: 0.62246
+2023-05-03 16:30:33,175 - Model - INFO - Inctance avg mIOU is: 0.66761
+2023-05-03 16:31:52,918 - Model - INFO - PARAMETER ...
+2023-05-03 16:31:52,918 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=20)
+2023-05-03 16:31:52,947 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:37:30,575 - Model - INFO - eval mIoU of Airplane       0.506225
+2023-05-03 16:37:30,575 - Model - INFO - eval mIoU of Bag            0.574427
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Cap            0.736139
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Car            0.398243
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Chair          0.709126
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Earphone       0.626774
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Guitar         0.689015
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Knife          0.768431
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Lamp           0.552255
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Laptop         0.904314
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Motorbike      0.209375
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Mug            0.887657
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Pistol         0.592782
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Rocket         0.411435
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Skateboard     0.617334
+2023-05-03 16:37:30,576 - Model - INFO - eval mIoU of Table          0.755271
+2023-05-03 16:37:30,576 - Model - INFO - Accuracy is: 0.80852
+2023-05-03 16:37:30,576 - Model - INFO - Class avg accuracy is: 0.65147
+2023-05-03 16:37:30,576 - Model - INFO - Class avg mIOU is: 0.62118
+2023-05-03 16:37:30,576 - Model - INFO - Inctance avg mIOU is: 0.66066
+2023-05-03 16:38:24,221 - Model - INFO - PARAMETER ...
+2023-05-03 16:38:24,221 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=5)
+2023-05-03 16:38:24,255 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:39:50,751 - Model - INFO - eval mIoU of Airplane       0.594486
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Bag            0.612080
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Cap            0.696713
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Car            0.475145
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Chair          0.783645
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Earphone       0.623078
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Guitar         0.681402
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Knife          0.767078
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Lamp           0.524321
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Laptop         0.892922
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Motorbike      0.213412
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Mug            0.836989
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Pistol         0.566280
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Rocket         0.422814
+2023-05-03 16:39:50,752 - Model - INFO - eval mIoU of Skateboard     0.528748
+2023-05-03 16:39:50,753 - Model - INFO - eval mIoU of Table          0.721715
+2023-05-03 16:39:50,753 - Model - INFO - Accuracy is: 0.83590
+2023-05-03 16:39:50,753 - Model - INFO - Class avg accuracy is: 0.63957
+2023-05-03 16:39:50,753 - Model - INFO - Class avg mIOU is: 0.62130
+2023-05-03 16:39:50,753 - Model - INFO - Inctance avg mIOU is: 0.67825
+2023-05-03 16:40:24,690 - Model - INFO - PARAMETER ...
+2023-05-03 16:40:24,690 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=2)
+2023-05-03 16:40:24,719 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Airplane       0.269332
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Bag            0.625523
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Cap            0.703134
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Car            0.240295
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Chair          0.752022
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Earphone       0.617193
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Guitar         0.477738
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Knife          0.763404
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Lamp           0.529536
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Laptop         0.897722
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Motorbike      0.190523
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Mug            0.486367
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Pistol         0.539876
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Rocket         0.231593
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Skateboard     0.459700
+2023-05-03 16:41:01,576 - Model - INFO - eval mIoU of Table          0.673771
+2023-05-03 16:41:01,576 - Model - INFO - Accuracy is: 0.77827
+2023-05-03 16:41:01,576 - Model - INFO - Class avg accuracy is: 0.49197
+2023-05-03 16:41:01,577 - Model - INFO - Class avg mIOU is: 0.52861
+2023-05-03 16:41:01,577 - Model - INFO - Inctance avg mIOU is: 0.58723
+2023-05-03 16:41:24,810 - Model - INFO - PARAMETER ...
+2023-05-03 16:41:24,811 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=1)
+2023-05-03 16:41:24,836 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:41:44,815 - Model - INFO - eval mIoU of Airplane       0.286340
+2023-05-03 16:41:44,815 - Model - INFO - eval mIoU of Bag            0.660360
+2023-05-03 16:41:44,815 - Model - INFO - eval mIoU of Cap            0.688457
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Car            0.244794
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Chair          0.648070
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Earphone       0.611915
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Guitar         0.467669
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Knife          0.757516
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Lamp           0.530035
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Laptop         0.761438
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Motorbike      0.224793
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Mug            0.508282
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Pistol         0.503110
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Rocket         0.226590
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Skateboard     0.470096
+2023-05-03 16:41:44,816 - Model - INFO - eval mIoU of Table          0.663106
+2023-05-03 16:41:44,816 - Model - INFO - Accuracy is: 0.75283
+2023-05-03 16:41:44,816 - Model - INFO - Class avg accuracy is: 0.48284
+2023-05-03 16:41:44,816 - Model - INFO - Class avg mIOU is: 0.51579
+2023-05-03 16:41:44,816 - Model - INFO - Inctance avg mIOU is: 0.55679
+2023-05-03 16:41:54,902 - Model - INFO - PARAMETER ...
+2023-05-03 16:41:54,902 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=4)
+2023-05-03 16:41:54,929 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:43:05,061 - Model - INFO - eval mIoU of Airplane       0.578696
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Bag            0.622243
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Cap            0.696522
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Car            0.481550
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Chair          0.780528
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Earphone       0.618584
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Guitar         0.742425
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Knife          0.769034
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Lamp           0.517813
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Laptop         0.889840
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Motorbike      0.224613
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Mug            0.799737
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Pistol         0.552762
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Rocket         0.425089
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Skateboard     0.509012
+2023-05-03 16:43:05,062 - Model - INFO - eval mIoU of Table          0.712066
+2023-05-03 16:43:05,062 - Model - INFO - Accuracy is: 0.83422
+2023-05-03 16:43:05,062 - Model - INFO - Class avg accuracy is: 0.62686
+2023-05-03 16:43:05,062 - Model - INFO - Class avg mIOU is: 0.62003
+2023-05-03 16:43:05,063 - Model - INFO - Inctance avg mIOU is: 0.67514
+2023-05-03 16:43:25,242 - Model - INFO - PARAMETER ...
+2023-05-03 16:43:25,243 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=6)
+2023-05-03 16:43:25,274 - Model - INFO - The number of test data is: 2874
+2023-05-03 16:45:27,578 - Model - INFO - eval mIoU of Airplane       0.605997
+2023-05-03 16:45:27,578 - Model - INFO - eval mIoU of Bag            0.596597
+2023-05-03 16:45:27,578 - Model - INFO - eval mIoU of Cap            0.693299
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Car            0.460820
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Chair          0.775950
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Earphone       0.621071
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Guitar         0.664652
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Knife          0.767769
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Lamp           0.527552
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Laptop         0.888001
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Motorbike      0.205581
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Mug            0.859436
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Pistol         0.580926
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Rocket         0.413153
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Skateboard     0.552346
+2023-05-03 16:45:27,579 - Model - INFO - eval mIoU of Table          0.732871
+2023-05-03 16:45:27,579 - Model - INFO - Accuracy is: 0.83569
+2023-05-03 16:45:27,579 - Model - INFO - Class avg accuracy is: 0.64524
+2023-05-03 16:45:27,579 - Model - INFO - Class avg mIOU is: 0.62163
+2023-05-03 16:45:27,579 - Model - INFO - Inctance avg mIOU is: 0.68001
+2023-05-03 16:45:55,700 - Model - INFO - PARAMETER ...
+2023-05-03 16:45:55,700 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr10', normal=False, num_itr=7)
+2023-05-03 16:45:55,732 - Model - INFO - The number of test data is: 2874

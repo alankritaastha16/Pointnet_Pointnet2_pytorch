@@ -1,0 +1,26 @@
+2023-04-19 19:55:37,546 - Model - INFO - PARAMETER ...
+2023-04-19 19:55:37,546 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNet_part_seg_ssg', normal=False, num_itr=5)
+2023-04-19 19:55:37,574 - Model - INFO - The number of test data is: 2874
+2023-04-19 19:56:33,972 - Model - INFO - PARAMETER ...
+2023-04-19 19:56:33,972 - Model - INFO - Namespace(batch_size=24, num_point=2048, log_dir='PonderNet_part_seg_ssg', normal=False, num_itr=5)
+2023-04-19 19:56:34,004 - Model - INFO - The number of test data is: 2874
+2023-04-19 19:58:01,140 - Model - INFO - eval mIoU of Airplane       0.304088
+2023-04-19 19:58:01,141 - Model - INFO - eval mIoU of Bag            0.674557
+2023-04-19 19:58:01,141 - Model - INFO - eval mIoU of Cap            0.467937
+2023-04-19 19:58:01,141 - Model - INFO - eval mIoU of Car            0.244721
+2023-04-19 19:58:01,141 - Model - INFO - eval mIoU of Chair          0.721765
+2023-04-19 19:58:01,141 - Model - INFO - eval mIoU of Earphone       0.616749
+2023-04-19 19:58:01,141 - Model - INFO - eval mIoU of Guitar         0.631263
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Knife          0.774316
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Lamp           0.608716
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Laptop         0.894297
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Motorbike      0.182737
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Mug            0.485859
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Pistol         0.542306
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Rocket         0.228082
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Skateboard     0.436959
+2023-04-19 19:58:01,142 - Model - INFO - eval mIoU of Table          0.693421
+2023-04-19 19:58:01,142 - Model - INFO - Accuracy is: 0.76514
+2023-04-19 19:58:01,142 - Model - INFO - Class avg accuracy is: 0.51680
+2023-04-19 19:58:01,142 - Model - INFO - Class avg mIOU is: 0.53174
+2023-04-19 19:58:01,142 - Model - INFO - Inctance avg mIOU is: 0.60553

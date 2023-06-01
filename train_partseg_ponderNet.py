@@ -139,7 +139,7 @@ def main(args):
 
     try:
         checkpoint = torch.load(str(exp_dir) + '/checkpoints/best_model.pth')
-        start_epoch = checkpoint['epoch']
+        start_epoch = checkpoint['epoch']+1
         classifier.load_state_dict(checkpoint['model_state_dict'])
         log_string('Use pretrain model')
     except:

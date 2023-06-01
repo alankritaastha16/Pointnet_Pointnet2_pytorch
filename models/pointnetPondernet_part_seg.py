@@ -38,7 +38,7 @@ class get_model(nn.Module):
         B, D, N = point_cloud.size()
         trans = self.stn(point_cloud)
         point_cloud = point_cloud.transpose(2, 1)
-        print(point_cloud.shape)
+        #print(point_cloud.shape)
         if D > 3:
             point_cloud, feature = torch.split(point_cloud, [3, point_cloud.shape[2]-3], dim=2)
         point_cloud = torch.bmm(point_cloud, trans)

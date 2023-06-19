@@ -215,7 +215,7 @@ def main(args):
                 optimizers[j].step()
         for i in range(num_itr):
             train_instance_acc = np.mean(mean_correct[j])
-            log_string('Train accuracy model-{j} is: %.5f' % train_instance_acc)
+            log_string('Train accuracy model-{%d} is: %.5f' %i % train_instance_acc)
         if epoch % 1 == 0:
             logger.info('Save model...')
             for i in range(num_itr):

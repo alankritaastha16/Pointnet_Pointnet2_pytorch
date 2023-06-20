@@ -106,6 +106,7 @@ def main(args):
     #TEST_DATASET = data.ICCV17ShapeNet(args.datadir, 'test', None, 'part')
     TRAIN_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='trainval', normal_channel=args.normal)
     TEST_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='test', normal_channel=args.normal)
+   # TRAIN_DATASET = torch.utils.data.Subset(TRAIN_DATASET, range(0, 100))
     trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=args.batch_size, shuffle=True, num_workers=10, drop_last=True)
     testDataLoader = torch.utils.data.DataLoader(TEST_DATASET, batch_size=args.batch_size, shuffle=False, num_workers=10)
     log_string("The number of training data is: %d" % len(TRAIN_DATASET))
@@ -205,7 +206,7 @@ def main(args):
                 prev_output = seg_pred.transpose(2, 1).detach()  # detach() so that prev_output is now a constant
                 #print('prev_output:',prev_output.shape)
                 seg_pred = seg_pred.contiguous().view(-1, num_part)
-            # print('seg_pred:', seg_pred.shape)
+                # print('seg_pred:', seg_pred.shape)
                 target = target.view(-1, 1)[:, 0]
                 pred_choice = seg_pred.data.max(1)[1]
                 correct = pred_choice.eq(target.data).cpu().sum()
@@ -213,9 +214,10 @@ def main(args):
                 loss = criterions[j](seg_pred, target, trans_feat)
                 loss.backward()  # retain_graph=True
                 optimizers[j].step()
+        #print('mean_correct:',mean_correct)
         for i in range(num_itr):
-            train_instance_acc = np.mean(mean_correct[j])
-            log_string('Train accuracy model-{%d} is: %.5f' %i % train_instance_acc)
+            train_instance_acc = np.mean(mean_correct[i])
+            log_string('Train accuracy model-%d is: %.5f' % (i , train_instance_acc))
         if epoch % 1 == 0:
             logger.info('Save model...')
             for i in range(num_itr):

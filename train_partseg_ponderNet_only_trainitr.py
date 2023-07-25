@@ -101,7 +101,7 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
 
-    root = '/data/pointclouds/ShapeNet/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+    root = args.datadir + '/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
     #TRAIN_DATASET = data.ICCV17ShapeNet(args.datadir, 'train', None, 'part')
     #TEST_DATASET = data.ICCV17ShapeNet(args.datadir, 'test', None, 'part')
     TRAIN_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='trainval', normal_channel=args.normal)

@@ -191,7 +191,6 @@ def main(args):
         '''learning one epoch'''
         for i, (points, label, target) in tqdm(enumerate(trainDataLoader), total = len(trainDataLoader), smoothing=0.9):
             optimizer.zero_grad()
-
             points = points.data.numpy()
             points[:, :, 0:3] = provider.random_scale_point_cloud(points[:, :, 0:3])
             points[:, :, 0:3] = provider.shift_point_cloud(points[:, :, 0:3])

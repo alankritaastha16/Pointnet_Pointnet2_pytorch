@@ -72,6 +72,7 @@ def main(args):
 
     '''HYPER PARAMETER'''
     #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     '''CREATE DIR'''
     timestr = str(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M'))
@@ -101,7 +102,7 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
 
-    root = '/data/pointclouds/ShapeNet/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+    root = args.datadir+ '/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
     #TRAIN_DATASET = data.ICCV17ShapeNet(args.datadir, 'train', None, 'part')
     #TEST_DATASET = data.ICCV17ShapeNet(args.datadir, 'test', None, 'part')
     TRAIN_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='trainval', normal_channel=args.normal)
@@ -124,8 +125,8 @@ def main(args):
     shutil.copy('models/%s.py' % args.model, str(exp_dir))
     shutil.copy('models/pointnet2_utils.py', str(exp_dir))
 
-    classifier = MODEL.get_model(num_part, input_size,  normal_channel=args.normal).cuda()
-    criterion = MODEL.get_loss().cuda()
+    classifier = MODEL.get_model(num_part, input_size,  normal_channel=args.normal).to(device)
+    criterion = MODEL.get_loss().to(device)
     classifier.apply(inplace_relu)
 
     def weights_init(m):
@@ -196,9 +197,9 @@ def main(args):
             points[:, :, 0:3] = provider.random_scale_point_cloud(points[:, :, 0:3])
             points[:, :, 0:3] = provider.shift_point_cloud(points[:, :, 0:3])
             points = torch.Tensor(points)
-            points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
+            points, label, target = points.float().to(device), label.long().to(device), target.long().to(device)
             points = points.transpose(2, 1)
-            prev_output = torch.zeros((points.shape[0], 128, points.shape[2]), device='cuda')
+            prev_output = torch.zeros((points.shape[0], 128, points.shape[2]), device=device)
             for j in range(num_itr):
                 _points = torch.cat((points, prev_output), 1)
                 #print('points:', _points.shape)
@@ -250,7 +251,7 @@ def main(args):
         #         cur_batch_size, NUM_POINT, _ = points.size()
         #         points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
         #         points = points.transpose(2, 1)
-        #         # prev_output = torch.zeros((points.shape[0], num_part, points.shape[2]), device='cuda')
+        #         # prev_output = torch.zeros((points.shape[0], num_part, points.shape[2]), device=device)
         #         # for j in range(num_itr):
         #         #     _points = torch.cat((points, prev_output), 1)
         #         #     #print('points:', _points.shape)

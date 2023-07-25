@@ -217,18 +217,18 @@ def main(args):
         for i in range(num_itr):
             train_instance_acc = np.mean(mean_correct[i])
             log_string('Train accuracy model-%d is: %.5f' % (i , train_instance_acc))
-        log_string('Train accuracy is: %.5f' % train_instance_acc)
         if epoch % 1 == 0:
             logger.info('Save model...')
-            savepath = str(checkpoints_dir) + f'/model-{i}.pth'
-            log_string('Saving at %s' % savepath)
-            state = {
-                'epoch': epoch,
-                'model_state_dict': classifiers[i].state_dict(),
-                'optimizer_state_dict': optimizers[i].state_dict(),
-            }
-            torch.save(state, savepath)
-            log_string('Saving model....')
+            for i in range(num_itr):
+                savepath = str(checkpoints_dir) + f'/model-{i}.pth'
+                log_string('Saving at %s' % savepath)
+                state = {
+                    'epoch': epoch,
+                    'model_state_dict': classifiers[i].state_dict(),
+                    'optimizer_state_dict': optimizers[i].state_dict(),
+                }
+                torch.save(state, savepath)
+                log_string('Saving model....')
 
         # with torch.no_grad():
         #     test_metrics = {}

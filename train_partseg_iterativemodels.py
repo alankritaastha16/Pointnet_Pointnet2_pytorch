@@ -106,7 +106,7 @@ def main(args):
     #TEST_DATASET = data.ICCV17ShapeNet(args.datadir, 'test', None, 'part')
     TRAIN_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='trainval', normal_channel=args.normal)
     TEST_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='test', normal_channel=args.normal)
-   # TRAIN_DATASET = torch.utils.data.Subset(TRAIN_DATASET, range(0, 100))
+   # TRAIN_DATASET = torch.utils.data.Subset(TRAIN_DATASET, range(0, 500))
     trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=args.batch_size, shuffle=True, num_workers=10, drop_last=True)
     testDataLoader = torch.utils.data.DataLoader(TEST_DATASET, batch_size=args.batch_size, shuffle=False, num_workers=10)
     log_string("The number of training data is: %d" % len(TRAIN_DATASET))
@@ -136,8 +136,8 @@ def main(args):
             torch.nn.init.constant_(m.bias.data, 0.0)
 
     try:
-        checkpoint = torch.load(str(exp_dir) + '/checkpoints/best_model.pth')
-        start_epoch = checkpoint['epoch']+1
+        checkpoint = [torch.load(str(exp_dir) + '/checkpoints/model-{i}.pth') for i in range(num_itr)]
+        start_epoch = checkpoint[num_itr-1]['epoch']+1
         [classifiers[i].load_state_dict(checkpoint['model_state_dict'] for i in range(num_itr))]
         log_string('Use pretrain model')
     except:
@@ -172,7 +172,6 @@ def main(args):
 
     for epoch in range(start_epoch, args.epoch):
         mean_correct = []
-
         log_string('Epoch %d (%d/%s):' % (global_epoch + 1, epoch + 1, args.epoch))
         '''Adjust learning rate and BN momentum'''
         lr = max(args.learning_rate * (args.lr_decay ** (epoch // args.step_size)), LEARNING_RATE_CLIP)

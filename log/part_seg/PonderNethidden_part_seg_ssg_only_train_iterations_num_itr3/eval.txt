@@ -1,0 +1,32 @@
+2023-08-09 23:47:07,134 - Model - INFO - PARAMETER ...
+2023-08-09 23:47:07,135 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr3', normal=False, num_itr=3, num_point=2048)
+2023-08-09 23:47:07,612 - Model - INFO - The number of test data is: 2874
+2023-08-09 23:50:09,797 - Model - INFO - PARAMETER ...
+2023-08-09 23:50:09,797 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr3', normal=False, num_itr=3, num_point=2048)
+2023-08-09 23:50:09,879 - Model - INFO - The number of test data is: 2874
+2023-08-09 23:52:34,260 - Model - INFO - PARAMETER ...
+2023-08-09 23:52:34,261 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr3', normal=False, num_itr=3, num_point=2048)
+2023-08-09 23:52:34,347 - Model - INFO - The number of test data is: 2874
+2023-08-09 23:53:09,120 - Model - INFO - PARAMETER ...
+2023-08-09 23:53:09,121 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='PonderNethidden_part_seg_ssg_only_train_iterations_num_itr3', normal=False, num_itr=3, num_point=2048)
+2023-08-09 23:53:09,202 - Model - INFO - The number of test data is: 2874
+2023-08-10 00:15:40,389 - Model - INFO - eval mIoU of Airplane       0.142826
+2023-08-10 00:15:40,391 - Model - INFO - eval mIoU of Bag            0.353729
+2023-08-10 00:15:40,392 - Model - INFO - eval mIoU of Cap            0.330668
+2023-08-10 00:15:40,392 - Model - INFO - eval mIoU of Car            0.231982
+2023-08-10 00:15:40,393 - Model - INFO - eval mIoU of Chair          0.168743
+2023-08-10 00:15:40,393 - Model - INFO - eval mIoU of Earphone       0.243159
+2023-08-10 00:15:40,394 - Model - INFO - eval mIoU of Guitar         0.628575
+2023-08-10 00:15:40,394 - Model - INFO - eval mIoU of Knife          0.634225
+2023-08-10 00:15:40,394 - Model - INFO - eval mIoU of Lamp           0.380236
+2023-08-10 00:15:40,394 - Model - INFO - eval mIoU of Laptop         0.731944
+2023-08-10 00:15:40,395 - Model - INFO - eval mIoU of Motorbike      0.119780
+2023-08-10 00:15:40,395 - Model - INFO - eval mIoU of Mug            0.486135
+2023-08-10 00:15:40,396 - Model - INFO - eval mIoU of Pistol         0.476778
+2023-08-10 00:15:40,396 - Model - INFO - eval mIoU of Rocket         0.227159
+2023-08-10 00:15:40,397 - Model - INFO - eval mIoU of Skateboard     0.436140
+2023-08-10 00:15:40,397 - Model - INFO - eval mIoU of Table          0.285493
+2023-08-10 00:15:40,399 - Model - INFO - Accuracy is: 0.35352
+2023-08-10 00:15:40,399 - Model - INFO - Class avg accuracy is: 0.43560
+2023-08-10 00:15:40,399 - Model - INFO - Class avg mIOU is: 0.36735
+2023-08-10 00:15:40,401 - Model - INFO - Inctance avg mIOU is: 0.29236

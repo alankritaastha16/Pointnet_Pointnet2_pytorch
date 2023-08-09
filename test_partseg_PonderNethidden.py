@@ -40,6 +40,7 @@ def parse_args():
     parser = argparse.ArgumentParser('PointNet')
     parser.add_argument('--batch_size', type=int, default=24, help='batch size in testing')
     #parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
+    parser.add_argument('--datadir', type=str, default='/data/pointclouds/ShapeNet', help='path to data directory')
     parser.add_argument('--num_point', type=int, default=2048, help='point Number')
     parser.add_argument('--log_dir', type=str, required=True, help='experiment root')
     parser.add_argument('--normal', action='store_true', default=False, help='use normals')
@@ -55,6 +56,8 @@ def main(args):
 
     '''HYPER PARAMETER'''
     #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
     experiment_dir = 'log/part_seg/' + args.log_dir
 
     '''LOG'''
@@ -69,7 +72,8 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
 
-    root = '/data/pointclouds/ShapeNet/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+    root = args.datadir + '/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+
 
     TEST_DATASET = PartNormalDataset(root=root, npoints=args.num_point, split='test', normal_channel=args.normal)
     testDataLoader = torch.utils.data.DataLoader(TEST_DATASET, batch_size=args.batch_size, shuffle=False, num_workers=4)
@@ -82,9 +86,9 @@ def main(args):
     '''MODEL LOADING'''
     model_name = os.listdir(experiment_dir + '/logs')[0].split('.')[0]
     MODEL = importlib.import_module(model_name)
-    classifier = MODEL.get_model(num_part, input_size, normal_channel=args.normal).cuda()
-    #classifier = MODEL.get_model(num_part, input_size,  normal_channel=args.normal).cuda()
-    checkpoint = torch.load(str(experiment_dir) + '/checkpoints/model.pth')
+    classifier = MODEL.get_model(num_part, input_size, normal_channel=args.normal).to(device)
+    #classifier = MODEL.get_model(num_part, input_size,  normal_channel=args.normal).to(device)
+    checkpoint = torch.load(str(experiment_dir) + '/checkpoints/model.pth',map_location = device)
     classifier.load_state_dict(checkpoint['model_state_dict'])
 
     with torch.no_grad():
@@ -105,9 +109,9 @@ def main(args):
                                                       smoothing=0.9):
             #batchsize, num_point, _ = points.size()
             cur_batch_size, NUM_POINT, _ = points.size()
-            points, label, target = points.float().cuda(), label.long().cuda(), target.long().cuda()
+            points, label, target = points.float().to(device), label.long().to(device), target.long().to(device)
             points = points.transpose(2, 1)
-            prev_output = torch.zeros((points.shape[0], input_size, points.shape[2]), device='cuda')
+            prev_output = torch.zeros((points.shape[0], input_size, points.shape[2]), device=device)
             for j in range(num_itr):
                 _points = torch.cat((points, prev_output), 1)
                 #print('points:', _points.shape)
@@ -116,7 +120,7 @@ def main(args):
             # the authors of this repository run the model more than once and do the final output is the average of the outputs
             # we disabled this.
             #seg_pred, _ = classifier(points, to_categorical(label, num_classes))
-            #vote_pool = torch.zeros(target.size()[0], target.size()[1], num_part).cuda()
+            #vote_pool = torch.zeros(target.size()[0], target.size()[1], num_part).to(device)
             #for _ in range(args.num_votes):
             #    seg_pred, _ = classifier(points, to_categorical(label, num_classes))
             #    vote_pool += seg_pred

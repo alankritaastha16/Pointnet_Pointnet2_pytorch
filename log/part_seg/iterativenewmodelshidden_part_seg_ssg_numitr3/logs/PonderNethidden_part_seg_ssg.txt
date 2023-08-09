@@ -1,0 +1,910 @@
+2023-07-13 16:31:42,395 - Model - INFO - PARAMETER ...
+2023-07-13 16:31:42,397 - Model - INFO - Namespace(model='PonderNethidden_part_seg_ssg', batch_size=16, epoch=100, num_itr=3, learning_rate=0.001, optimizer='Adam', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr3', decay_rate=0.0001, npoint=2500, normal=False, step_size=20, lr_decay=0.5, datadir='/data/pointclouds/ShapeNet')
+2023-07-13 16:31:43,404 - Model - INFO - The number of training data is: 13998
+2023-07-13 16:31:51,186 - Model - INFO - No existing model, starting training from scratch...
+2023-07-13 16:31:51,199 - Model - INFO - Epoch 1 (1/100):
+2023-07-13 16:31:51,199 - Model - INFO - Learning rate:0.001000
+2023-07-13 18:09:00,253 - Model - INFO - PARAMETER ...
+2023-07-13 18:09:00,254 - Model - INFO - Namespace(model='PonderNethidden_part_seg_ssg', batch_size=16, epoch=100, num_itr=3, learning_rate=0.001, optimizer='Adam', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr3', decay_rate=0.0001, npoint=2500, normal=False, step_size=20, lr_decay=0.5, datadir='/data/pointclouds/ShapeNet')
+2023-07-13 18:09:00,638 - Model - INFO - The number of training data is: 13998
+2023-07-13 18:09:08,191 - Model - INFO - No existing model, starting training from scratch...
+2023-07-13 18:09:08,207 - Model - INFO - Epoch 1 (1/100):
+2023-07-13 18:09:08,207 - Model - INFO - Learning rate:0.001000
+2023-07-13 19:13:09,279 - Model - INFO - Train accuracy model-0 is: 0.83557
+2023-07-13 19:13:09,281 - Model - INFO - Train accuracy model-1 is: 0.81881
+2023-07-13 19:13:09,281 - Model - INFO - Train accuracy model-2 is: 0.80636
+2023-07-13 19:13:09,282 - Model - INFO - Train accuracy is: 0.80636
+2023-07-13 19:13:09,282 - Model - INFO - Save model...
+2023-07-13 19:13:09,282 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-13 19:13:09,527 - Model - INFO - Saving model....
+2023-07-13 19:13:09,528 - Model - INFO - Epoch 2 (2/100):
+2023-07-13 19:13:09,528 - Model - INFO - Learning rate:0.001000
+2023-07-13 20:17:24,325 - Model - INFO - Train accuracy model-0 is: 0.90720
+2023-07-13 20:17:24,326 - Model - INFO - Train accuracy model-1 is: 0.90017
+2023-07-13 20:17:24,327 - Model - INFO - Train accuracy model-2 is: 0.89337
+2023-07-13 20:17:24,327 - Model - INFO - Train accuracy is: 0.89337
+2023-07-13 20:17:24,327 - Model - INFO - Save model...
+2023-07-13 20:17:24,328 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-13 20:17:24,664 - Model - INFO - Saving model....
+2023-07-13 20:17:24,665 - Model - INFO - Epoch 3 (3/100):
+2023-07-13 20:17:24,666 - Model - INFO - Learning rate:0.001000
+2023-07-13 21:21:48,031 - Model - INFO - Train accuracy model-0 is: 0.91308
+2023-07-13 21:21:48,032 - Model - INFO - Train accuracy model-1 is: 0.90740
+2023-07-13 21:21:48,033 - Model - INFO - Train accuracy model-2 is: 0.90188
+2023-07-13 21:21:48,033 - Model - INFO - Train accuracy is: 0.90188
+2023-07-13 21:21:48,034 - Model - INFO - Save model...
+2023-07-13 21:21:48,034 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-13 21:21:48,324 - Model - INFO - Saving model....
+2023-07-13 21:21:48,324 - Model - INFO - Epoch 4 (4/100):
+2023-07-13 21:21:48,325 - Model - INFO - Learning rate:0.001000
+2023-07-13 22:25:51,906 - Model - INFO - Train accuracy model-0 is: 0.91678
+2023-07-13 22:25:51,907 - Model - INFO - Train accuracy model-1 is: 0.91224
+2023-07-13 22:25:51,908 - Model - INFO - Train accuracy model-2 is: 0.90785
+2023-07-13 22:25:51,909 - Model - INFO - Train accuracy is: 0.90785
+2023-07-13 22:25:51,909 - Model - INFO - Save model...
+2023-07-13 22:25:51,909 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-13 22:25:52,197 - Model - INFO - Saving model....
+2023-07-13 22:25:52,198 - Model - INFO - Epoch 5 (5/100):
+2023-07-13 22:25:52,198 - Model - INFO - Learning rate:0.001000
+2023-07-13 23:29:44,826 - Model - INFO - Train accuracy model-0 is: 0.91946
+2023-07-13 23:29:44,828 - Model - INFO - Train accuracy model-1 is: 0.91515
+2023-07-13 23:29:44,828 - Model - INFO - Train accuracy model-2 is: 0.91108
+2023-07-13 23:29:44,829 - Model - INFO - Train accuracy is: 0.91108
+2023-07-13 23:29:44,829 - Model - INFO - Save model...
+2023-07-13 23:29:44,829 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-13 23:29:45,159 - Model - INFO - Saving model....
+2023-07-13 23:29:45,161 - Model - INFO - Epoch 6 (6/100):
+2023-07-13 23:29:45,161 - Model - INFO - Learning rate:0.001000
+2023-07-14 00:33:45,700 - Model - INFO - Train accuracy model-0 is: 0.91987
+2023-07-14 00:33:45,702 - Model - INFO - Train accuracy model-1 is: 0.91541
+2023-07-14 00:33:45,703 - Model - INFO - Train accuracy model-2 is: 0.91098
+2023-07-14 00:33:45,703 - Model - INFO - Train accuracy is: 0.91098
+2023-07-14 00:33:45,704 - Model - INFO - Save model...
+2023-07-14 00:33:45,704 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 00:33:46,108 - Model - INFO - Saving model....
+2023-07-14 00:33:46,109 - Model - INFO - Epoch 7 (7/100):
+2023-07-14 00:33:46,110 - Model - INFO - Learning rate:0.001000
+2023-07-14 01:38:02,217 - Model - INFO - Train accuracy model-0 is: 0.92212
+2023-07-14 01:38:02,218 - Model - INFO - Train accuracy model-1 is: 0.91798
+2023-07-14 01:38:02,219 - Model - INFO - Train accuracy model-2 is: 0.91347
+2023-07-14 01:38:02,219 - Model - INFO - Train accuracy is: 0.91347
+2023-07-14 01:38:02,220 - Model - INFO - Save model...
+2023-07-14 01:38:02,220 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 01:38:02,546 - Model - INFO - Saving model....
+2023-07-14 01:38:02,547 - Model - INFO - Epoch 8 (8/100):
+2023-07-14 01:38:02,548 - Model - INFO - Learning rate:0.001000
+2023-07-14 02:42:12,660 - Model - INFO - Train accuracy model-0 is: 0.92347
+2023-07-14 02:42:12,662 - Model - INFO - Train accuracy model-1 is: 0.91954
+2023-07-14 02:42:12,662 - Model - INFO - Train accuracy model-2 is: 0.91547
+2023-07-14 02:42:12,663 - Model - INFO - Train accuracy is: 0.91547
+2023-07-14 02:42:12,663 - Model - INFO - Save model...
+2023-07-14 02:42:12,663 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 02:42:13,012 - Model - INFO - Saving model....
+2023-07-14 02:42:13,012 - Model - INFO - Epoch 9 (9/100):
+2023-07-14 02:42:13,013 - Model - INFO - Learning rate:0.001000
+2023-07-14 03:45:19,348 - Model - INFO - Train accuracy model-0 is: 0.92527
+2023-07-14 03:45:19,349 - Model - INFO - Train accuracy model-1 is: 0.92169
+2023-07-14 03:45:19,350 - Model - INFO - Train accuracy model-2 is: 0.91763
+2023-07-14 03:45:19,350 - Model - INFO - Train accuracy is: 0.91763
+2023-07-14 03:45:19,351 - Model - INFO - Save model...
+2023-07-14 03:45:19,351 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 03:45:19,677 - Model - INFO - Saving model....
+2023-07-14 03:45:19,678 - Model - INFO - Epoch 10 (10/100):
+2023-07-14 03:45:19,679 - Model - INFO - Learning rate:0.001000
+2023-07-14 04:48:32,285 - Model - INFO - Train accuracy model-0 is: 0.92600
+2023-07-14 04:48:32,287 - Model - INFO - Train accuracy model-1 is: 0.92258
+2023-07-14 04:48:32,288 - Model - INFO - Train accuracy model-2 is: 0.91868
+2023-07-14 04:48:32,288 - Model - INFO - Train accuracy is: 0.91868
+2023-07-14 04:48:32,288 - Model - INFO - Save model...
+2023-07-14 04:48:32,288 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 04:48:32,574 - Model - INFO - Saving model....
+2023-07-14 04:48:32,575 - Model - INFO - Epoch 11 (11/100):
+2023-07-14 04:48:32,576 - Model - INFO - Learning rate:0.001000
+2023-07-14 05:51:42,826 - Model - INFO - Train accuracy model-0 is: 0.92598
+2023-07-14 05:51:42,827 - Model - INFO - Train accuracy model-1 is: 0.92227
+2023-07-14 05:51:42,828 - Model - INFO - Train accuracy model-2 is: 0.91801
+2023-07-14 05:51:42,828 - Model - INFO - Train accuracy is: 0.91801
+2023-07-14 05:51:42,828 - Model - INFO - Save model...
+2023-07-14 05:51:42,828 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 05:51:43,127 - Model - INFO - Saving model....
+2023-07-14 05:51:43,128 - Model - INFO - Epoch 12 (12/100):
+2023-07-14 05:51:43,129 - Model - INFO - Learning rate:0.001000
+2023-07-14 06:54:44,200 - Model - INFO - Train accuracy model-0 is: 0.92684
+2023-07-14 06:54:44,202 - Model - INFO - Train accuracy model-1 is: 0.92185
+2023-07-14 06:54:44,203 - Model - INFO - Train accuracy model-2 is: 0.91749
+2023-07-14 06:54:44,203 - Model - INFO - Train accuracy is: 0.91749
+2023-07-14 06:54:44,203 - Model - INFO - Save model...
+2023-07-14 06:54:44,203 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 06:54:44,492 - Model - INFO - Saving model....
+2023-07-14 06:54:44,493 - Model - INFO - Epoch 13 (13/100):
+2023-07-14 06:54:44,493 - Model - INFO - Learning rate:0.001000
+2023-07-14 07:57:55,800 - Model - INFO - Train accuracy model-0 is: 0.92786
+2023-07-14 07:57:55,802 - Model - INFO - Train accuracy model-1 is: 0.92485
+2023-07-14 07:57:55,803 - Model - INFO - Train accuracy model-2 is: 0.92180
+2023-07-14 07:57:55,803 - Model - INFO - Train accuracy is: 0.92180
+2023-07-14 07:57:55,803 - Model - INFO - Save model...
+2023-07-14 07:57:55,804 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 07:57:56,108 - Model - INFO - Saving model....
+2023-07-14 07:57:56,109 - Model - INFO - Epoch 14 (14/100):
+2023-07-14 07:57:56,110 - Model - INFO - Learning rate:0.001000
+2023-07-14 09:00:58,939 - Model - INFO - Train accuracy model-0 is: 0.92909
+2023-07-14 09:00:58,940 - Model - INFO - Train accuracy model-1 is: 0.92585
+2023-07-14 09:00:58,941 - Model - INFO - Train accuracy model-2 is: 0.92244
+2023-07-14 09:00:58,942 - Model - INFO - Train accuracy is: 0.92244
+2023-07-14 09:00:58,942 - Model - INFO - Save model...
+2023-07-14 09:00:58,942 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 09:00:59,229 - Model - INFO - Saving model....
+2023-07-14 09:00:59,230 - Model - INFO - Epoch 15 (15/100):
+2023-07-14 09:00:59,230 - Model - INFO - Learning rate:0.001000
+2023-07-14 10:05:15,686 - Model - INFO - Train accuracy model-0 is: 0.92956
+2023-07-14 10:05:15,688 - Model - INFO - Train accuracy model-1 is: 0.92596
+2023-07-14 10:05:15,689 - Model - INFO - Train accuracy model-2 is: 0.92167
+2023-07-14 10:05:15,689 - Model - INFO - Train accuracy is: 0.92167
+2023-07-14 10:05:15,689 - Model - INFO - Save model...
+2023-07-14 10:05:15,689 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 10:05:16,020 - Model - INFO - Saving model....
+2023-07-14 10:05:16,021 - Model - INFO - Epoch 16 (16/100):
+2023-07-14 10:05:16,021 - Model - INFO - Learning rate:0.001000
+2023-07-14 11:09:32,818 - Model - INFO - Train accuracy model-0 is: 0.92983
+2023-07-14 11:09:32,820 - Model - INFO - Train accuracy model-1 is: 0.92683
+2023-07-14 11:09:32,821 - Model - INFO - Train accuracy model-2 is: 0.92344
+2023-07-14 11:09:32,821 - Model - INFO - Train accuracy is: 0.92344
+2023-07-14 11:09:32,821 - Model - INFO - Save model...
+2023-07-14 11:09:32,822 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 11:09:33,163 - Model - INFO - Saving model....
+2023-07-14 11:09:33,165 - Model - INFO - Epoch 17 (17/100):
+2023-07-14 11:09:33,165 - Model - INFO - Learning rate:0.001000
+2023-07-14 12:13:56,228 - Model - INFO - Train accuracy model-0 is: 0.93052
+2023-07-14 12:13:56,230 - Model - INFO - Train accuracy model-1 is: 0.92700
+2023-07-14 12:13:56,231 - Model - INFO - Train accuracy model-2 is: 0.92339
+2023-07-14 12:13:56,231 - Model - INFO - Train accuracy is: 0.92339
+2023-07-14 12:13:56,231 - Model - INFO - Save model...
+2023-07-14 12:13:56,231 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 12:13:56,636 - Model - INFO - Saving model....
+2023-07-14 12:13:56,637 - Model - INFO - Epoch 18 (18/100):
+2023-07-14 12:13:56,637 - Model - INFO - Learning rate:0.001000
+2023-07-14 13:18:35,100 - Model - INFO - Train accuracy model-0 is: 0.93108
+2023-07-14 13:18:35,101 - Model - INFO - Train accuracy model-1 is: 0.92788
+2023-07-14 13:18:35,102 - Model - INFO - Train accuracy model-2 is: 0.92410
+2023-07-14 13:18:35,102 - Model - INFO - Train accuracy is: 0.92410
+2023-07-14 13:18:35,103 - Model - INFO - Save model...
+2023-07-14 13:18:35,103 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 13:18:35,380 - Model - INFO - Saving model....
+2023-07-14 13:18:35,381 - Model - INFO - Epoch 19 (19/100):
+2023-07-14 13:18:35,382 - Model - INFO - Learning rate:0.001000
+2023-07-14 14:23:05,208 - Model - INFO - Train accuracy model-0 is: 0.93193
+2023-07-14 14:23:05,210 - Model - INFO - Train accuracy model-1 is: 0.92891
+2023-07-14 14:23:05,211 - Model - INFO - Train accuracy model-2 is: 0.92542
+2023-07-14 14:23:05,212 - Model - INFO - Train accuracy is: 0.92542
+2023-07-14 14:23:05,212 - Model - INFO - Save model...
+2023-07-14 14:23:05,212 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 14:23:05,652 - Model - INFO - Saving model....
+2023-07-14 14:23:05,653 - Model - INFO - Epoch 20 (20/100):
+2023-07-14 14:23:05,653 - Model - INFO - Learning rate:0.001000
+2023-07-14 15:27:21,206 - Model - INFO - Train accuracy model-0 is: 0.93167
+2023-07-14 15:27:21,207 - Model - INFO - Train accuracy model-1 is: 0.92823
+2023-07-14 15:27:21,208 - Model - INFO - Train accuracy model-2 is: 0.92436
+2023-07-14 15:27:21,208 - Model - INFO - Train accuracy is: 0.92436
+2023-07-14 15:27:21,208 - Model - INFO - Save model...
+2023-07-14 15:27:21,209 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 15:27:21,667 - Model - INFO - Saving model....
+2023-07-14 15:27:21,668 - Model - INFO - Epoch 21 (21/100):
+2023-07-14 15:27:21,668 - Model - INFO - Learning rate:0.000500
+2023-07-14 16:31:59,780 - Model - INFO - Train accuracy model-0 is: 0.93676
+2023-07-14 16:31:59,781 - Model - INFO - Train accuracy model-1 is: 0.93506
+2023-07-14 16:31:59,782 - Model - INFO - Train accuracy model-2 is: 0.93289
+2023-07-14 16:31:59,782 - Model - INFO - Train accuracy is: 0.93289
+2023-07-14 16:31:59,783 - Model - INFO - Save model...
+2023-07-14 16:31:59,783 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 16:32:00,305 - Model - INFO - Saving model....
+2023-07-14 16:32:00,306 - Model - INFO - Epoch 22 (22/100):
+2023-07-14 16:32:00,306 - Model - INFO - Learning rate:0.000500
+2023-07-14 17:36:37,436 - Model - INFO - Train accuracy model-0 is: 0.93708
+2023-07-14 17:36:37,437 - Model - INFO - Train accuracy model-1 is: 0.93518
+2023-07-14 17:36:37,438 - Model - INFO - Train accuracy model-2 is: 0.93259
+2023-07-14 17:36:37,438 - Model - INFO - Train accuracy is: 0.93259
+2023-07-14 17:36:37,439 - Model - INFO - Save model...
+2023-07-14 17:36:37,439 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 17:36:37,732 - Model - INFO - Saving model....
+2023-07-14 17:36:37,733 - Model - INFO - Epoch 23 (23/100):
+2023-07-14 17:36:37,734 - Model - INFO - Learning rate:0.000500
+2023-07-14 18:41:29,314 - Model - INFO - Train accuracy model-0 is: 0.93775
+2023-07-14 18:41:29,315 - Model - INFO - Train accuracy model-1 is: 0.93597
+2023-07-14 18:41:29,316 - Model - INFO - Train accuracy model-2 is: 0.93365
+2023-07-14 18:41:29,317 - Model - INFO - Train accuracy is: 0.93365
+2023-07-14 18:41:29,317 - Model - INFO - Save model...
+2023-07-14 18:41:29,317 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 18:41:29,631 - Model - INFO - Saving model....
+2023-07-14 18:41:29,632 - Model - INFO - Epoch 24 (24/100):
+2023-07-14 18:41:29,632 - Model - INFO - Learning rate:0.000500
+2023-07-14 19:45:53,087 - Model - INFO - Train accuracy model-0 is: 0.93765
+2023-07-14 19:45:53,089 - Model - INFO - Train accuracy model-1 is: 0.93572
+2023-07-14 19:45:53,090 - Model - INFO - Train accuracy model-2 is: 0.93340
+2023-07-14 19:45:53,091 - Model - INFO - Train accuracy is: 0.93340
+2023-07-14 19:45:53,091 - Model - INFO - Save model...
+2023-07-14 19:45:53,091 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 19:45:53,475 - Model - INFO - Saving model....
+2023-07-14 19:45:53,476 - Model - INFO - Epoch 25 (25/100):
+2023-07-14 19:45:53,477 - Model - INFO - Learning rate:0.000500
+2023-07-14 20:49:48,132 - Model - INFO - Train accuracy model-0 is: 0.93808
+2023-07-14 20:49:48,134 - Model - INFO - Train accuracy model-1 is: 0.93607
+2023-07-14 20:49:48,135 - Model - INFO - Train accuracy model-2 is: 0.93361
+2023-07-14 20:49:48,135 - Model - INFO - Train accuracy is: 0.93361
+2023-07-14 20:49:48,135 - Model - INFO - Save model...
+2023-07-14 20:49:48,136 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 20:49:48,431 - Model - INFO - Saving model....
+2023-07-14 20:49:48,431 - Model - INFO - Epoch 26 (26/100):
+2023-07-14 20:49:48,432 - Model - INFO - Learning rate:0.000500
+2023-07-14 21:53:45,330 - Model - INFO - Train accuracy model-0 is: 0.93853
+2023-07-14 21:53:45,331 - Model - INFO - Train accuracy model-1 is: 0.93670
+2023-07-14 21:53:45,332 - Model - INFO - Train accuracy model-2 is: 0.93431
+2023-07-14 21:53:45,332 - Model - INFO - Train accuracy is: 0.93431
+2023-07-14 21:53:45,332 - Model - INFO - Save model...
+2023-07-14 21:53:45,332 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 21:53:45,639 - Model - INFO - Saving model....
+2023-07-14 21:53:45,640 - Model - INFO - Epoch 27 (27/100):
+2023-07-14 21:53:45,640 - Model - INFO - Learning rate:0.000500
+2023-07-14 22:58:16,839 - Model - INFO - Train accuracy model-0 is: 0.93861
+2023-07-14 22:58:16,842 - Model - INFO - Train accuracy model-1 is: 0.93654
+2023-07-14 22:58:16,843 - Model - INFO - Train accuracy model-2 is: 0.93397
+2023-07-14 22:58:16,844 - Model - INFO - Train accuracy is: 0.93397
+2023-07-14 22:58:16,844 - Model - INFO - Save model...
+2023-07-14 22:58:16,845 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-14 22:58:17,130 - Model - INFO - Saving model....
+2023-07-14 22:58:17,130 - Model - INFO - Epoch 28 (28/100):
+2023-07-14 22:58:17,131 - Model - INFO - Learning rate:0.000500
+2023-07-15 00:02:07,611 - Model - INFO - Train accuracy model-0 is: 0.93852
+2023-07-15 00:02:07,614 - Model - INFO - Train accuracy model-1 is: 0.93652
+2023-07-15 00:02:07,615 - Model - INFO - Train accuracy model-2 is: 0.93419
+2023-07-15 00:02:07,615 - Model - INFO - Train accuracy is: 0.93419
+2023-07-15 00:02:07,615 - Model - INFO - Save model...
+2023-07-15 00:02:07,615 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 00:02:07,933 - Model - INFO - Saving model....
+2023-07-15 00:02:07,934 - Model - INFO - Epoch 29 (29/100):
+2023-07-15 00:02:07,935 - Model - INFO - Learning rate:0.000500
+2023-07-15 01:06:14,861 - Model - INFO - Train accuracy model-0 is: 0.93900
+2023-07-15 01:06:14,862 - Model - INFO - Train accuracy model-1 is: 0.93701
+2023-07-15 01:06:14,863 - Model - INFO - Train accuracy model-2 is: 0.93472
+2023-07-15 01:06:14,863 - Model - INFO - Train accuracy is: 0.93472
+2023-07-15 01:06:14,864 - Model - INFO - Save model...
+2023-07-15 01:06:14,864 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 01:06:15,208 - Model - INFO - Saving model....
+2023-07-15 01:06:15,209 - Model - INFO - Epoch 30 (30/100):
+2023-07-15 01:06:15,209 - Model - INFO - Learning rate:0.000500
+2023-07-15 02:09:44,734 - Model - INFO - Train accuracy model-0 is: 0.93943
+2023-07-15 02:09:44,735 - Model - INFO - Train accuracy model-1 is: 0.93730
+2023-07-15 02:09:44,736 - Model - INFO - Train accuracy model-2 is: 0.93485
+2023-07-15 02:09:44,737 - Model - INFO - Train accuracy is: 0.93485
+2023-07-15 02:09:44,737 - Model - INFO - Save model...
+2023-07-15 02:09:44,737 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 02:09:45,049 - Model - INFO - Saving model....
+2023-07-15 02:09:45,050 - Model - INFO - Epoch 31 (31/100):
+2023-07-15 02:09:45,051 - Model - INFO - Learning rate:0.000500
+2023-07-15 03:13:36,570 - Model - INFO - Train accuracy model-0 is: 0.93914
+2023-07-15 03:13:36,571 - Model - INFO - Train accuracy model-1 is: 0.93732
+2023-07-15 03:13:36,572 - Model - INFO - Train accuracy model-2 is: 0.93506
+2023-07-15 03:13:36,572 - Model - INFO - Train accuracy is: 0.93506
+2023-07-15 03:13:36,572 - Model - INFO - Save model...
+2023-07-15 03:13:36,573 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 03:13:36,870 - Model - INFO - Saving model....
+2023-07-15 03:13:36,871 - Model - INFO - Epoch 32 (32/100):
+2023-07-15 03:13:36,871 - Model - INFO - Learning rate:0.000500
+2023-07-15 04:17:49,762 - Model - INFO - Train accuracy model-0 is: 0.93961
+2023-07-15 04:17:49,764 - Model - INFO - Train accuracy model-1 is: 0.93784
+2023-07-15 04:17:49,765 - Model - INFO - Train accuracy model-2 is: 0.93572
+2023-07-15 04:17:49,765 - Model - INFO - Train accuracy is: 0.93572
+2023-07-15 04:17:49,765 - Model - INFO - Save model...
+2023-07-15 04:17:49,765 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 04:17:50,065 - Model - INFO - Saving model....
+2023-07-15 04:17:50,066 - Model - INFO - Epoch 33 (33/100):
+2023-07-15 04:17:50,066 - Model - INFO - Learning rate:0.000500
+2023-07-15 05:21:59,736 - Model - INFO - Train accuracy model-0 is: 0.93903
+2023-07-15 05:21:59,737 - Model - INFO - Train accuracy model-1 is: 0.93702
+2023-07-15 05:21:59,738 - Model - INFO - Train accuracy model-2 is: 0.93470
+2023-07-15 05:21:59,738 - Model - INFO - Train accuracy is: 0.93470
+2023-07-15 05:21:59,739 - Model - INFO - Save model...
+2023-07-15 05:21:59,739 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 05:22:00,036 - Model - INFO - Saving model....
+2023-07-15 05:22:00,037 - Model - INFO - Epoch 34 (34/100):
+2023-07-15 05:22:00,037 - Model - INFO - Learning rate:0.000500
+2023-07-15 06:26:26,269 - Model - INFO - Train accuracy model-0 is: 0.94008
+2023-07-15 06:26:26,270 - Model - INFO - Train accuracy model-1 is: 0.93825
+2023-07-15 06:26:26,271 - Model - INFO - Train accuracy model-2 is: 0.93609
+2023-07-15 06:26:26,272 - Model - INFO - Train accuracy is: 0.93609
+2023-07-15 06:26:26,272 - Model - INFO - Save model...
+2023-07-15 06:26:26,272 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 06:26:26,606 - Model - INFO - Saving model....
+2023-07-15 06:26:26,607 - Model - INFO - Epoch 35 (35/100):
+2023-07-15 06:26:26,607 - Model - INFO - Learning rate:0.000500
+2023-07-15 07:24:26,473 - Model - INFO - Train accuracy model-0 is: 0.93926
+2023-07-15 07:24:26,474 - Model - INFO - Train accuracy model-1 is: 0.93751
+2023-07-15 07:24:26,475 - Model - INFO - Train accuracy model-2 is: 0.93511
+2023-07-15 07:24:26,475 - Model - INFO - Train accuracy is: 0.93511
+2023-07-15 07:24:26,475 - Model - INFO - Save model...
+2023-07-15 07:24:26,476 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 07:24:26,788 - Model - INFO - Saving model....
+2023-07-15 07:24:26,789 - Model - INFO - Epoch 36 (36/100):
+2023-07-15 07:24:26,789 - Model - INFO - Learning rate:0.000500
+2023-07-15 08:19:50,227 - Model - INFO - Train accuracy model-0 is: 0.94030
+2023-07-15 08:19:50,229 - Model - INFO - Train accuracy model-1 is: 0.93843
+2023-07-15 08:19:50,230 - Model - INFO - Train accuracy model-2 is: 0.93624
+2023-07-15 08:19:50,231 - Model - INFO - Train accuracy is: 0.93624
+2023-07-15 08:19:50,231 - Model - INFO - Save model...
+2023-07-15 08:19:50,231 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 08:19:50,567 - Model - INFO - Saving model....
+2023-07-15 08:19:50,567 - Model - INFO - Epoch 37 (37/100):
+2023-07-15 08:19:50,568 - Model - INFO - Learning rate:0.000500
+2023-07-15 09:16:05,713 - Model - INFO - Train accuracy model-0 is: 0.94000
+2023-07-15 09:16:05,715 - Model - INFO - Train accuracy model-1 is: 0.93807
+2023-07-15 09:16:05,717 - Model - INFO - Train accuracy model-2 is: 0.93586
+2023-07-15 09:16:05,717 - Model - INFO - Train accuracy is: 0.93586
+2023-07-15 09:16:05,718 - Model - INFO - Save model...
+2023-07-15 09:16:05,718 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 09:16:06,009 - Model - INFO - Saving model....
+2023-07-15 09:16:06,010 - Model - INFO - Epoch 38 (38/100):
+2023-07-15 09:16:06,011 - Model - INFO - Learning rate:0.000500
+2023-07-15 10:12:05,704 - Model - INFO - Train accuracy model-0 is: 0.94049
+2023-07-15 10:12:05,706 - Model - INFO - Train accuracy model-1 is: 0.93871
+2023-07-15 10:12:05,707 - Model - INFO - Train accuracy model-2 is: 0.93666
+2023-07-15 10:12:05,707 - Model - INFO - Train accuracy is: 0.93666
+2023-07-15 10:12:05,707 - Model - INFO - Save model...
+2023-07-15 10:12:05,707 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 10:12:06,011 - Model - INFO - Saving model....
+2023-07-15 10:12:06,012 - Model - INFO - Epoch 39 (39/100):
+2023-07-15 10:12:06,012 - Model - INFO - Learning rate:0.000500
+2023-07-15 11:07:15,291 - Model - INFO - Train accuracy model-0 is: 0.94038
+2023-07-15 11:07:15,292 - Model - INFO - Train accuracy model-1 is: 0.93849
+2023-07-15 11:07:15,293 - Model - INFO - Train accuracy model-2 is: 0.93635
+2023-07-15 11:07:15,294 - Model - INFO - Train accuracy is: 0.93635
+2023-07-15 11:07:15,294 - Model - INFO - Save model...
+2023-07-15 11:07:15,294 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 11:07:15,590 - Model - INFO - Saving model....
+2023-07-15 11:07:15,591 - Model - INFO - Epoch 40 (40/100):
+2023-07-15 11:07:15,591 - Model - INFO - Learning rate:0.000500
+2023-07-15 12:02:17,425 - Model - INFO - Train accuracy model-0 is: 0.94092
+2023-07-15 12:02:17,427 - Model - INFO - Train accuracy model-1 is: 0.93920
+2023-07-15 12:02:17,427 - Model - INFO - Train accuracy model-2 is: 0.93708
+2023-07-15 12:02:17,428 - Model - INFO - Train accuracy is: 0.93708
+2023-07-15 12:02:17,428 - Model - INFO - Save model...
+2023-07-15 12:02:17,428 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 12:02:17,714 - Model - INFO - Saving model....
+2023-07-15 12:02:17,715 - Model - INFO - Epoch 41 (41/100):
+2023-07-15 12:02:17,715 - Model - INFO - Learning rate:0.000250
+2023-07-15 12:57:22,026 - Model - INFO - Train accuracy model-0 is: 0.94336
+2023-07-15 12:57:22,027 - Model - INFO - Train accuracy model-1 is: 0.94239
+2023-07-15 12:57:22,028 - Model - INFO - Train accuracy model-2 is: 0.94113
+2023-07-15 12:57:22,028 - Model - INFO - Train accuracy is: 0.94113
+2023-07-15 12:57:22,028 - Model - INFO - Save model...
+2023-07-15 12:57:22,028 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 12:57:22,335 - Model - INFO - Saving model....
+2023-07-15 12:57:22,336 - Model - INFO - Epoch 42 (42/100):
+2023-07-15 12:57:22,336 - Model - INFO - Learning rate:0.000250
+2023-07-15 13:52:38,180 - Model - INFO - Train accuracy model-0 is: 0.94352
+2023-07-15 13:52:38,181 - Model - INFO - Train accuracy model-1 is: 0.94256
+2023-07-15 13:52:38,182 - Model - INFO - Train accuracy model-2 is: 0.94119
+2023-07-15 13:52:38,182 - Model - INFO - Train accuracy is: 0.94119
+2023-07-15 13:52:38,182 - Model - INFO - Save model...
+2023-07-15 13:52:38,182 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 13:52:38,472 - Model - INFO - Saving model....
+2023-07-15 13:52:38,473 - Model - INFO - Epoch 43 (43/100):
+2023-07-15 13:52:38,474 - Model - INFO - Learning rate:0.000250
+2023-07-15 14:47:53,086 - Model - INFO - Train accuracy model-0 is: 0.94410
+2023-07-15 14:47:53,088 - Model - INFO - Train accuracy model-1 is: 0.94306
+2023-07-15 14:47:53,089 - Model - INFO - Train accuracy model-2 is: 0.94162
+2023-07-15 14:47:53,089 - Model - INFO - Train accuracy is: 0.94162
+2023-07-15 14:47:53,089 - Model - INFO - Save model...
+2023-07-15 14:47:53,089 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 14:47:53,432 - Model - INFO - Saving model....
+2023-07-15 14:47:53,433 - Model - INFO - Epoch 44 (44/100):
+2023-07-15 14:47:53,433 - Model - INFO - Learning rate:0.000250
+2023-07-15 15:43:07,794 - Model - INFO - Train accuracy model-0 is: 0.94461
+2023-07-15 15:43:07,795 - Model - INFO - Train accuracy model-1 is: 0.94363
+2023-07-15 15:43:07,796 - Model - INFO - Train accuracy model-2 is: 0.94234
+2023-07-15 15:43:07,797 - Model - INFO - Train accuracy is: 0.94234
+2023-07-15 15:43:07,797 - Model - INFO - Save model...
+2023-07-15 15:43:07,797 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 15:43:08,095 - Model - INFO - Saving model....
+2023-07-15 15:43:08,096 - Model - INFO - Epoch 45 (45/100):
+2023-07-15 15:43:08,096 - Model - INFO - Learning rate:0.000250
+2023-07-15 16:38:18,575 - Model - INFO - Train accuracy model-0 is: 0.94438
+2023-07-15 16:38:18,576 - Model - INFO - Train accuracy model-1 is: 0.94347
+2023-07-15 16:38:18,577 - Model - INFO - Train accuracy model-2 is: 0.94217
+2023-07-15 16:38:18,577 - Model - INFO - Train accuracy is: 0.94217
+2023-07-15 16:38:18,578 - Model - INFO - Save model...
+2023-07-15 16:38:18,578 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 16:38:18,864 - Model - INFO - Saving model....
+2023-07-15 16:38:18,865 - Model - INFO - Epoch 46 (46/100):
+2023-07-15 16:38:18,865 - Model - INFO - Learning rate:0.000250
+2023-07-15 17:33:53,232 - Model - INFO - Train accuracy model-0 is: 0.94421
+2023-07-15 17:33:53,233 - Model - INFO - Train accuracy model-1 is: 0.94324
+2023-07-15 17:33:53,234 - Model - INFO - Train accuracy model-2 is: 0.94194
+2023-07-15 17:33:53,234 - Model - INFO - Train accuracy is: 0.94194
+2023-07-15 17:33:53,234 - Model - INFO - Save model...
+2023-07-15 17:33:53,235 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 17:33:53,527 - Model - INFO - Saving model....
+2023-07-15 17:33:53,528 - Model - INFO - Epoch 47 (47/100):
+2023-07-15 17:33:53,528 - Model - INFO - Learning rate:0.000250
+2023-07-15 18:29:12,253 - Model - INFO - Train accuracy model-0 is: 0.94485
+2023-07-15 18:29:12,255 - Model - INFO - Train accuracy model-1 is: 0.94384
+2023-07-15 18:29:12,255 - Model - INFO - Train accuracy model-2 is: 0.94249
+2023-07-15 18:29:12,256 - Model - INFO - Train accuracy is: 0.94249
+2023-07-15 18:29:12,256 - Model - INFO - Save model...
+2023-07-15 18:29:12,256 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 18:29:12,580 - Model - INFO - Saving model....
+2023-07-15 18:29:12,581 - Model - INFO - Epoch 48 (48/100):
+2023-07-15 18:29:12,581 - Model - INFO - Learning rate:0.000250
+2023-07-15 19:24:21,668 - Model - INFO - Train accuracy model-0 is: 0.94504
+2023-07-15 19:24:21,669 - Model - INFO - Train accuracy model-1 is: 0.94406
+2023-07-15 19:24:21,670 - Model - INFO - Train accuracy model-2 is: 0.94281
+2023-07-15 19:24:21,670 - Model - INFO - Train accuracy is: 0.94281
+2023-07-15 19:24:21,670 - Model - INFO - Save model...
+2023-07-15 19:24:21,671 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 19:24:21,956 - Model - INFO - Saving model....
+2023-07-15 19:24:21,957 - Model - INFO - Epoch 49 (49/100):
+2023-07-15 19:24:21,957 - Model - INFO - Learning rate:0.000250
+2023-07-15 20:19:27,094 - Model - INFO - Train accuracy model-0 is: 0.94495
+2023-07-15 20:19:27,095 - Model - INFO - Train accuracy model-1 is: 0.94398
+2023-07-15 20:19:27,096 - Model - INFO - Train accuracy model-2 is: 0.94266
+2023-07-15 20:19:27,096 - Model - INFO - Train accuracy is: 0.94266
+2023-07-15 20:19:27,097 - Model - INFO - Save model...
+2023-07-15 20:19:27,097 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 20:19:27,430 - Model - INFO - Saving model....
+2023-07-15 20:19:27,431 - Model - INFO - Epoch 50 (50/100):
+2023-07-15 20:19:27,432 - Model - INFO - Learning rate:0.000250
+2023-07-15 21:14:39,352 - Model - INFO - Train accuracy model-0 is: 0.94437
+2023-07-15 21:14:39,353 - Model - INFO - Train accuracy model-1 is: 0.94322
+2023-07-15 21:14:39,354 - Model - INFO - Train accuracy model-2 is: 0.94181
+2023-07-15 21:14:39,354 - Model - INFO - Train accuracy is: 0.94181
+2023-07-15 21:14:39,354 - Model - INFO - Save model...
+2023-07-15 21:14:39,354 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 21:14:39,640 - Model - INFO - Saving model....
+2023-07-15 21:14:39,641 - Model - INFO - Epoch 51 (51/100):
+2023-07-15 21:14:39,641 - Model - INFO - Learning rate:0.000250
+2023-07-15 22:09:46,900 - Model - INFO - Train accuracy model-0 is: 0.94526
+2023-07-15 22:09:46,901 - Model - INFO - Train accuracy model-1 is: 0.94418
+2023-07-15 22:09:46,902 - Model - INFO - Train accuracy model-2 is: 0.94291
+2023-07-15 22:09:46,903 - Model - INFO - Train accuracy is: 0.94291
+2023-07-15 22:09:46,903 - Model - INFO - Save model...
+2023-07-15 22:09:46,903 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 22:09:47,192 - Model - INFO - Saving model....
+2023-07-15 22:09:47,193 - Model - INFO - Epoch 52 (52/100):
+2023-07-15 22:09:47,193 - Model - INFO - Learning rate:0.000250
+2023-07-15 23:04:55,292 - Model - INFO - Train accuracy model-0 is: 0.94484
+2023-07-15 23:04:55,294 - Model - INFO - Train accuracy model-1 is: 0.94401
+2023-07-15 23:04:55,295 - Model - INFO - Train accuracy model-2 is: 0.94264
+2023-07-15 23:04:55,295 - Model - INFO - Train accuracy is: 0.94264
+2023-07-15 23:04:55,295 - Model - INFO - Save model...
+2023-07-15 23:04:55,296 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 23:04:55,637 - Model - INFO - Saving model....
+2023-07-15 23:04:55,638 - Model - INFO - Epoch 53 (53/100):
+2023-07-15 23:04:55,639 - Model - INFO - Learning rate:0.000250
+2023-07-15 23:59:57,604 - Model - INFO - Train accuracy model-0 is: 0.94512
+2023-07-15 23:59:57,605 - Model - INFO - Train accuracy model-1 is: 0.94401
+2023-07-15 23:59:57,606 - Model - INFO - Train accuracy model-2 is: 0.94266
+2023-07-15 23:59:57,606 - Model - INFO - Train accuracy is: 0.94266
+2023-07-15 23:59:57,607 - Model - INFO - Save model...
+2023-07-15 23:59:57,607 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-15 23:59:57,886 - Model - INFO - Saving model....
+2023-07-15 23:59:57,887 - Model - INFO - Epoch 54 (54/100):
+2023-07-15 23:59:57,887 - Model - INFO - Learning rate:0.000250
+2023-07-16 00:55:39,645 - Model - INFO - Train accuracy model-0 is: 0.94491
+2023-07-16 00:55:39,647 - Model - INFO - Train accuracy model-1 is: 0.94395
+2023-07-16 00:55:39,647 - Model - INFO - Train accuracy model-2 is: 0.94251
+2023-07-16 00:55:39,652 - Model - INFO - Train accuracy is: 0.94251
+2023-07-16 00:55:39,652 - Model - INFO - Save model...
+2023-07-16 00:55:39,652 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 00:55:39,940 - Model - INFO - Saving model....
+2023-07-16 00:55:39,940 - Model - INFO - Epoch 55 (55/100):
+2023-07-16 00:55:39,941 - Model - INFO - Learning rate:0.000250
+2023-07-16 01:50:40,710 - Model - INFO - Train accuracy model-0 is: 0.94502
+2023-07-16 01:50:40,711 - Model - INFO - Train accuracy model-1 is: 0.94401
+2023-07-16 01:50:40,712 - Model - INFO - Train accuracy model-2 is: 0.94268
+2023-07-16 01:50:40,713 - Model - INFO - Train accuracy is: 0.94268
+2023-07-16 01:50:40,713 - Model - INFO - Save model...
+2023-07-16 01:50:40,713 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 01:50:41,038 - Model - INFO - Saving model....
+2023-07-16 01:50:41,039 - Model - INFO - Epoch 56 (56/100):
+2023-07-16 01:50:41,039 - Model - INFO - Learning rate:0.000250
+2023-07-16 02:46:01,363 - Model - INFO - Train accuracy model-0 is: 0.94547
+2023-07-16 02:46:01,365 - Model - INFO - Train accuracy model-1 is: 0.94444
+2023-07-16 02:46:01,366 - Model - INFO - Train accuracy model-2 is: 0.94304
+2023-07-16 02:46:01,366 - Model - INFO - Train accuracy is: 0.94304
+2023-07-16 02:46:01,366 - Model - INFO - Save model...
+2023-07-16 02:46:01,366 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 02:46:01,656 - Model - INFO - Saving model....
+2023-07-16 02:46:01,657 - Model - INFO - Epoch 57 (57/100):
+2023-07-16 02:46:01,657 - Model - INFO - Learning rate:0.000250
+2023-07-16 03:41:23,000 - Model - INFO - Train accuracy model-0 is: 0.94562
+2023-07-16 03:41:23,001 - Model - INFO - Train accuracy model-1 is: 0.94447
+2023-07-16 03:41:23,002 - Model - INFO - Train accuracy model-2 is: 0.94307
+2023-07-16 03:41:23,002 - Model - INFO - Train accuracy is: 0.94307
+2023-07-16 03:41:23,002 - Model - INFO - Save model...
+2023-07-16 03:41:23,002 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 03:41:23,286 - Model - INFO - Saving model....
+2023-07-16 03:41:23,287 - Model - INFO - Epoch 58 (58/100):
+2023-07-16 03:41:23,288 - Model - INFO - Learning rate:0.000250
+2023-07-16 04:37:20,781 - Model - INFO - Train accuracy model-0 is: 0.94547
+2023-07-16 04:37:20,783 - Model - INFO - Train accuracy model-1 is: 0.94440
+2023-07-16 04:37:20,783 - Model - INFO - Train accuracy model-2 is: 0.94297
+2023-07-16 04:37:20,784 - Model - INFO - Train accuracy is: 0.94297
+2023-07-16 04:37:20,784 - Model - INFO - Save model...
+2023-07-16 04:37:20,784 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 04:37:21,071 - Model - INFO - Saving model....
+2023-07-16 04:37:21,072 - Model - INFO - Epoch 59 (59/100):
+2023-07-16 04:37:21,072 - Model - INFO - Learning rate:0.000250
+2023-07-16 05:33:07,693 - Model - INFO - Train accuracy model-0 is: 0.94558
+2023-07-16 05:33:07,695 - Model - INFO - Train accuracy model-1 is: 0.94451
+2023-07-16 05:33:07,696 - Model - INFO - Train accuracy model-2 is: 0.94315
+2023-07-16 05:33:07,696 - Model - INFO - Train accuracy is: 0.94315
+2023-07-16 05:33:07,696 - Model - INFO - Save model...
+2023-07-16 05:33:07,696 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 05:33:08,037 - Model - INFO - Saving model....
+2023-07-16 05:33:08,038 - Model - INFO - Epoch 60 (60/100):
+2023-07-16 05:33:08,038 - Model - INFO - Learning rate:0.000250
+2023-07-16 06:28:30,650 - Model - INFO - Train accuracy model-0 is: 0.94589
+2023-07-16 06:28:30,651 - Model - INFO - Train accuracy model-1 is: 0.94481
+2023-07-16 06:28:30,652 - Model - INFO - Train accuracy model-2 is: 0.94352
+2023-07-16 06:28:30,652 - Model - INFO - Train accuracy is: 0.94352
+2023-07-16 06:28:30,653 - Model - INFO - Save model...
+2023-07-16 06:28:30,653 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 06:28:30,942 - Model - INFO - Saving model....
+2023-07-16 06:28:30,943 - Model - INFO - Epoch 61 (61/100):
+2023-07-16 06:28:30,943 - Model - INFO - Learning rate:0.000125
+2023-07-16 07:23:46,642 - Model - INFO - Train accuracy model-0 is: 0.94748
+2023-07-16 07:23:46,644 - Model - INFO - Train accuracy model-1 is: 0.94687
+2023-07-16 07:23:46,644 - Model - INFO - Train accuracy model-2 is: 0.94603
+2023-07-16 07:23:46,645 - Model - INFO - Train accuracy is: 0.94603
+2023-07-16 07:23:46,645 - Model - INFO - Save model...
+2023-07-16 07:23:46,645 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 07:23:46,950 - Model - INFO - Saving model....
+2023-07-16 07:23:46,951 - Model - INFO - Epoch 62 (62/100):
+2023-07-16 07:23:46,952 - Model - INFO - Learning rate:0.000125
+2023-07-16 08:19:06,335 - Model - INFO - Train accuracy model-0 is: 0.94786
+2023-07-16 08:19:06,337 - Model - INFO - Train accuracy model-1 is: 0.94729
+2023-07-16 08:19:06,337 - Model - INFO - Train accuracy model-2 is: 0.94649
+2023-07-16 08:19:06,338 - Model - INFO - Train accuracy is: 0.94649
+2023-07-16 08:19:06,338 - Model - INFO - Save model...
+2023-07-16 08:19:06,338 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 08:19:06,642 - Model - INFO - Saving model....
+2023-07-16 08:19:06,643 - Model - INFO - Epoch 63 (63/100):
+2023-07-16 08:19:06,643 - Model - INFO - Learning rate:0.000125
+2023-07-16 09:14:54,505 - Model - INFO - Train accuracy model-0 is: 0.94783
+2023-07-16 09:14:54,507 - Model - INFO - Train accuracy model-1 is: 0.94731
+2023-07-16 09:14:54,508 - Model - INFO - Train accuracy model-2 is: 0.94642
+2023-07-16 09:14:54,508 - Model - INFO - Train accuracy is: 0.94642
+2023-07-16 09:14:54,508 - Model - INFO - Save model...
+2023-07-16 09:14:54,508 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 09:14:54,837 - Model - INFO - Saving model....
+2023-07-16 09:14:54,838 - Model - INFO - Epoch 64 (64/100):
+2023-07-16 09:14:54,839 - Model - INFO - Learning rate:0.000125
+2023-07-16 10:10:20,336 - Model - INFO - Train accuracy model-0 is: 0.94799
+2023-07-16 10:10:20,337 - Model - INFO - Train accuracy model-1 is: 0.94741
+2023-07-16 10:10:20,338 - Model - INFO - Train accuracy model-2 is: 0.94662
+2023-07-16 10:10:20,339 - Model - INFO - Train accuracy is: 0.94662
+2023-07-16 10:10:20,339 - Model - INFO - Save model...
+2023-07-16 10:10:20,339 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 10:10:20,631 - Model - INFO - Saving model....
+2023-07-16 10:10:20,632 - Model - INFO - Epoch 65 (65/100):
+2023-07-16 10:10:20,632 - Model - INFO - Learning rate:0.000125
+2023-07-16 11:05:49,994 - Model - INFO - Train accuracy model-0 is: 0.94819
+2023-07-16 11:05:49,995 - Model - INFO - Train accuracy model-1 is: 0.94765
+2023-07-16 11:05:49,996 - Model - INFO - Train accuracy model-2 is: 0.94688
+2023-07-16 11:05:49,996 - Model - INFO - Train accuracy is: 0.94688
+2023-07-16 11:05:49,996 - Model - INFO - Save model...
+2023-07-16 11:05:49,997 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 11:05:50,290 - Model - INFO - Saving model....
+2023-07-16 11:05:50,290 - Model - INFO - Epoch 66 (66/100):
+2023-07-16 11:05:50,291 - Model - INFO - Learning rate:0.000125
+2023-07-16 12:01:28,849 - Model - INFO - Train accuracy model-0 is: 0.94838
+2023-07-16 12:01:28,851 - Model - INFO - Train accuracy model-1 is: 0.94783
+2023-07-16 12:01:28,852 - Model - INFO - Train accuracy model-2 is: 0.94701
+2023-07-16 12:01:28,852 - Model - INFO - Train accuracy is: 0.94701
+2023-07-16 12:01:28,852 - Model - INFO - Save model...
+2023-07-16 12:01:28,853 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 12:01:29,182 - Model - INFO - Saving model....
+2023-07-16 12:01:29,183 - Model - INFO - Epoch 67 (67/100):
+2023-07-16 12:01:29,183 - Model - INFO - Learning rate:0.000125
+2023-07-16 12:57:13,579 - Model - INFO - Train accuracy model-0 is: 0.94804
+2023-07-16 12:57:13,580 - Model - INFO - Train accuracy model-1 is: 0.94749
+2023-07-16 12:57:13,581 - Model - INFO - Train accuracy model-2 is: 0.94663
+2023-07-16 12:57:13,581 - Model - INFO - Train accuracy is: 0.94663
+2023-07-16 12:57:13,582 - Model - INFO - Save model...
+2023-07-16 12:57:13,582 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 12:57:13,874 - Model - INFO - Saving model....
+2023-07-16 12:57:13,875 - Model - INFO - Epoch 68 (68/100):
+2023-07-16 12:57:13,875 - Model - INFO - Learning rate:0.000125
+2023-07-16 13:46:08,207 - Model - INFO - Train accuracy model-0 is: 0.94835
+2023-07-16 13:46:08,208 - Model - INFO - Train accuracy model-1 is: 0.94775
+2023-07-16 13:46:08,209 - Model - INFO - Train accuracy model-2 is: 0.94687
+2023-07-16 13:46:08,210 - Model - INFO - Train accuracy is: 0.94687
+2023-07-16 13:46:08,210 - Model - INFO - Save model...
+2023-07-16 13:46:08,210 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 13:46:08,505 - Model - INFO - Saving model....
+2023-07-16 13:46:08,506 - Model - INFO - Epoch 69 (69/100):
+2023-07-16 13:46:08,506 - Model - INFO - Learning rate:0.000125
+2023-07-16 14:32:02,692 - Model - INFO - Train accuracy model-0 is: 0.94837
+2023-07-16 14:32:02,694 - Model - INFO - Train accuracy model-1 is: 0.94781
+2023-07-16 14:32:02,695 - Model - INFO - Train accuracy model-2 is: 0.94699
+2023-07-16 14:32:02,695 - Model - INFO - Train accuracy is: 0.94699
+2023-07-16 14:32:02,695 - Model - INFO - Save model...
+2023-07-16 14:32:02,695 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 14:32:02,985 - Model - INFO - Saving model....
+2023-07-16 14:32:02,986 - Model - INFO - Epoch 70 (70/100):
+2023-07-16 14:32:02,986 - Model - INFO - Learning rate:0.000125
+2023-07-16 15:17:43,862 - Model - INFO - Train accuracy model-0 is: 0.94841
+2023-07-16 15:17:43,864 - Model - INFO - Train accuracy model-1 is: 0.94789
+2023-07-16 15:17:43,864 - Model - INFO - Train accuracy model-2 is: 0.94697
+2023-07-16 15:17:43,865 - Model - INFO - Train accuracy is: 0.94697
+2023-07-16 15:17:43,865 - Model - INFO - Save model...
+2023-07-16 15:17:43,865 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 15:17:44,154 - Model - INFO - Saving model....
+2023-07-16 15:17:44,155 - Model - INFO - Epoch 71 (71/100):
+2023-07-16 15:17:44,155 - Model - INFO - Learning rate:0.000125
+2023-07-16 16:03:39,500 - Model - INFO - Train accuracy model-0 is: 0.94863
+2023-07-16 16:03:39,501 - Model - INFO - Train accuracy model-1 is: 0.94805
+2023-07-16 16:03:39,502 - Model - INFO - Train accuracy model-2 is: 0.94715
+2023-07-16 16:03:39,502 - Model - INFO - Train accuracy is: 0.94715
+2023-07-16 16:03:39,502 - Model - INFO - Save model...
+2023-07-16 16:03:39,503 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 16:03:39,798 - Model - INFO - Saving model....
+2023-07-16 16:03:39,799 - Model - INFO - Epoch 72 (72/100):
+2023-07-16 16:03:39,799 - Model - INFO - Learning rate:0.000125
+2023-07-16 16:49:45,824 - Model - INFO - Train accuracy model-0 is: 0.94868
+2023-07-16 16:49:45,826 - Model - INFO - Train accuracy model-1 is: 0.94820
+2023-07-16 16:49:45,827 - Model - INFO - Train accuracy model-2 is: 0.94739
+2023-07-16 16:49:45,827 - Model - INFO - Train accuracy is: 0.94739
+2023-07-16 16:49:45,827 - Model - INFO - Save model...
+2023-07-16 16:49:45,828 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 16:49:46,127 - Model - INFO - Saving model....
+2023-07-16 16:49:46,128 - Model - INFO - Epoch 73 (73/100):
+2023-07-16 16:49:46,128 - Model - INFO - Learning rate:0.000125
+2023-07-16 17:35:32,562 - Model - INFO - Train accuracy model-0 is: 0.94840
+2023-07-16 17:35:32,563 - Model - INFO - Train accuracy model-1 is: 0.94780
+2023-07-16 17:35:32,564 - Model - INFO - Train accuracy model-2 is: 0.94702
+2023-07-16 17:35:32,564 - Model - INFO - Train accuracy is: 0.94702
+2023-07-16 17:35:32,564 - Model - INFO - Save model...
+2023-07-16 17:35:32,564 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 17:35:32,857 - Model - INFO - Saving model....
+2023-07-16 17:35:32,858 - Model - INFO - Epoch 74 (74/100):
+2023-07-16 17:35:32,858 - Model - INFO - Learning rate:0.000125
+2023-07-16 18:21:19,831 - Model - INFO - Train accuracy model-0 is: 0.94877
+2023-07-16 18:21:19,832 - Model - INFO - Train accuracy model-1 is: 0.94825
+2023-07-16 18:21:19,833 - Model - INFO - Train accuracy model-2 is: 0.94742
+2023-07-16 18:21:19,834 - Model - INFO - Train accuracy is: 0.94742
+2023-07-16 18:21:19,834 - Model - INFO - Save model...
+2023-07-16 18:21:19,834 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 18:21:20,121 - Model - INFO - Saving model....
+2023-07-16 18:21:20,122 - Model - INFO - Epoch 75 (75/100):
+2023-07-16 18:21:20,122 - Model - INFO - Learning rate:0.000125
+2023-07-16 19:07:01,497 - Model - INFO - Train accuracy model-0 is: 0.94847
+2023-07-16 19:07:01,498 - Model - INFO - Train accuracy model-1 is: 0.94788
+2023-07-16 19:07:01,499 - Model - INFO - Train accuracy model-2 is: 0.94696
+2023-07-16 19:07:01,499 - Model - INFO - Train accuracy is: 0.94696
+2023-07-16 19:07:01,499 - Model - INFO - Save model...
+2023-07-16 19:07:01,500 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 19:07:01,791 - Model - INFO - Saving model....
+2023-07-16 19:07:01,792 - Model - INFO - Epoch 76 (76/100):
+2023-07-16 19:07:01,792 - Model - INFO - Learning rate:0.000125
+2023-07-16 19:53:07,122 - Model - INFO - Train accuracy model-0 is: 0.94836
+2023-07-16 19:53:07,123 - Model - INFO - Train accuracy model-1 is: 0.94773
+2023-07-16 19:53:07,124 - Model - INFO - Train accuracy model-2 is: 0.94685
+2023-07-16 19:53:07,124 - Model - INFO - Train accuracy is: 0.94685
+2023-07-16 19:53:07,124 - Model - INFO - Save model...
+2023-07-16 19:53:07,124 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 19:53:07,414 - Model - INFO - Saving model....
+2023-07-16 19:53:07,415 - Model - INFO - Epoch 77 (77/100):
+2023-07-16 19:53:07,415 - Model - INFO - Learning rate:0.000125
+2023-07-16 20:38:44,007 - Model - INFO - Train accuracy model-0 is: 0.94894
+2023-07-16 20:38:44,008 - Model - INFO - Train accuracy model-1 is: 0.94839
+2023-07-16 20:38:44,009 - Model - INFO - Train accuracy model-2 is: 0.94742
+2023-07-16 20:38:44,009 - Model - INFO - Train accuracy is: 0.94742
+2023-07-16 20:38:44,009 - Model - INFO - Save model...
+2023-07-16 20:38:44,009 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 20:38:44,295 - Model - INFO - Saving model....
+2023-07-16 20:38:44,296 - Model - INFO - Epoch 78 (78/100):
+2023-07-16 20:38:44,296 - Model - INFO - Learning rate:0.000125
+2023-07-16 21:24:35,857 - Model - INFO - Train accuracy model-0 is: 0.94885
+2023-07-16 21:24:35,858 - Model - INFO - Train accuracy model-1 is: 0.94830
+2023-07-16 21:24:35,859 - Model - INFO - Train accuracy model-2 is: 0.94749
+2023-07-16 21:24:35,859 - Model - INFO - Train accuracy is: 0.94749
+2023-07-16 21:24:35,860 - Model - INFO - Save model...
+2023-07-16 21:24:35,860 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 21:24:36,152 - Model - INFO - Saving model....
+2023-07-16 21:24:36,152 - Model - INFO - Epoch 79 (79/100):
+2023-07-16 21:24:36,153 - Model - INFO - Learning rate:0.000125
+2023-07-16 22:10:18,381 - Model - INFO - Train accuracy model-0 is: 0.94902
+2023-07-16 22:10:18,382 - Model - INFO - Train accuracy model-1 is: 0.94845
+2023-07-16 22:10:18,383 - Model - INFO - Train accuracy model-2 is: 0.94766
+2023-07-16 22:10:18,384 - Model - INFO - Train accuracy is: 0.94766
+2023-07-16 22:10:18,384 - Model - INFO - Save model...
+2023-07-16 22:10:18,384 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 22:10:18,672 - Model - INFO - Saving model....
+2023-07-16 22:10:18,673 - Model - INFO - Epoch 80 (80/100):
+2023-07-16 22:10:18,674 - Model - INFO - Learning rate:0.000125
+2023-07-16 22:56:33,048 - Model - INFO - Train accuracy model-0 is: 0.94912
+2023-07-16 22:56:33,050 - Model - INFO - Train accuracy model-1 is: 0.94854
+2023-07-16 22:56:33,051 - Model - INFO - Train accuracy model-2 is: 0.94769
+2023-07-16 22:56:33,051 - Model - INFO - Train accuracy is: 0.94769
+2023-07-16 22:56:33,051 - Model - INFO - Save model...
+2023-07-16 22:56:33,051 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 22:56:33,343 - Model - INFO - Saving model....
+2023-07-16 22:56:33,344 - Model - INFO - Epoch 81 (81/100):
+2023-07-16 22:56:33,344 - Model - INFO - Learning rate:0.000063
+2023-07-16 23:42:09,200 - Model - INFO - Train accuracy model-0 is: 0.94975
+2023-07-16 23:42:09,202 - Model - INFO - Train accuracy model-1 is: 0.94950
+2023-07-16 23:42:09,203 - Model - INFO - Train accuracy model-2 is: 0.94893
+2023-07-16 23:42:09,203 - Model - INFO - Train accuracy is: 0.94893
+2023-07-16 23:42:09,203 - Model - INFO - Save model...
+2023-07-16 23:42:09,203 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-16 23:42:09,492 - Model - INFO - Saving model....
+2023-07-16 23:42:09,493 - Model - INFO - Epoch 82 (82/100):
+2023-07-16 23:42:09,493 - Model - INFO - Learning rate:0.000063
+2023-07-17 00:27:42,310 - Model - INFO - Train accuracy model-0 is: 0.95040
+2023-07-17 00:27:42,311 - Model - INFO - Train accuracy model-1 is: 0.94999
+2023-07-17 00:27:42,312 - Model - INFO - Train accuracy model-2 is: 0.94938
+2023-07-17 00:27:42,312 - Model - INFO - Train accuracy is: 0.94938
+2023-07-17 00:27:42,312 - Model - INFO - Save model...
+2023-07-17 00:27:42,313 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 00:27:42,609 - Model - INFO - Saving model....
+2023-07-17 00:27:42,610 - Model - INFO - Epoch 83 (83/100):
+2023-07-17 00:27:42,610 - Model - INFO - Learning rate:0.000063
+2023-07-17 01:12:50,321 - Model - INFO - Train accuracy model-0 is: 0.94997
+2023-07-17 01:12:50,322 - Model - INFO - Train accuracy model-1 is: 0.94973
+2023-07-17 01:12:50,323 - Model - INFO - Train accuracy model-2 is: 0.94916
+2023-07-17 01:12:50,323 - Model - INFO - Train accuracy is: 0.94916
+2023-07-17 01:12:50,324 - Model - INFO - Save model...
+2023-07-17 01:12:50,324 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 01:12:50,607 - Model - INFO - Saving model....
+2023-07-17 01:12:50,608 - Model - INFO - Epoch 84 (84/100):
+2023-07-17 01:12:50,608 - Model - INFO - Learning rate:0.000063
+2023-07-17 01:58:34,176 - Model - INFO - Train accuracy model-0 is: 0.95047
+2023-07-17 01:58:34,178 - Model - INFO - Train accuracy model-1 is: 0.95021
+2023-07-17 01:58:34,178 - Model - INFO - Train accuracy model-2 is: 0.94964
+2023-07-17 01:58:34,179 - Model - INFO - Train accuracy is: 0.94964
+2023-07-17 01:58:34,179 - Model - INFO - Save model...
+2023-07-17 01:58:34,179 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 01:58:34,596 - Model - INFO - Saving model....
+2023-07-17 01:58:34,598 - Model - INFO - Epoch 85 (85/100):
+2023-07-17 01:58:34,598 - Model - INFO - Learning rate:0.000063
+2023-07-17 02:44:08,074 - Model - INFO - Train accuracy model-0 is: 0.95016
+2023-07-17 02:44:08,077 - Model - INFO - Train accuracy model-1 is: 0.94986
+2023-07-17 02:44:08,078 - Model - INFO - Train accuracy model-2 is: 0.94930
+2023-07-17 02:44:08,079 - Model - INFO - Train accuracy is: 0.94930
+2023-07-17 02:44:08,079 - Model - INFO - Save model...
+2023-07-17 02:44:08,079 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 02:44:08,420 - Model - INFO - Saving model....
+2023-07-17 02:44:08,420 - Model - INFO - Epoch 86 (86/100):
+2023-07-17 02:44:08,421 - Model - INFO - Learning rate:0.000063
+2023-07-17 03:29:24,794 - Model - INFO - Train accuracy model-0 is: 0.95024
+2023-07-17 03:29:24,795 - Model - INFO - Train accuracy model-1 is: 0.94993
+2023-07-17 03:29:24,796 - Model - INFO - Train accuracy model-2 is: 0.94934
+2023-07-17 03:29:24,796 - Model - INFO - Train accuracy is: 0.94934
+2023-07-17 03:29:24,797 - Model - INFO - Save model...
+2023-07-17 03:29:24,797 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 03:29:25,082 - Model - INFO - Saving model....
+2023-07-17 03:29:25,083 - Model - INFO - Epoch 87 (87/100):
+2023-07-17 03:29:25,083 - Model - INFO - Learning rate:0.000063
+2023-07-17 04:14:36,655 - Model - INFO - Train accuracy model-0 is: 0.95052
+2023-07-17 04:14:36,657 - Model - INFO - Train accuracy model-1 is: 0.95025
+2023-07-17 04:14:36,658 - Model - INFO - Train accuracy model-2 is: 0.94973
+2023-07-17 04:14:36,658 - Model - INFO - Train accuracy is: 0.94973
+2023-07-17 04:14:36,658 - Model - INFO - Save model...
+2023-07-17 04:14:36,658 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 04:14:36,939 - Model - INFO - Saving model....
+2023-07-17 04:14:36,940 - Model - INFO - Epoch 88 (88/100):
+2023-07-17 04:14:36,940 - Model - INFO - Learning rate:0.000063
+2023-07-17 04:59:48,531 - Model - INFO - Train accuracy model-0 is: 0.95056
+2023-07-17 04:59:48,533 - Model - INFO - Train accuracy model-1 is: 0.95032
+2023-07-17 04:59:48,534 - Model - INFO - Train accuracy model-2 is: 0.94983
+2023-07-17 04:59:48,534 - Model - INFO - Train accuracy is: 0.94983
+2023-07-17 04:59:48,534 - Model - INFO - Save model...
+2023-07-17 04:59:48,534 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 04:59:48,866 - Model - INFO - Saving model....
+2023-07-17 04:59:48,867 - Model - INFO - Epoch 89 (89/100):
+2023-07-17 04:59:48,867 - Model - INFO - Learning rate:0.000063
+2023-07-17 05:45:13,533 - Model - INFO - Train accuracy model-0 is: 0.95040
+2023-07-17 05:45:13,535 - Model - INFO - Train accuracy model-1 is: 0.95007
+2023-07-17 05:45:13,535 - Model - INFO - Train accuracy model-2 is: 0.94953
+2023-07-17 05:45:13,536 - Model - INFO - Train accuracy is: 0.94953
+2023-07-17 05:45:13,536 - Model - INFO - Save model...
+2023-07-17 05:45:13,536 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 05:45:13,823 - Model - INFO - Saving model....
+2023-07-17 05:45:13,824 - Model - INFO - Epoch 90 (90/100):
+2023-07-17 05:45:13,824 - Model - INFO - Learning rate:0.000063
+2023-07-17 06:30:35,015 - Model - INFO - Train accuracy model-0 is: 0.95052
+2023-07-17 06:30:35,016 - Model - INFO - Train accuracy model-1 is: 0.95019
+2023-07-17 06:30:35,017 - Model - INFO - Train accuracy model-2 is: 0.94966
+2023-07-17 06:30:35,017 - Model - INFO - Train accuracy is: 0.94966
+2023-07-17 06:30:35,017 - Model - INFO - Save model...
+2023-07-17 06:30:35,018 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 06:30:35,330 - Model - INFO - Saving model....
+2023-07-17 06:30:35,331 - Model - INFO - Epoch 91 (91/100):
+2023-07-17 06:30:35,332 - Model - INFO - Learning rate:0.000063
+2023-07-17 07:15:53,686 - Model - INFO - Train accuracy model-0 is: 0.95070
+2023-07-17 07:15:53,687 - Model - INFO - Train accuracy model-1 is: 0.95043
+2023-07-17 07:15:53,688 - Model - INFO - Train accuracy model-2 is: 0.94983
+2023-07-17 07:15:53,688 - Model - INFO - Train accuracy is: 0.94983
+2023-07-17 07:15:53,688 - Model - INFO - Save model...
+2023-07-17 07:15:53,689 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 07:15:53,975 - Model - INFO - Saving model....
+2023-07-17 07:15:53,976 - Model - INFO - Epoch 92 (92/100):
+2023-07-17 07:15:53,976 - Model - INFO - Learning rate:0.000063
+2023-07-17 08:01:07,633 - Model - INFO - Train accuracy model-0 is: 0.95055
+2023-07-17 08:01:07,634 - Model - INFO - Train accuracy model-1 is: 0.95029
+2023-07-17 08:01:07,635 - Model - INFO - Train accuracy model-2 is: 0.94969
+2023-07-17 08:01:07,635 - Model - INFO - Train accuracy is: 0.94969
+2023-07-17 08:01:07,636 - Model - INFO - Save model...
+2023-07-17 08:01:07,636 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 08:01:07,929 - Model - INFO - Saving model....
+2023-07-17 08:01:07,930 - Model - INFO - Epoch 93 (93/100):
+2023-07-17 08:01:07,930 - Model - INFO - Learning rate:0.000063
+2023-07-17 08:46:12,948 - Model - INFO - Train accuracy model-0 is: 0.95072
+2023-07-17 08:46:12,949 - Model - INFO - Train accuracy model-1 is: 0.95050
+2023-07-17 08:46:12,950 - Model - INFO - Train accuracy model-2 is: 0.94995
+2023-07-17 08:46:12,951 - Model - INFO - Train accuracy is: 0.94995
+2023-07-17 08:46:12,951 - Model - INFO - Save model...
+2023-07-17 08:46:12,951 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 08:46:13,279 - Model - INFO - Saving model....
+2023-07-17 08:46:13,280 - Model - INFO - Epoch 94 (94/100):
+2023-07-17 08:46:13,280 - Model - INFO - Learning rate:0.000063
+2023-07-17 09:31:27,260 - Model - INFO - Train accuracy model-0 is: 0.95079
+2023-07-17 09:31:27,261 - Model - INFO - Train accuracy model-1 is: 0.95062
+2023-07-17 09:31:27,262 - Model - INFO - Train accuracy model-2 is: 0.95006
+2023-07-17 09:31:27,262 - Model - INFO - Train accuracy is: 0.95006
+2023-07-17 09:31:27,263 - Model - INFO - Save model...
+2023-07-17 09:31:27,263 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 09:31:27,588 - Model - INFO - Saving model....
+2023-07-17 09:31:27,589 - Model - INFO - Epoch 95 (95/100):
+2023-07-17 09:31:27,590 - Model - INFO - Learning rate:0.000063
+2023-07-17 10:16:38,714 - Model - INFO - Train accuracy model-0 is: 0.95076
+2023-07-17 10:16:38,715 - Model - INFO - Train accuracy model-1 is: 0.95048
+2023-07-17 10:16:38,716 - Model - INFO - Train accuracy model-2 is: 0.94995
+2023-07-17 10:16:38,716 - Model - INFO - Train accuracy is: 0.94995
+2023-07-17 10:16:38,717 - Model - INFO - Save model...
+2023-07-17 10:16:38,717 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 10:16:38,995 - Model - INFO - Saving model....
+2023-07-17 10:16:38,996 - Model - INFO - Epoch 96 (96/100):
+2023-07-17 10:16:38,997 - Model - INFO - Learning rate:0.000063
+2023-07-17 11:02:11,874 - Model - INFO - Train accuracy model-0 is: 0.95087
+2023-07-17 11:02:11,876 - Model - INFO - Train accuracy model-1 is: 0.95057
+2023-07-17 11:02:11,877 - Model - INFO - Train accuracy model-2 is: 0.94999
+2023-07-17 11:02:11,877 - Model - INFO - Train accuracy is: 0.94999
+2023-07-17 11:02:11,877 - Model - INFO - Save model...
+2023-07-17 11:02:11,877 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 11:02:12,211 - Model - INFO - Saving model....
+2023-07-17 11:02:12,211 - Model - INFO - Epoch 97 (97/100):
+2023-07-17 11:02:12,212 - Model - INFO - Learning rate:0.000063
+2023-07-17 11:47:35,441 - Model - INFO - Train accuracy model-0 is: 0.95099
+2023-07-17 11:47:35,443 - Model - INFO - Train accuracy model-1 is: 0.95077
+2023-07-17 11:47:35,443 - Model - INFO - Train accuracy model-2 is: 0.95017
+2023-07-17 11:47:35,444 - Model - INFO - Train accuracy is: 0.95017
+2023-07-17 11:47:35,444 - Model - INFO - Save model...
+2023-07-17 11:47:35,444 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 11:47:35,739 - Model - INFO - Saving model....
+2023-07-17 11:47:35,740 - Model - INFO - Epoch 98 (98/100):
+2023-07-17 11:47:35,740 - Model - INFO - Learning rate:0.000063
+2023-07-17 12:33:02,470 - Model - INFO - Train accuracy model-0 is: 0.95098
+2023-07-17 12:33:02,472 - Model - INFO - Train accuracy model-1 is: 0.95070
+2023-07-17 12:33:02,472 - Model - INFO - Train accuracy model-2 is: 0.95009
+2023-07-17 12:33:02,473 - Model - INFO - Train accuracy is: 0.95009
+2023-07-17 12:33:02,473 - Model - INFO - Save model...
+2023-07-17 12:33:02,473 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 12:33:02,759 - Model - INFO - Saving model....
+2023-07-17 12:33:02,760 - Model - INFO - Epoch 99 (99/100):
+2023-07-17 12:33:02,760 - Model - INFO - Learning rate:0.000063
+2023-07-17 13:18:32,389 - Model - INFO - Train accuracy model-0 is: 0.95091
+2023-07-17 13:18:32,390 - Model - INFO - Train accuracy model-1 is: 0.95066
+2023-07-17 13:18:32,391 - Model - INFO - Train accuracy model-2 is: 0.95009
+2023-07-17 13:18:32,391 - Model - INFO - Train accuracy is: 0.95009
+2023-07-17 13:18:32,391 - Model - INFO - Save model...
+2023-07-17 13:18:32,392 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 13:18:32,680 - Model - INFO - Saving model....
+2023-07-17 13:18:32,681 - Model - INFO - Epoch 100 (100/100):
+2023-07-17 13:18:32,682 - Model - INFO - Learning rate:0.000063
+2023-07-17 14:04:17,859 - Model - INFO - Train accuracy model-0 is: 0.95099
+2023-07-17 14:04:17,860 - Model - INFO - Train accuracy model-1 is: 0.95067
+2023-07-17 14:04:17,861 - Model - INFO - Train accuracy model-2 is: 0.95008
+2023-07-17 14:04:17,861 - Model - INFO - Train accuracy is: 0.95008
+2023-07-17 14:04:17,862 - Model - INFO - Save model...
+2023-07-17 14:04:17,862 - Model - INFO - Saving at log/part_seg/iterativenewmodelshidden_part_seg_ssg_numitr3/checkpoints/model-2.pth
+2023-07-17 14:04:18,150 - Model - INFO - Saving model....

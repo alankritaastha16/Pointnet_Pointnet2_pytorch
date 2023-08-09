@@ -1,0 +1,41 @@
+2023-06-26 16:14:56,046 - Model - INFO - PARAMETER ...
+2023-06-26 16:14:56,046 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodels_part_seg_ssg_numitr2', normal=False, num_itr=2, num_point=2048)
+2023-06-26 16:14:56,135 - Model - INFO - The number of test data is: 2874
+2023-06-26 16:18:31,828 - Model - INFO - PARAMETER ...
+2023-06-26 16:18:31,828 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodels_part_seg_ssg_numitr2', normal=False, num_itr=2, num_point=2048)
+2023-06-26 16:18:31,914 - Model - INFO - The number of test data is: 2874
+2023-06-26 16:20:44,392 - Model - INFO - PARAMETER ...
+2023-06-26 16:20:44,392 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodels_part_seg_ssg_numitr2', normal=False, num_itr=2, num_point=2048)
+2023-06-26 16:20:44,478 - Model - INFO - The number of test data is: 2874
+2023-06-26 16:28:51,220 - Model - INFO - PARAMETER ...
+2023-06-26 16:28:51,220 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodels_part_seg_ssg_numitr2', normal=False, num_itr=2, num_point=2048)
+2023-06-26 16:28:51,314 - Model - INFO - The number of test data is: 2874
+2023-06-26 16:30:18,591 - Model - INFO - PARAMETER ...
+2023-06-26 16:30:18,591 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodels_part_seg_ssg_numitr2', normal=False, num_itr=2, num_point=2048)
+2023-06-26 16:30:18,676 - Model - INFO - The number of test data is: 2874
+2023-06-26 16:30:32,769 - Model - INFO - PARAMETER ...
+2023-06-26 16:30:32,770 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodels_part_seg_ssg_numitr2', normal=False, num_itr=2, num_point=2048)
+2023-06-26 16:30:32,850 - Model - INFO - The number of test data is: 2874
+2023-06-26 16:33:20,695 - Model - INFO - PARAMETER ...
+2023-06-26 16:33:20,695 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodels_part_seg_ssg_numitr2', normal=False, num_itr=2, num_point=2048)
+2023-06-26 16:33:20,781 - Model - INFO - The number of test data is: 2874
+2023-06-26 16:46:47,835 - Model - INFO - eval mIoU of Airplane       0.822807
+2023-06-26 16:46:47,835 - Model - INFO - eval mIoU of Bag            0.630308
+2023-06-26 16:46:47,836 - Model - INFO - eval mIoU of Cap            0.827210
+2023-06-26 16:46:47,836 - Model - INFO - eval mIoU of Car            0.722137
+2023-06-26 16:46:47,836 - Model - INFO - eval mIoU of Chair          0.902225
+2023-06-26 16:46:47,836 - Model - INFO - eval mIoU of Earphone       0.754937
+2023-06-26 16:46:47,837 - Model - INFO - eval mIoU of Guitar         0.906542
+2023-06-26 16:46:47,837 - Model - INFO - eval mIoU of Knife          0.858652
+2023-06-26 16:46:47,838 - Model - INFO - eval mIoU of Lamp           0.845235
+2023-06-26 16:46:47,838 - Model - INFO - eval mIoU of Laptop         0.939263
+2023-06-26 16:46:47,838 - Model - INFO - eval mIoU of Motorbike      0.585893
+2023-06-26 16:46:47,839 - Model - INFO - eval mIoU of Mug            0.903284
+2023-06-26 16:46:47,839 - Model - INFO - eval mIoU of Pistol         0.803541
+2023-06-26 16:46:47,840 - Model - INFO - eval mIoU of Rocket         0.540667
+2023-06-26 16:46:47,840 - Model - INFO - eval mIoU of Skateboard     0.719928
+2023-06-26 16:46:47,840 - Model - INFO - eval mIoU of Table          0.829376
+2023-06-26 16:46:47,842 - Model - INFO - Accuracy is: 0.93734
+2023-06-26 16:46:47,843 - Model - INFO - Class avg accuracy is: 0.82011
+2023-06-26 16:46:47,843 - Model - INFO - Class avg mIOU is: 0.78700
+2023-06-26 16:46:47,844 - Model - INFO - Inctance avg mIOU is: 0.84292

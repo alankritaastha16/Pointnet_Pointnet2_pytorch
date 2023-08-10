@@ -1,40 +1,26 @@
-2023-07-21 13:28:47,410 - Model - INFO - PARAMETER ...
-2023-07-21 13:28:47,410 - Model - INFO - Namespace(batch_size=24, datadir='/data/pointclouds/ShapeNet', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=5, num_point=2048)
-2023-07-21 13:30:16,819 - Model - INFO - PARAMETER ...
-2023-07-21 13:30:16,819 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=5, num_point=2048)
-2023-07-21 13:30:16,915 - Model - INFO - The number of test data is: 2874
-2023-07-21 13:32:15,653 - Model - INFO - PARAMETER ...
-2023-07-21 13:32:15,668 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=1, num_point=2048)
-2023-07-21 13:32:15,750 - Model - INFO - The number of test data is: 2874
-2023-07-21 13:34:39,441 - Model - INFO - PARAMETER ...
-2023-07-21 13:34:39,441 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=1, num_point=2048)
-2023-07-21 13:34:39,527 - Model - INFO - The number of test data is: 2874
-2023-07-21 13:36:02,566 - Model - INFO - PARAMETER ...
-2023-07-21 13:36:02,566 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=1, num_point=2048)
-2023-07-21 13:36:02,651 - Model - INFO - The number of test data is: 2874
-2023-07-21 13:36:18,667 - Model - INFO - PARAMETER ...
-2023-07-21 13:36:18,667 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=1, num_point=2048)
-2023-07-21 13:36:18,760 - Model - INFO - The number of test data is: 2874
-2023-07-21 13:37:59,878 - Model - INFO - PARAMETER ...
-2023-07-21 13:37:59,879 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=1, num_point=2048)
-2023-07-21 13:37:59,961 - Model - INFO - The number of test data is: 2874
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Airplane       0.814651
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Bag            0.803196
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Cap            0.844859
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Car            0.755305
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Chair          0.900723
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Earphone       0.717451
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Guitar         0.904177
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Knife          0.871485
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Lamp           0.837094
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Laptop         0.945885
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Motorbike      0.632552
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Mug            0.935953
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Pistol         0.810582
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Rocket         0.576186
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Skateboard     0.734325
-2023-07-21 13:45:31,234 - Model - INFO - eval mIoU of Table          0.823331
-2023-07-21 13:45:31,234 - Model - INFO - Accuracy is: 0.93796
-2023-07-21 13:45:31,234 - Model - INFO - Class avg accuracy is: 0.84396
-2023-07-21 13:45:31,234 - Model - INFO - Class avg mIOU is: 0.80673
-2023-07-21 13:45:31,234 - Model - INFO - Inctance avg mIOU is: 0.84363
+2023-08-10 02:26:32,000 - Model - INFO - PARAMETER ...
+2023-08-10 02:26:32,015 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=5, num_point=2048)
+2023-08-10 02:26:32,114 - Model - INFO - The number of test data is: 2874
+2023-08-10 02:28:03,009 - Model - INFO - PARAMETER ...
+2023-08-10 02:28:03,010 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='iterativenewmodelshidden_part_seg_ssg_numitr1', normal=False, num_itr=1, num_point=2048)
+2023-08-10 02:28:03,088 - Model - INFO - The number of test data is: 2874
+2023-08-10 02:35:23,556 - Model - INFO - eval mIoU of Airplane       0.818975
+2023-08-10 02:35:23,556 - Model - INFO - eval mIoU of Bag            0.778713
+2023-08-10 02:35:23,556 - Model - INFO - eval mIoU of Cap            0.849083
+2023-08-10 02:35:23,557 - Model - INFO - eval mIoU of Car            0.759662
+2023-08-10 02:35:23,557 - Model - INFO - eval mIoU of Chair          0.901384
+2023-08-10 02:35:23,557 - Model - INFO - eval mIoU of Earphone       0.699574
+2023-08-10 02:35:23,558 - Model - INFO - eval mIoU of Guitar         0.903729
+2023-08-10 02:35:23,558 - Model - INFO - eval mIoU of Knife          0.870108
+2023-08-10 02:35:23,558 - Model - INFO - eval mIoU of Lamp           0.838891
+2023-08-10 02:35:23,558 - Model - INFO - eval mIoU of Laptop         0.945330
+2023-08-10 02:35:23,559 - Model - INFO - eval mIoU of Motorbike      0.630795
+2023-08-10 02:35:23,559 - Model - INFO - eval mIoU of Mug            0.937628
+2023-08-10 02:35:23,559 - Model - INFO - eval mIoU of Pistol         0.813398
+2023-08-10 02:35:23,560 - Model - INFO - eval mIoU of Rocket         0.594755
+2023-08-10 02:35:23,560 - Model - INFO - eval mIoU of Skateboard     0.740317
+2023-08-10 02:35:23,561 - Model - INFO - eval mIoU of Table          0.820493
+2023-08-10 02:35:23,561 - Model - INFO - Accuracy is: 0.93841
+2023-08-10 02:35:23,561 - Model - INFO - Class avg accuracy is: 0.84248
+2023-08-10 02:35:23,563 - Model - INFO - Class avg mIOU is: 0.80643
+2023-08-10 02:35:23,563 - Model - INFO - Inctance avg mIOU is: 0.84379

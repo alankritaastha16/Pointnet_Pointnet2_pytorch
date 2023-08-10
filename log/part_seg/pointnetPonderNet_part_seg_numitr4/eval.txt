@@ -1,0 +1,23 @@
+2023-08-10 03:06:30,275 - Model - INFO - PARAMETER ...
+2023-08-10 03:06:30,275 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Algorithms\\data', log_dir='pointnetponderNet_part_seg_numitr4', normal=False, num_itr=4, num_point=2048)
+2023-08-10 03:06:30,377 - Model - INFO - The number of test data is: 2874
+2023-08-10 03:49:08,558 - Model - INFO - eval mIoU of Airplane       0.396785
+2023-08-10 03:49:08,572 - Model - INFO - eval mIoU of Bag            0.527426
+2023-08-10 03:49:08,572 - Model - INFO - eval mIoU of Cap            0.649371
+2023-08-10 03:49:08,573 - Model - INFO - eval mIoU of Car            0.301377
+2023-08-10 03:49:08,574 - Model - INFO - eval mIoU of Chair          0.740564
+2023-08-10 03:49:08,574 - Model - INFO - eval mIoU of Earphone       0.554704
+2023-08-10 03:49:08,575 - Model - INFO - eval mIoU of Guitar         0.742288
+2023-08-10 03:49:08,575 - Model - INFO - eval mIoU of Knife          0.749637
+2023-08-10 03:49:08,576 - Model - INFO - eval mIoU of Lamp           0.558619
+2023-08-10 03:49:08,576 - Model - INFO - eval mIoU of Laptop         0.849248
+2023-08-10 03:49:08,577 - Model - INFO - eval mIoU of Motorbike      0.215452
+2023-08-10 03:49:08,577 - Model - INFO - eval mIoU of Mug            0.486630
+2023-08-10 03:49:08,578 - Model - INFO - eval mIoU of Pistol         0.517465
+2023-08-10 03:49:08,578 - Model - INFO - eval mIoU of Rocket         0.234635
+2023-08-10 03:49:08,578 - Model - INFO - eval mIoU of Skateboard     0.451946
+2023-08-10 03:49:08,579 - Model - INFO - eval mIoU of Table          0.719305
+2023-08-10 03:49:08,581 - Model - INFO - Accuracy is: 0.79514
+2023-08-10 03:49:08,581 - Model - INFO - Class avg accuracy is: 0.54056
+2023-08-10 03:49:08,581 - Model - INFO - Class avg mIOU is: 0.54347
+2023-08-10 03:49:08,581 - Model - INFO - Inctance avg mIOU is: 0.63113

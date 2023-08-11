@@ -17,7 +17,8 @@
 2023-06-26 17:09:28,023 - Model - INFO - eval mIoU of Rocket         0.390900
 2023-06-26 17:09:28,023 - Model - INFO - eval mIoU of Skateboard     0.734684
 2023-06-26 17:09:28,023 - Model - INFO - eval mIoU of Table          0.833164
-2023-06-26 17:09:28,025 - Model - INFO - Accuracy is: 0.93491
+2023-06-26 17:09:28,025 - Model - INFO - Accuracy is: 
 2023-06-26 17:09:28,025 - Model - INFO - Class avg accuracy is: 0.80227
 2023-06-26 17:09:28,025 - Model - INFO - Class avg mIOU is: 0.76947
 2023-06-26 17:09:28,026 - Model - INFO - Inctance avg mIOU is: 0.83745
+0.93491

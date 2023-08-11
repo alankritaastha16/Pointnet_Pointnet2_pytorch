@@ -61,7 +61,7 @@ def parse_args():
     parser.add_argument('--normal', action='store_true', default=False, help='use normals')
     parser.add_argument('--step_size', type=int, default=20, help='decay step for lr decay')
     parser.add_argument('--lr_decay', type=float, default=0.5, help='decay rate for lr decay')
-    parser.add_argument('--datadir', type=str, default='/data', help='decay rate for lr decay')
+    parser.add_argument('--datadir', type=str, default='/data/pointclouds/ShapeNet', help='decay rate for lr decay')
     return parser.parse_args()
 
 

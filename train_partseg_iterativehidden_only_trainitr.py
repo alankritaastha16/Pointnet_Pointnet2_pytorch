@@ -118,7 +118,7 @@ def main(args):
 
     num_classes = 16
     num_part = 50
-    input_size = 128
+    input_size = num_part
     num_itr = args.num_itr
     '''MODEL LOADING'''
     MODELS = [importlib.import_module(args.model) for i in range(num_itr)]

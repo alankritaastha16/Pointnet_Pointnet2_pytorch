@@ -222,7 +222,7 @@ def main(args):
             points, target = points.float().cuda(), target.long().cuda()
             points = points.transpose(2, 1)
             #print('points:', points.shape)
-            prev_output = torch.zeros((points.shape[0], 128, points.shape[2]), device='cuda')
+            prev_output = torch.zeros((points.shape[0], input_size, points.shape[2]), device='cuda')
             optimizer.zero_grad()
             # Num_itr = 1, then its the normal behavior
             # Num_itr = 20, pondernet

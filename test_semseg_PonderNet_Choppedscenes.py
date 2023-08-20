@@ -76,7 +76,7 @@ def main(args):
     log_string(args)
 
 
-    root = args.datadir+ +'s3dis/stanford_indoor3d/'
+    root = args.datadir +'/stanford_indoor3d/'
     NUM_CLASSES = 13
     NUM_POINT = args.num_point
     BATCH_SIZE = args.batch_size

@@ -58,6 +58,7 @@ def main(args):
 
     '''HYPER PARAMETER'''
     #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
     experiment_dir = 'log/sem_seg/' + args.log_dir
     visual_dir = experiment_dir + '/visual/'
     visual_dir = Path(visual_dir)
@@ -87,7 +88,7 @@ def main(args):
     '''MODEL LOADING'''
     model_name = os.listdir(experiment_dir + '/logs')[0].split('.')[0]
     MODEL = importlib.import_module(model_name)
-    classifier = MODEL.get_model(NUM_CLASSES).cuda()
+    classifier = MODEL.get_model(NUM_CLASSES).to(device)()
     checkpoint = torch.load(str(experiment_dir) + '/checkpoints/best_model.pth')
     classifier.load_state_dict(checkpoint['model_state_dict'])
     classifier = classifier.eval()
@@ -136,7 +137,7 @@ def main(args):
                     batch_data[:, :, 3:6] /= 1.0
 
                     torch_data = torch.Tensor(batch_data)
-                    torch_data = torch_data.float().cuda()
+                    torch_data = torch_data.float().to(device)()
                     torch_data = torch_data.transpose(2, 1)
                     seg_pred, _ = classifier(torch_data)
                     batch_pred_label = seg_pred.contiguous().cpu().data.max(2)[1].numpy()

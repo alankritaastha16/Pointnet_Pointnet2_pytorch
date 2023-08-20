@@ -21,3 +21,9 @@
 2023-08-10 14:15:31,928 - Model - INFO - Class avg accuracy is: 0.80493
 2023-08-10 14:15:31,928 - Model - INFO - Class avg mIOU is: 0.76265
 2023-08-10 14:15:31,928 - Model - INFO - Inctance avg mIOU is: 0.82759
+2023-08-20 19:59:28,473 - Model - INFO - PARAMETER ...
+2023-08-20 19:59:28,474 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Pointnet_Pointnet2_pytorch\\data', log_dir='pointnetPondernetiterative_part_seg_ssg_numitr3', normal=False, num_itr=3, num_point=2048)
+2023-08-20 19:59:28,921 - Model - INFO - The number of test data is: 2874
+2023-08-20 21:19:27,129 - Model - INFO - PARAMETER ...
+2023-08-20 21:19:27,130 - Model - INFO - Namespace(batch_size=24, datadir='C:\\Users\\alank\\OneDrive - TUM\\Master Thesis\\Pointnet_Pointnet2_pytorch\\data', log_dir='pointnetPondernetiterative_part_seg_ssg_numitr3', normal=False, num_itr=3, num_point=2048)
+2023-08-20 21:19:27,216 - Model - INFO - The number of test data is: 2874

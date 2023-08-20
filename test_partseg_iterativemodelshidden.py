@@ -87,7 +87,7 @@ def main(args):
     MODELS = [importlib.import_module(model_name) for i in range(num_itr)]
     classifiers = [MODELS[i].get_model(num_part, input_size, normal_channel=args.normal).to(device) for i in range(num_itr)]
     #classifier = MODEL.get_model(num_part, input_size,  normal_channel=args.normal).to(device)
-    checkpoints = [torch.load(str(experiment_dir) + '/checkpoints/model-'+str(i-1)+'.pth', map_location = device) for i in range(num_itr)]
+    checkpoints = [torch.load(str(experiment_dir) + '/checkpoints/model-'+str(i)+'.pth', map_location = device) for i in range(num_itr)]
     [classifiers[i].load_state_dict(checkpoints[i]['model_state_dict']) for i in range(num_itr)]
 
     with torch.no_grad():

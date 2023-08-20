@@ -35,6 +35,7 @@ def parse_args():
     parser = argparse.ArgumentParser('Model')
     parser.add_argument('--batch_size', type=int, default=32, help='batch size in testing [default: 32]')
     #parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
+    parser.add_argument('--datadir', type=str, default= '/data/pointclouds/s3dis-yanx27', help='path to data directory')
     parser.add_argument('--num_point', type=int, default=4096, help='point number [default: 4096]')
     parser.add_argument('--log_dir', type=str, required=True, help='experiment root')
     parser.add_argument('--visual', action='store_true', default=False, help='visualize result [default: False]')
@@ -73,7 +74,7 @@ def main(args):
     log_string(args)
 
 
-    root = '/data/pointclouds/s3dis-yanx27/stanford_indoor3d/'
+    root = args.datadir+'/stanford_indoor3d/'
     NUM_CLASSES = 13
     NUM_POINT = args.num_point
     BATCH_SIZE = args.batch_size

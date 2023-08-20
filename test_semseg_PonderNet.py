@@ -32,6 +32,7 @@ def parse_args():
     '''PARAMETERS'''
     parser = argparse.ArgumentParser('Model')
     parser.add_argument('--batch_size', type=int, default=32, help='batch size in testing [default: 32]')
+    parser.add_argument('--datadir', type=str, default= '/data/pointclouds/s3dis-yanx27', help='path to data directory')
     #parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
     parser.add_argument('--num_point', type=int, default=4096, help='point number [default: 4096]')
     parser.add_argument('--log_dir', type=str, required=True, help='experiment root')
@@ -58,6 +59,7 @@ def main(args):
 
     '''HYPER PARAMETER'''
     #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
     experiment_dir = 'log/sem_seg/' + args.log_dir
     visual_dir = experiment_dir + '/visual/'
     visual_dir = Path(visual_dir)
@@ -79,7 +81,7 @@ def main(args):
     BATCH_SIZE = args.batch_size
     NUM_POINT = args.num_point
 
-    root = '/data/pointclouds/s3dis-yanx27/stanford_indoor3d/'
+    root = args.datadir + '/stanford_indoor3d/'
 
     TEST_DATASET_WHOLE_SCENE = ScannetDatasetWholeScene(root, split='test', test_area=args.test_area, block_points=NUM_POINT)
     log_string("The number of test data is: %d" % len(TEST_DATASET_WHOLE_SCENE))

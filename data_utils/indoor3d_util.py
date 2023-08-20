@@ -47,7 +47,7 @@ def collect_point_label(anno_path, out_filename, file_format='txt'):
     points_list = []
     for f in glob.glob(os.path.join(anno_path, '*.txt')):
         cls = os.path.basename(f).split('_')[0]
-        print(f)
+        #print(f)
         if cls not in g_classes: # note: in some room there is 'staris' class..
             cls = 'clutter'
 

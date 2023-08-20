@@ -1,4 +1,17 @@
 @echo off
-start /B python test_partseg_iterativemodels.py --log_dir pointnetPondernetiterative_part_seg_ssg_numitr1 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 1
-start /B python test_partseg_iterativemodels.py --log_dir pointnetPondernetiterative_part_seg_ssg_numitr2 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 2
-start /B python test_partseg_iterativemodels.py --log_dir pointnetPondernetiterative_part_seg_ssg_numitr3 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 3
+rem start /B python test_partseg_iterativemodelshidden.py --log_dir iterativenewmodelshidden_part_seg_ssg_numitr2 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 2
+rem start /B python test_partseg_iterativemodelshidden.py --log_dir iterativenewmodelshidden_part_seg_ssg_numitr3 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 3
+rem start /B python test_partseg_iterativemodelshidden.py --log_dir pointnetPondernetiterative_part_seg_ssg_numitr3 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 3
+ rem start /B python test_semseg_PonderNethidden_Choppedscenes.py --log_dir PonderNethidden_sem_seg_only_train_iterations_num_itr1 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 1
+ rem start /B python test_semseg_PonderNethidden_Choppedscenes.py --log_dir PonderNethidden_sem_seg_only_train_iterations_num_itr2 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 2
+ rem start /B python test_semseg_PonderNethidden_Choppedscenes.py --log_dir PonderNethidden_sem_seg_only_train_iterations_num_itr3 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 3
+ rem start /B python test_semseg_PonderNethidden_Choppedscenes.py --log_dir PonderNethidden_sem_seg_only_train_iterations_num_itr4 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 4
+ rem start /B python test_semseg_PonderNethidden_Choppedscenes.py --log_dir PonderNethidden_sem_seg_only_train_iterations_num_itr5 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 5
+ rem start /B python test_partseg_PonderNethidden.py --log_dir pointnetpondernethidden_part_seg_ssg_numitr1 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 1
+ rem start /B python test_partseg_PonderNethidden.py --log_dir pointnetpondernethidden_part_seg_ssg_numitr2 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 2
+ rem start /B python test_partseg_PonderNethidden.py --log_dir pointnetpondernethidden_part_seg_ssg_numitr3 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 3
+ rem start /B python test_partseg_PonderNethidden.py --log_dir pointnetpondernethidden_part_seg_ssg_numitr4 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 4
+ rem start /B python test_partseg_PonderNethidden.py --log_dir pointnetpondernethidden_part_seg_ssg_numitr5 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Algorithms\data" --num_itr 5
+rem start /B python test_partseg_iterativemodelshidden.py --log_dir pointnetpondernetiterativehidden_part_seg_ssg_numitr1 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 1
+start /B python test_partseg_iterativemodelshidden.py --log_dir pointnetpondernetiterativehidden_part_seg_ssg_numitr2 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 2
+start /B python test_partseg_iterativemodelshidden.py --log_dir pointnetpondernetiterativehidden_part_seg_ssg_numitr3 --datadir "C:\Users\alank\OneDrive - TUM\Master Thesis\Pointnet_Pointnet2_pytorch\data" --num_itr 3

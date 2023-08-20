@@ -35,10 +35,11 @@ def parse_args():
     parser = argparse.ArgumentParser('Model')
     parser.add_argument('--batch_size', type=int, default=32, help='batch size in testing [default: 32]')
     #parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
+    parser.add_argument('--datadir', type=str, default= '/data/pointclouds/s3dis-yanx27', help='path to data directory')
     parser.add_argument('--num_point', type=int, default=4096, help='point number [default: 4096]')
     parser.add_argument('--num_itr', type=int, default=5, help='number of iterations for iterative inference')
     parser.add_argument('--log_dir', type=str, required=True, help='experiment root')
-   # parser.add_argument('--visual', action='store_true', default=False, help='visualize result [default: False]')
+    parser.add_argument('--visual', action='store_true', default=False, help='visualize result [default: False]')
     parser.add_argument('--test_area', type=int, default=5, help='area for testing, option: 1-6 [default: 5]')
     #parser.add_argument('--num_votes', type=int, default=3, help='aggregate segmentation scores with voting [default: 5]')
     return parser.parse_args()
@@ -59,6 +60,7 @@ def main(args):
 
     '''HYPER PARAMETER'''
     #os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
     experiment_dir = 'log/sem_seg/' + args.log_dir
 
     '''LOG'''
@@ -74,7 +76,7 @@ def main(args):
     log_string(args)
 
 
-    root = '/data/pointclouds/s3dis-yanx27/stanford_indoor3d/'
+    root = args.datadir+ +'s3dis/stanford_indoor3d/'
     NUM_CLASSES = 13
     NUM_POINT = args.num_point
     BATCH_SIZE = args.batch_size
@@ -89,7 +91,7 @@ def main(args):
     '''MODEL LOADING'''
     model_name = os.listdir(experiment_dir + '/logs')[0].split('.')[0]
     MODEL = importlib.import_module(model_name)
-    classifier = MODEL.get_model(NUM_CLASSES,input_size).cuda()
+    classifier = MODEL.get_model(NUM_CLASSES,input_size).to(device)
     checkpoint = torch.load(str(experiment_dir) + '/checkpoints/model.pth')
     classifier.load_state_dict(checkpoint['model_state_dict'])
     classifier = classifier.eval()
@@ -108,9 +110,9 @@ def main(args):
         for i, (points, target) in tqdm(enumerate(testDataLoader), total=len(testDataLoader), smoothing=0.9):
             points = points.data.numpy()
             points = torch.Tensor(points)
-            points, target = points.float().cuda(), target.long().cuda()
+            points, target = points.float().to(device), target.long().to(device)
             points = points.transpose(2, 1)
-            prev_output = torch.zeros((points.shape[0], NUM_CLASSES, points.shape[2]), device='cuda')
+            prev_output = torch.zeros((points.shape[0], NUM_CLASSES, points.shape[2]), device=device)
             for j in range(args.num_itr):
                 _points = torch.cat((points, prev_output), 1)
                 #print('points:', _points.shape)

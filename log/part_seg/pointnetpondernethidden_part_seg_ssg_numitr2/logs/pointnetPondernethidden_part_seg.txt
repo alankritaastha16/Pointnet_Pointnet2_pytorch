@@ -32,3 +32,9 @@
 2023-08-11 15:56:35,968 - Model - INFO - No existing model, starting training from scratch...
 2023-08-11 15:56:35,996 - Model - INFO - Epoch 1 (1/100):
 2023-08-11 15:56:35,997 - Model - INFO - Learning rate:0.001000
+2023-08-16 22:34:00,875 - Model - INFO - PARAMETER ...
+2023-08-16 22:34:00,876 - Model - INFO - Namespace(model='pointnetPondernethidden_part_seg', batch_size=16, epoch=100, num_itr=2, learning_rate=0.001, optimizer='Adam', log_dir='pointnetpondernethidden_part_seg_ssg_numitr2', decay_rate=0.0001, npoint=2500, normal=False, step_size=20, lr_decay=0.5, datadir='/data/pointclouds/ShapeNet')
+2023-08-16 22:34:01,285 - Model - INFO - The number of training data is: 13998
+2023-08-16 22:34:12,286 - Model - INFO - Use pretrain model
+2023-08-16 22:34:12,291 - Model - INFO - Epoch 1 (96/100):
+2023-08-16 22:34:12,291 - Model - INFO - Learning rate:0.000063
